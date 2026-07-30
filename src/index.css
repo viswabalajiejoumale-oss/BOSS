@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --boss-bg: #0a0f0a;
+    --boss-surface: #111a11;
+    --boss-border: #1a2a1a;
+    --boss-green: #22c55e;
+    --boss-green-dim: #16a34a;
+    --boss-green-bright: #4ade80;
+    --boss-green-glow: #22c55e33;
+  }
+
+  body {
+    background-color: var(--boss-bg);
+    color: #e5f0e5;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .boss-card {
+    @apply rounded-2xl border border-[var(--boss-border)] bg-[var(--boss-surface)] p-5 shadow-lg;
+  }
+  .boss-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-semibold transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .boss-btn-primary {
+    @apply boss-btn bg-[var(--boss-green)] text-black hover:bg-[var(--boss-green-bright)] hover:shadow-[0_0_20px_var(--boss-green-glow)];
+  }
+  .boss-btn-ghost {
+    @apply boss-btn border border-[var(--boss-border)] text-[var(--boss-green-bright)] hover:bg-[var(--boss-border)];
+  }
+  .boss-btn-danger {
+    @apply boss-btn bg-red-600 text-white hover:bg-red-500 hover:shadow-[0_0_20px_#ef444455];
+  }
+  .boss-input {
+    @apply w-full rounded-xl border border-[var(--boss-border)] bg-black/40 px-4 py-2.5 text-white placeholder-gray-500 outline-none transition focus:border-[var(--boss-green)] focus:ring-1 focus:ring-[var(--boss-green)];
+  }
+  .boss-label {
+    @apply mb-1.5 block text-sm font-medium text-gray-300;
+  }
+}
+
+/* Leaflet map dark theme overrides */
+.leaflet-container {
+  background: #0a0f0a !important;
+  border-radius: 1rem;
+}
+.leaflet-tile {
+  filter: invert(1) hue-rotate(120deg) brightness(0.7) contrast(1.1);
+}
+.leaflet-control-attribution {
+  background: rgba(10, 15, 10, 0.8) !important;
+  color: #4ade80 !important;
+}
+.leaflet-control-attribution a {
+  color: #22c55e !important;
+}
+.leaflet-bar a {
+  background: #111a11 !important;
+  color: #4ade80 !important;
+  border-color: #1a2a1a !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0f0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2a1a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
