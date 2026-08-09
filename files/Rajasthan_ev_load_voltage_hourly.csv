@@ -1,0 +1,73 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),0,32.96,411.4,150.0,33.56,22.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),1,32.89,410.5,150.0,37.14,24.8
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),2,33.15,408.5,150.0,38.54,25.7
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),3,32.93,409.4,150.0,41.14,27.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),4,33.27,408.7,150.0,42.04,28.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),5,33.1,410.4,150.0,49.26,32.8
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),6,33.02,410.7,150.0,59.24,39.5
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),7,33.2,404.9,150.0,87.27,58.2
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),8,32.94,407.9,150.0,105.49,70.3
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),9,32.92,400.3,150.0,113.42,75.6
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),10,33.44,405.6,150.0,106.47,71.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),11,33.11,403.9,150.0,82.56,55.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),12,32.92,409.9,150.0,56.81,37.9
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),13,32.98,411.8,150.0,48.94,32.6
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),14,32.72,411.6,150.0,47.09,31.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),15,33.3,406.9,150.0,43.66,29.1
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),16,32.76,411.2,150.0,67.31,44.9
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),17,33.03,405.1,150.0,104.26,69.5
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),18,33.21,395.8,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),19,32.9,399.2,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),20,32.75,397.8,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),21,33.16,402.9,150.0,106.58,71.1
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),22,32.83,409.1,150.0,57.57,38.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),23,32.99,410.4,150.0,48.32,32.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",0,10.79,413.2,22.0,6.63,30.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",1,10.96,412.0,22.0,5.14,23.4
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",2,11.29,410.4,22.0,4.26,19.4
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",3,10.83,410.7,22.0,5.23,23.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",4,10.89,410.4,22.0,6.37,29.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",5,10.76,413.3,22.0,6.13,27.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",6,11.11,403.4,22.0,9.4,42.7
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",7,10.98,407.6,22.0,12.81,58.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",8,10.95,407.5,22.0,16.25,73.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",9,10.93,403.1,22.0,16.2,73.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",10,11.26,402.7,22.0,14.8,67.3
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",11,10.63,404.4,22.0,12.68,57.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",12,10.68,410.0,22.0,8.06,36.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",13,11.01,407.3,22.0,7.23,32.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",14,10.94,410.5,22.0,6.33,28.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",15,11.07,408.4,22.0,6.72,30.5
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",16,10.99,404.6,22.0,10.47,47.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",17,11.03,403.5,22.0,15.8,71.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",18,11.09,399.0,22.0,22.0,100.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",19,11.15,399.4,22.0,22.0,100.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",20,11.05,401.1,22.0,21.04,95.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",21,10.94,405.4,22.0,14.93,67.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",22,11.05,406.6,22.0,9.75,44.3
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",23,10.98,412.1,22.0,6.36,28.9
+Rajasthan,RAJ-017,AC Slow (Type 2),0,10.98,229.4,7.4,1.78,24.1
+Rajasthan,RAJ-017,AC Slow (Type 2),1,11.0,227.5,7.4,1.88,25.4
+Rajasthan,RAJ-017,AC Slow (Type 2),2,11.24,226.3,7.4,1.61,21.8
+Rajasthan,RAJ-017,AC Slow (Type 2),3,10.68,226.7,7.4,1.7,23.0
+Rajasthan,RAJ-017,AC Slow (Type 2),4,11.25,226.2,7.4,1.87,25.3
+Rajasthan,RAJ-017,AC Slow (Type 2),5,11.34,226.0,7.4,2.57,34.8
+Rajasthan,RAJ-017,AC Slow (Type 2),6,10.63,225.6,7.4,3.27,44.2
+Rajasthan,RAJ-017,AC Slow (Type 2),7,10.75,222.7,7.4,4.6,62.2
+Rajasthan,RAJ-017,AC Slow (Type 2),8,11.21,226.2,7.4,5.34,72.2
+Rajasthan,RAJ-017,AC Slow (Type 2),9,11.13,223.6,7.4,5.68,76.7
+Rajasthan,RAJ-017,AC Slow (Type 2),10,11.02,223.8,7.4,5.28,71.4
+Rajasthan,RAJ-017,AC Slow (Type 2),11,10.96,224.1,7.4,4.08,55.1
+Rajasthan,RAJ-017,AC Slow (Type 2),12,10.85,226.6,7.4,2.68,36.2
+Rajasthan,RAJ-017,AC Slow (Type 2),13,11.21,227.6,7.4,2.12,28.7
+Rajasthan,RAJ-017,AC Slow (Type 2),14,10.85,225.3,7.4,2.32,31.3
+Rajasthan,RAJ-017,AC Slow (Type 2),15,10.97,225.7,7.4,2.56,34.6
+Rajasthan,RAJ-017,AC Slow (Type 2),16,11.02,224.6,7.4,3.47,46.8
+Rajasthan,RAJ-017,AC Slow (Type 2),17,11.05,223.1,7.4,4.97,67.2
+Rajasthan,RAJ-017,AC Slow (Type 2),18,11.0,221.6,7.4,7.13,96.4
+Rajasthan,RAJ-017,AC Slow (Type 2),19,11.2,221.1,7.4,7.4,100.0
+Rajasthan,RAJ-017,AC Slow (Type 2),20,11.02,220.3,7.4,7.4,100.0
+Rajasthan,RAJ-017,AC Slow (Type 2),21,11.01,223.4,7.4,5.39,72.8
+Rajasthan,RAJ-017,AC Slow (Type 2),22,10.79,225.3,7.4,3.18,43.0
+Rajasthan,RAJ-017,AC Slow (Type 2),23,10.9,225.2,7.4,2.7,36.5

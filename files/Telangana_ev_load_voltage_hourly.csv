@@ -1,0 +1,49 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Telangana,TEL-018,DC Ultra-Fast (150kW),0,33.27,409.3,150.0,41.12,27.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),1,32.88,411.8,150.0,33.8,22.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),2,33.08,407.2,150.0,47.67,31.8
+Telangana,TEL-018,DC Ultra-Fast (150kW),3,33.07,410.4,150.0,35.03,23.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),4,32.77,413.2,150.0,46.31,30.9
+Telangana,TEL-018,DC Ultra-Fast (150kW),5,32.75,412.6,150.0,48.86,32.6
+Telangana,TEL-018,DC Ultra-Fast (150kW),6,33.06,408.0,150.0,63.26,42.2
+Telangana,TEL-018,DC Ultra-Fast (150kW),7,32.71,403.2,150.0,79.51,53.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),8,33.05,405.3,150.0,108.08,72.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),9,33.08,399.4,150.0,110.1,73.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),10,32.91,402.6,150.0,98.73,65.8
+Telangana,TEL-018,DC Ultra-Fast (150kW),11,33.01,404.3,150.0,82.1,54.7
+Telangana,TEL-018,DC Ultra-Fast (150kW),12,33.15,409.9,150.0,59.09,39.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),13,33.32,410.6,150.0,48.47,32.3
+Telangana,TEL-018,DC Ultra-Fast (150kW),14,33.1,408.3,150.0,37.61,25.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),15,33.26,408.2,150.0,56.47,37.6
+Telangana,TEL-018,DC Ultra-Fast (150kW),16,32.85,406.0,150.0,68.22,45.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),17,33.01,401.0,150.0,109.67,73.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),18,33.2,397.8,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),19,32.79,397.3,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),20,33.01,400.0,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),21,33.03,401.0,150.0,112.33,74.9
+Telangana,TEL-018,DC Ultra-Fast (150kW),22,33.08,408.5,150.0,65.25,43.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),23,32.87,407.3,150.0,49.5,33.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",0,11.01,409.1,22.0,4.49,20.4
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",1,11.12,410.5,22.0,4.44,20.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",2,11.25,409.5,22.0,5.82,26.5
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",3,10.63,409.9,22.0,6.87,31.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",4,11.22,405.3,22.0,6.57,29.9
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",5,11.04,412.9,22.0,7.7,35.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",6,10.92,407.4,22.0,8.83,40.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",7,11.02,406.8,22.0,12.82,58.3
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",8,11.14,409.3,22.0,14.73,67.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",9,11.14,402.3,22.0,15.45,70.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",10,11.14,404.7,22.0,14.68,66.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",11,10.99,407.3,22.0,9.94,45.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",12,11.1,409.0,22.0,8.8,40.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",13,11.09,408.8,22.0,7.13,32.4
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",14,10.8,409.8,22.0,6.32,28.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",15,11.04,407.7,22.0,5.97,27.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",16,11.1,404.5,22.0,9.89,45.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",17,10.74,401.3,22.0,16.58,75.3
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",18,11.08,400.3,22.0,21.79,99.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",19,11.2,401.6,22.0,22.0,100.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",20,10.91,397.0,22.0,21.78,99.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",21,11.06,405.4,22.0,15.33,69.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",22,11.26,408.5,22.0,10.5,47.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",23,10.67,411.1,22.0,6.18,28.1

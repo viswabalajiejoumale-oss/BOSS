@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useAuth } from '@/context/AuthContext';
+import { ThemeProvider } from '@/context/ThemeContext';
 import { LandingPage } from '@/pages/LandingPage';
 import { AuthPage } from '@/pages/AuthPage';
 import { UserDashboard } from '@/pages/UserDashboard';
@@ -7,7 +8,7 @@ import { AdminDashboard } from '@/pages/AdminDashboard';
 import { DiscomDashboard } from '@/pages/DiscomDashboard';
 import { Loader2 } from 'lucide-react';
 
-function App() {
+function AppContent() {
   const { user, profile, loading } = useAuth();
   const [showAuth, setShowAuth] = useState(false);
 
@@ -31,6 +32,14 @@ function App() {
   if (profile.role === 'admin') return <AdminDashboard />;
   if (profile.role === 'discom') return <DiscomDashboard />;
   return <UserDashboard />;
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
+  );
 }
 
 export default App;

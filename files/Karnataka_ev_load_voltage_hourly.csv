@@ -1,0 +1,49 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",0,32.76,408.8,50.0,11.31,22.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",1,32.71,414.1,50.0,11.88,23.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",2,33.08,412.0,50.0,13.83,27.7
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",3,33.11,408.1,50.0,13.88,27.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",4,33.01,405.7,50.0,12.77,25.5
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",5,32.96,413.0,50.0,14.62,29.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",6,32.96,408.9,50.0,20.68,41.4
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",7,32.84,407.6,50.0,27.51,55.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",8,33.22,401.9,50.0,33.51,67.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",9,32.91,402.6,50.0,36.45,72.9
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",10,33.07,402.1,50.0,34.1,68.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",11,32.92,403.5,50.0,26.1,52.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",12,32.95,405.8,50.0,19.43,38.9
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",13,32.78,414.1,50.0,13.5,27.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",14,33.25,409.7,50.0,13.33,26.7
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",15,33.16,410.9,50.0,13.31,26.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",16,32.98,405.2,50.0,22.13,44.3
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",17,33.22,401.1,50.0,37.9,75.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",18,33.03,401.0,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",19,33.03,401.8,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",20,33.14,400.1,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",21,32.9,400.0,50.0,36.82,73.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",22,32.87,406.2,50.0,21.56,43.1
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",23,33.07,410.8,50.0,14.62,29.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",0,11.04,410.6,22.0,4.95,22.5
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",1,11.23,410.1,22.0,6.85,31.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",2,11.15,413.1,22.0,5.64,25.6
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",3,10.96,408.6,22.0,5.73,26.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",4,10.93,411.6,22.0,6.97,31.7
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",5,11.22,406.3,22.0,6.76,30.7
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",6,11.03,407.4,22.0,9.66,43.9
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",7,11.2,405.9,22.0,10.74,48.8
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",8,11.0,403.7,22.0,15.86,72.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",9,10.75,401.6,22.0,17.03,77.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",10,11.17,404.4,22.0,15.2,69.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",11,10.99,406.3,22.0,11.22,51.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",12,11.11,409.7,22.0,8.35,38.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",13,10.95,414.1,22.0,6.85,31.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",14,10.88,409.5,22.0,6.0,27.3
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",15,10.97,407.0,22.0,6.63,30.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",16,10.98,402.7,22.0,9.98,45.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",17,11.18,404.2,22.0,15.7,71.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",18,10.89,397.1,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",19,10.82,397.3,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",20,10.91,397.8,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",21,10.85,406.0,22.0,14.22,64.6
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",22,10.85,409.5,22.0,9.94,45.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",23,10.63,412.9,22.0,6.93,31.5

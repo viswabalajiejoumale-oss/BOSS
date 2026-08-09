@@ -1,0 +1,745 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),0,33.04,412.1,150.0,32.5,21.7
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),1,32.92,409.1,150.0,42.07,28.0
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),2,32.61,409.2,150.0,35.09,23.4
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),3,32.77,412.0,150.0,42.61,28.4
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),4,32.89,409.2,150.0,38.87,25.9
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),5,33.09,409.5,150.0,38.02,25.3
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),6,33.02,407.7,150.0,73.37,48.9
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),7,33.14,404.8,150.0,80.67,53.8
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),8,32.85,402.1,150.0,105.0,70.0
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),9,33.0,401.5,150.0,111.77,74.5
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),10,32.81,404.4,150.0,102.65,68.4
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),11,33.18,411.0,150.0,87.91,58.6
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),12,32.85,409.9,150.0,62.87,41.9
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),13,32.92,412.1,150.0,40.86,27.2
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),14,32.83,409.1,150.0,36.83,24.6
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),15,33.13,410.9,150.0,48.32,32.2
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),16,32.97,408.6,150.0,71.81,47.9
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),17,33.16,400.4,150.0,104.03,69.4
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),18,33.18,397.5,150.0,150.0,100.0
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),19,33.04,400.1,150.0,150.0,100.0
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),20,33.15,398.6,150.0,147.1,98.1
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),21,33.05,405.9,150.0,110.39,73.6
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),22,32.94,403.9,150.0,82.8,55.2
+Maharashtra,MAH-001,DC Ultra-Fast (150kW),23,33.16,406.9,150.0,46.61,31.1
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),0,33.13,412.1,150.0,33.98,22.7
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),1,33.12,413.1,150.0,47.82,31.9
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),2,32.91,412.5,150.0,38.98,26.0
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),3,32.97,407.8,150.0,36.91,24.6
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),4,32.88,409.6,150.0,45.13,30.1
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),5,32.96,411.4,150.0,46.03,30.7
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),6,32.87,405.0,150.0,65.67,43.8
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),7,33.44,403.3,150.0,80.71,53.8
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),8,32.9,406.0,150.0,98.75,65.8
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),9,32.78,403.4,150.0,110.19,73.5
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),10,32.87,403.6,150.0,100.71,67.1
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),11,33.15,408.5,150.0,79.29,52.9
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),12,33.19,408.2,150.0,59.9,39.9
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),13,33.3,411.1,150.0,41.57,27.7
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),14,32.89,405.2,150.0,51.73,34.5
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),15,32.9,406.9,150.0,48.47,32.3
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),16,32.99,410.5,150.0,67.17,44.8
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),17,33.08,404.1,150.0,107.81,71.9
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),18,33.12,395.9,150.0,150.0,100.0
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),19,32.9,396.1,150.0,150.0,100.0
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),20,32.89,399.7,150.0,150.0,100.0
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),21,33.09,403.0,150.0,105.6,70.4
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),22,33.18,407.0,150.0,73.24,48.8
+Maharashtra,MAH-002,DC Ultra-Fast (150kW),23,32.78,409.8,150.0,50.81,33.9
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",0,33.0,410.1,50.0,11.56,23.1
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",1,33.08,410.8,50.0,13.08,26.2
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",2,33.14,411.3,50.0,12.33,24.7
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",3,33.02,411.5,50.0,11.18,22.4
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",4,33.1,409.6,50.0,14.98,30.0
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",5,33.18,405.3,50.0,17.54,35.1
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",6,32.57,406.4,50.0,19.14,38.3
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",7,32.94,406.2,50.0,26.46,52.9
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",8,33.13,401.4,50.0,33.87,67.7
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",9,32.72,402.9,50.0,38.94,77.9
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",10,33.08,402.7,50.0,37.97,75.9
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",11,33.06,406.5,50.0,25.42,50.8
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",12,33.2,410.0,50.0,20.42,40.8
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",13,33.06,412.1,50.0,13.98,28.0
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",14,33.22,407.0,50.0,14.29,28.6
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",15,32.96,405.8,50.0,16.5,33.0
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",16,32.98,408.4,50.0,23.09,46.2
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",17,33.23,407.4,50.0,36.12,72.2
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",18,32.98,397.4,50.0,49.17,98.3
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",19,32.76,395.6,50.0,50.0,100.0
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",20,32.87,401.7,50.0,48.87,97.7
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",21,32.93,405.5,50.0,34.06,68.1
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",22,32.73,405.8,50.0,23.17,46.3
+Delhi,DEL-003,"DC Fast (CCS2, 50kW)",23,32.92,406.4,50.0,16.33,32.7
+Delhi,DEL-004,DC Ultra-Fast (150kW),0,33.22,412.6,150.0,37.61,25.1
+Delhi,DEL-004,DC Ultra-Fast (150kW),1,33.15,413.6,150.0,37.56,25.0
+Delhi,DEL-004,DC Ultra-Fast (150kW),2,32.83,411.1,150.0,38.71,25.8
+Delhi,DEL-004,DC Ultra-Fast (150kW),3,32.87,411.8,150.0,31.58,21.1
+Delhi,DEL-004,DC Ultra-Fast (150kW),4,32.73,409.4,150.0,40.62,27.1
+Delhi,DEL-004,DC Ultra-Fast (150kW),5,33.01,408.7,150.0,49.26,32.8
+Delhi,DEL-004,DC Ultra-Fast (150kW),6,33.23,407.9,150.0,57.83,38.6
+Delhi,DEL-004,DC Ultra-Fast (150kW),7,32.81,406.9,150.0,83.57,55.7
+Delhi,DEL-004,DC Ultra-Fast (150kW),8,33.2,406.2,150.0,114.44,76.3
+Delhi,DEL-004,DC Ultra-Fast (150kW),9,33.07,402.2,150.0,116.23,77.5
+Delhi,DEL-004,DC Ultra-Fast (150kW),10,32.93,401.7,150.0,108.4,72.3
+Delhi,DEL-004,DC Ultra-Fast (150kW),11,33.25,405.0,150.0,75.48,50.3
+Delhi,DEL-004,DC Ultra-Fast (150kW),12,33.05,407.7,150.0,60.38,40.3
+Delhi,DEL-004,DC Ultra-Fast (150kW),13,33.19,412.5,150.0,40.73,27.2
+Delhi,DEL-004,DC Ultra-Fast (150kW),14,32.8,413.5,150.0,44.59,29.7
+Delhi,DEL-004,DC Ultra-Fast (150kW),15,32.81,407.3,150.0,56.01,37.3
+Delhi,DEL-004,DC Ultra-Fast (150kW),16,33.0,411.5,150.0,66.72,44.5
+Delhi,DEL-004,DC Ultra-Fast (150kW),17,32.98,401.0,150.0,102.64,68.4
+Delhi,DEL-004,DC Ultra-Fast (150kW),18,33.23,396.5,150.0,142.8,95.2
+Delhi,DEL-004,DC Ultra-Fast (150kW),19,32.93,398.1,150.0,150.0,100.0
+Delhi,DEL-004,DC Ultra-Fast (150kW),20,33.06,403.3,150.0,150.0,100.0
+Delhi,DEL-004,DC Ultra-Fast (150kW),21,33.01,402.3,150.0,110.91,73.9
+Delhi,DEL-004,DC Ultra-Fast (150kW),22,32.72,407.5,150.0,70.53,47.0
+Delhi,DEL-004,DC Ultra-Fast (150kW),23,33.32,407.9,150.0,52.64,35.1
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",0,33.08,413.0,50.0,13.17,26.3
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",1,32.87,408.9,50.0,14.1,28.2
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",2,33.02,408.5,50.0,11.74,23.5
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",3,32.81,413.5,50.0,12.13,24.3
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",4,32.81,407.7,50.0,15.93,31.9
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",5,32.99,414.2,50.0,14.65,29.3
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",6,32.99,407.5,50.0,21.41,42.8
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",7,33.07,406.2,50.0,26.9,53.8
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",8,33.24,398.8,50.0,37.08,74.2
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",9,32.92,401.5,50.0,38.29,76.6
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",10,32.77,403.5,50.0,36.13,72.3
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",11,33.13,408.0,50.0,28.21,56.4
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",12,32.95,405.7,50.0,19.69,39.4
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",13,32.87,404.9,50.0,20.88,41.8
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",14,32.97,409.8,50.0,14.88,29.8
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",15,33.0,406.9,50.0,18.94,37.9
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",16,32.78,405.7,50.0,22.9,45.8
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",17,33.06,406.8,50.0,36.02,72.0
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",18,32.96,398.6,50.0,50.0,100.0
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",19,32.8,397.4,50.0,50.0,100.0
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",20,33.16,399.2,50.0,48.22,96.4
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",21,33.07,402.4,50.0,35.96,71.9
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",22,33.2,409.1,50.0,22.82,45.6
+Delhi,DEL-005,"DC Fast (CCS2, 50kW)",23,32.95,405.4,50.0,14.2,28.4
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",0,32.76,408.8,50.0,11.31,22.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",1,32.71,414.1,50.0,11.88,23.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",2,33.08,412.0,50.0,13.83,27.7
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",3,33.11,408.1,50.0,13.88,27.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",4,33.01,405.7,50.0,12.77,25.5
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",5,32.96,413.0,50.0,14.62,29.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",6,32.96,408.9,50.0,20.68,41.4
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",7,32.84,407.6,50.0,27.51,55.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",8,33.22,401.9,50.0,33.51,67.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",9,32.91,402.6,50.0,36.45,72.9
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",10,33.07,402.1,50.0,34.1,68.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",11,32.92,403.5,50.0,26.1,52.2
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",12,32.95,405.8,50.0,19.43,38.9
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",13,32.78,414.1,50.0,13.5,27.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",14,33.25,409.7,50.0,13.33,26.7
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",15,33.16,410.9,50.0,13.31,26.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",16,32.98,405.2,50.0,22.13,44.3
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",17,33.22,401.1,50.0,37.9,75.8
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",18,33.03,401.0,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",19,33.03,401.8,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",20,33.14,400.1,50.0,50.0,100.0
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",21,32.9,400.0,50.0,36.82,73.6
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",22,32.87,406.2,50.0,21.56,43.1
+Karnataka,KAR-006,"DC Fast (CCS2, 50kW)",23,33.07,410.8,50.0,14.62,29.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",0,11.04,410.6,22.0,4.95,22.5
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",1,11.23,410.1,22.0,6.85,31.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",2,11.15,413.1,22.0,5.64,25.6
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",3,10.96,408.6,22.0,5.73,26.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",4,10.93,411.6,22.0,6.97,31.7
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",5,11.22,406.3,22.0,6.76,30.7
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",6,11.03,407.4,22.0,9.66,43.9
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",7,11.2,405.9,22.0,10.74,48.8
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",8,11.0,403.7,22.0,15.86,72.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",9,10.75,401.6,22.0,17.03,77.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",10,11.17,404.4,22.0,15.2,69.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",11,10.99,406.3,22.0,11.22,51.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",12,11.11,409.7,22.0,8.35,38.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",13,10.95,414.1,22.0,6.85,31.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",14,10.88,409.5,22.0,6.0,27.3
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",15,10.97,407.0,22.0,6.63,30.1
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",16,10.98,402.7,22.0,9.98,45.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",17,11.18,404.2,22.0,15.7,71.4
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",18,10.89,397.1,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",19,10.82,397.3,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",20,10.91,397.8,22.0,22.0,100.0
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",21,10.85,406.0,22.0,14.22,64.6
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",22,10.85,409.5,22.0,9.94,45.2
+Karnataka,KAR-007,"AC Fast (Type 2, 22kW)",23,10.63,412.9,22.0,6.93,31.5
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),0,32.9,408.3,150.0,34.1,22.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),1,33.13,414.9,150.0,32.66,21.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),2,33.01,413.9,150.0,37.63,25.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),3,33.08,414.3,150.0,34.46,23.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),4,32.87,410.6,150.0,36.13,24.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),5,33.29,412.3,150.0,41.43,27.6
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),6,32.9,410.0,150.0,55.56,37.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),7,32.87,404.8,150.0,80.8,53.9
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),8,33.04,401.8,150.0,103.91,69.3
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),9,32.86,402.1,150.0,112.27,74.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),10,33.08,405.4,150.0,101.09,67.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),11,33.11,406.5,150.0,78.59,52.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),12,32.9,410.1,150.0,54.37,36.2
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),13,32.73,407.8,150.0,50.55,33.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),14,33.04,411.2,150.0,35.56,23.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),15,32.75,411.5,150.0,43.64,29.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),16,32.9,405.0,150.0,67.49,45.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),17,32.94,401.4,150.0,107.05,71.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),18,33.13,397.2,150.0,150.0,100.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),19,33.22,399.5,150.0,150.0,100.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),20,33.09,397.8,150.0,140.65,93.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),21,32.91,404.1,150.0,105.9,70.6
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),22,33.18,407.2,150.0,68.01,45.3
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),23,32.94,410.4,150.0,48.03,32.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",0,10.91,411.6,22.0,5.84,26.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",1,11.04,412.7,22.0,5.05,23.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",2,10.92,406.9,22.0,6.07,27.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",3,11.04,411.0,22.0,6.88,31.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",4,11.3,414.7,22.0,6.45,29.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",5,10.76,408.0,22.0,5.95,27.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",6,11.04,408.6,22.0,8.58,39.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",7,10.89,402.7,22.0,11.16,50.7
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",8,11.26,405.3,22.0,15.81,71.9
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",9,11.15,404.3,22.0,16.48,74.9
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",10,11.1,404.6,22.0,14.88,67.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",11,10.99,409.7,22.0,11.57,52.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",12,10.88,406.1,22.0,9.13,41.5
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",13,11.38,410.9,22.0,5.59,25.4
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",14,11.21,416.9,22.0,5.62,25.5
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",15,10.98,410.0,22.0,6.69,30.4
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",16,11.18,407.7,22.0,11.07,50.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",17,11.05,402.8,22.0,15.91,72.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",18,11.12,395.4,22.0,21.99,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",19,10.93,397.8,22.0,22.0,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",20,11.18,401.6,22.0,22.0,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",21,10.97,401.5,22.0,16.11,73.2
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",22,10.94,406.7,22.0,9.7,44.1
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",23,11.14,409.0,22.0,6.59,30.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",0,33.21,407.8,50.0,13.31,26.6
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",1,32.91,412.5,50.0,11.47,22.9
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",2,33.16,411.8,50.0,11.18,22.4
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",3,33.12,410.7,50.0,12.41,24.8
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",4,32.93,410.0,50.0,14.86,29.7
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",5,33.05,409.3,50.0,16.01,32.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",6,32.89,409.3,50.0,18.82,37.6
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",7,32.9,404.0,50.0,29.02,58.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",8,33.34,403.3,50.0,35.23,70.5
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",9,33.17,403.6,50.0,35.06,70.1
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",10,32.87,401.9,50.0,33.7,67.4
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",11,32.95,409.4,50.0,25.25,50.5
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",12,32.78,404.0,50.0,19.96,39.9
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",13,33.17,409.6,50.0,18.19,36.4
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",14,33.36,407.7,50.0,15.86,31.7
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",15,32.46,407.6,50.0,18.83,37.7
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",16,32.91,408.2,50.0,22.06,44.1
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",17,33.14,401.6,50.0,35.28,70.6
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",18,33.18,400.4,50.0,50.0,100.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",19,32.91,396.8,50.0,50.0,100.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",20,33.12,398.7,50.0,50.0,100.0
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",21,33.15,404.4,50.0,32.78,65.6
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",22,33.0,408.4,50.0,23.83,47.7
+Gujarat,GUJ-010,"DC Fast (CCS2, 50kW)",23,32.86,406.3,50.0,15.72,31.4
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",0,11.14,408.1,22.0,5.72,26.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",1,11.16,409.9,22.0,5.38,24.5
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",2,10.77,408.3,22.0,5.06,23.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",3,11.26,407.8,22.0,6.02,27.4
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",4,11.03,415.0,22.0,4.61,21.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",5,11.06,408.6,22.0,6.92,31.5
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",6,11.02,410.5,22.0,9.05,41.1
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",7,10.99,405.0,22.0,12.27,55.8
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",8,10.8,399.8,22.0,15.41,70.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",9,10.97,402.5,22.0,16.99,77.2
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",10,10.92,404.2,22.0,15.22,69.2
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",11,10.85,406.6,22.0,11.66,53.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",12,11.15,404.4,22.0,9.35,42.5
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",13,11.15,410.0,22.0,7.35,33.4
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",14,10.72,411.5,22.0,7.39,33.6
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",15,11.0,409.1,22.0,6.15,28.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",16,11.03,405.7,22.0,10.28,46.7
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",17,10.79,402.3,22.0,15.17,69.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",18,10.85,395.9,22.0,21.65,98.4
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",19,11.39,396.4,22.0,22.0,100.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",20,10.87,398.8,22.0,22.0,100.0
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",21,11.02,401.6,22.0,16.13,73.3
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",22,11.17,406.0,22.0,11.61,52.8
+Gujarat,GUJ-011,"AC Fast (Type 2, 22kW)",23,11.27,410.1,22.0,6.41,29.1
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",0,33.15,416.1,50.0,11.08,22.2
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",1,33.29,411.6,50.0,11.62,23.2
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",2,33.12,413.2,50.0,13.59,27.2
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",3,33.0,410.4,50.0,14.17,28.3
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",4,32.96,411.9,50.0,14.0,28.0
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",5,33.02,409.0,50.0,16.07,32.1
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",6,32.89,414.2,50.0,18.74,37.5
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",7,33.09,404.3,50.0,27.12,54.2
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",8,33.1,401.6,50.0,34.27,68.5
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",9,32.9,402.0,50.0,38.69,77.4
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",10,32.81,403.1,50.0,37.85,75.7
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",11,33.41,403.3,50.0,29.79,59.6
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",12,32.69,410.2,50.0,20.75,41.5
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",13,33.05,413.1,50.0,14.07,28.1
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",14,33.02,410.2,50.0,17.36,34.7
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",15,32.97,411.0,50.0,18.47,36.9
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",16,32.93,403.1,50.0,20.95,41.9
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",17,32.9,409.2,50.0,33.83,67.7
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",18,32.96,395.4,50.0,49.58,99.2
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",19,33.03,402.0,50.0,50.0,100.0
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",20,33.12,398.1,50.0,50.0,100.0
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",21,33.24,404.8,50.0,34.93,69.9
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",22,32.86,406.8,50.0,23.23,46.5
+Gujarat,GUJ-012,"DC Fast (CCS2, 50kW)",23,32.77,411.1,50.0,15.21,30.4
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),0,32.99,412.7,150.0,38.6,25.7
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),1,32.95,413.2,150.0,37.77,25.2
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),2,32.94,409.5,150.0,40.45,27.0
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),3,33.18,411.9,150.0,37.86,25.2
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),4,33.09,407.3,150.0,41.23,27.5
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),5,32.74,408.7,150.0,58.69,39.1
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),6,32.99,408.1,150.0,62.61,41.7
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),7,33.1,408.2,150.0,87.24,58.2
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),8,32.78,405.9,150.0,103.09,68.7
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),9,33.0,401.7,150.0,109.28,72.9
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),10,32.86,402.9,150.0,105.97,70.6
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),11,33.02,404.8,150.0,87.38,58.3
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),12,33.01,408.0,150.0,64.37,42.9
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),13,33.13,409.5,150.0,52.62,35.1
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),14,33.06,414.2,150.0,45.34,30.2
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),15,33.01,411.7,150.0,50.58,33.7
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),16,32.93,406.8,150.0,64.92,43.3
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),17,32.91,404.3,150.0,102.56,68.4
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),18,32.99,398.1,150.0,150.0,100.0
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),19,33.1,397.3,150.0,150.0,100.0
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),20,32.88,399.1,150.0,150.0,100.0
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),21,32.91,403.0,150.0,104.04,69.4
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),22,32.97,408.3,150.0,63.16,42.1
+Uttar Pradesh,UTT-013,DC Ultra-Fast (150kW),23,32.96,412.2,150.0,47.73,31.8
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),0,32.93,410.9,150.0,40.24,26.8
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),1,32.85,413.0,150.0,38.4,25.6
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),2,33.18,409.3,150.0,38.26,25.5
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),3,33.06,410.4,150.0,31.48,21.0
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),4,32.92,409.6,150.0,47.84,31.9
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),5,32.67,405.8,150.0,56.12,37.4
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),6,32.85,406.9,150.0,63.83,42.6
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),7,32.92,406.0,150.0,86.18,57.5
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),8,33.1,406.0,150.0,97.93,65.3
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),9,32.84,406.4,150.0,112.05,74.7
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),10,32.99,402.8,150.0,96.82,64.5
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),11,33.05,405.2,150.0,84.09,56.1
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),12,32.99,411.8,150.0,56.26,37.5
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),13,33.07,409.8,150.0,53.01,35.3
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),14,33.1,410.9,150.0,45.45,30.3
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),15,33.11,409.5,150.0,53.69,35.8
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),16,32.9,410.5,150.0,67.38,44.9
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),17,32.79,402.2,150.0,114.94,76.6
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),18,33.13,397.0,150.0,150.0,100.0
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),19,32.72,397.5,150.0,150.0,100.0
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),20,32.76,393.4,150.0,149.74,99.8
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),21,33.06,404.4,150.0,110.23,73.5
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),22,33.0,407.9,150.0,63.27,42.2
+Uttar Pradesh,UTT-014,DC Ultra-Fast (150kW),23,33.13,413.5,150.0,41.67,27.8
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),0,32.96,411.4,150.0,33.56,22.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),1,32.89,410.5,150.0,37.14,24.8
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),2,33.15,408.5,150.0,38.54,25.7
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),3,32.93,409.4,150.0,41.14,27.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),4,33.27,408.7,150.0,42.04,28.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),5,33.1,410.4,150.0,49.26,32.8
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),6,33.02,410.7,150.0,59.24,39.5
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),7,33.2,404.9,150.0,87.27,58.2
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),8,32.94,407.9,150.0,105.49,70.3
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),9,32.92,400.3,150.0,113.42,75.6
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),10,33.44,405.6,150.0,106.47,71.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),11,33.11,403.9,150.0,82.56,55.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),12,32.92,409.9,150.0,56.81,37.9
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),13,32.98,411.8,150.0,48.94,32.6
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),14,32.72,411.6,150.0,47.09,31.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),15,33.3,406.9,150.0,43.66,29.1
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),16,32.76,411.2,150.0,67.31,44.9
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),17,33.03,405.1,150.0,104.26,69.5
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),18,33.21,395.8,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),19,32.9,399.2,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),20,32.75,397.8,150.0,150.0,100.0
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),21,33.16,402.9,150.0,106.58,71.1
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),22,32.83,409.1,150.0,57.57,38.4
+Rajasthan,RAJ-015,DC Ultra-Fast (150kW),23,32.99,410.4,150.0,48.32,32.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",0,10.79,413.2,22.0,6.63,30.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",1,10.96,412.0,22.0,5.14,23.4
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",2,11.29,410.4,22.0,4.26,19.4
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",3,10.83,410.7,22.0,5.23,23.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",4,10.89,410.4,22.0,6.37,29.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",5,10.76,413.3,22.0,6.13,27.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",6,11.11,403.4,22.0,9.4,42.7
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",7,10.98,407.6,22.0,12.81,58.2
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",8,10.95,407.5,22.0,16.25,73.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",9,10.93,403.1,22.0,16.2,73.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",10,11.26,402.7,22.0,14.8,67.3
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",11,10.63,404.4,22.0,12.68,57.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",12,10.68,410.0,22.0,8.06,36.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",13,11.01,407.3,22.0,7.23,32.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",14,10.94,410.5,22.0,6.33,28.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",15,11.07,408.4,22.0,6.72,30.5
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",16,10.99,404.6,22.0,10.47,47.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",17,11.03,403.5,22.0,15.8,71.8
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",18,11.09,399.0,22.0,22.0,100.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",19,11.15,399.4,22.0,22.0,100.0
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",20,11.05,401.1,22.0,21.04,95.6
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",21,10.94,405.4,22.0,14.93,67.9
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",22,11.05,406.6,22.0,9.75,44.3
+Rajasthan,RAJ-016,"AC Fast (Type 2, 22kW)",23,10.98,412.1,22.0,6.36,28.9
+Rajasthan,RAJ-017,AC Slow (Type 2),0,10.98,229.4,7.4,1.78,24.1
+Rajasthan,RAJ-017,AC Slow (Type 2),1,11.0,227.5,7.4,1.88,25.4
+Rajasthan,RAJ-017,AC Slow (Type 2),2,11.24,226.3,7.4,1.61,21.8
+Rajasthan,RAJ-017,AC Slow (Type 2),3,10.68,226.7,7.4,1.7,23.0
+Rajasthan,RAJ-017,AC Slow (Type 2),4,11.25,226.2,7.4,1.87,25.3
+Rajasthan,RAJ-017,AC Slow (Type 2),5,11.34,226.0,7.4,2.57,34.8
+Rajasthan,RAJ-017,AC Slow (Type 2),6,10.63,225.6,7.4,3.27,44.2
+Rajasthan,RAJ-017,AC Slow (Type 2),7,10.75,222.7,7.4,4.6,62.2
+Rajasthan,RAJ-017,AC Slow (Type 2),8,11.21,226.2,7.4,5.34,72.2
+Rajasthan,RAJ-017,AC Slow (Type 2),9,11.13,223.6,7.4,5.68,76.7
+Rajasthan,RAJ-017,AC Slow (Type 2),10,11.02,223.8,7.4,5.28,71.4
+Rajasthan,RAJ-017,AC Slow (Type 2),11,10.96,224.1,7.4,4.08,55.1
+Rajasthan,RAJ-017,AC Slow (Type 2),12,10.85,226.6,7.4,2.68,36.2
+Rajasthan,RAJ-017,AC Slow (Type 2),13,11.21,227.6,7.4,2.12,28.7
+Rajasthan,RAJ-017,AC Slow (Type 2),14,10.85,225.3,7.4,2.32,31.3
+Rajasthan,RAJ-017,AC Slow (Type 2),15,10.97,225.7,7.4,2.56,34.6
+Rajasthan,RAJ-017,AC Slow (Type 2),16,11.02,224.6,7.4,3.47,46.8
+Rajasthan,RAJ-017,AC Slow (Type 2),17,11.05,223.1,7.4,4.97,67.2
+Rajasthan,RAJ-017,AC Slow (Type 2),18,11.0,221.6,7.4,7.13,96.4
+Rajasthan,RAJ-017,AC Slow (Type 2),19,11.2,221.1,7.4,7.4,100.0
+Rajasthan,RAJ-017,AC Slow (Type 2),20,11.02,220.3,7.4,7.4,100.0
+Rajasthan,RAJ-017,AC Slow (Type 2),21,11.01,223.4,7.4,5.39,72.8
+Rajasthan,RAJ-017,AC Slow (Type 2),22,10.79,225.3,7.4,3.18,43.0
+Rajasthan,RAJ-017,AC Slow (Type 2),23,10.9,225.2,7.4,2.7,36.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),0,33.27,409.3,150.0,41.12,27.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),1,32.88,411.8,150.0,33.8,22.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),2,33.08,407.2,150.0,47.67,31.8
+Telangana,TEL-018,DC Ultra-Fast (150kW),3,33.07,410.4,150.0,35.03,23.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),4,32.77,413.2,150.0,46.31,30.9
+Telangana,TEL-018,DC Ultra-Fast (150kW),5,32.75,412.6,150.0,48.86,32.6
+Telangana,TEL-018,DC Ultra-Fast (150kW),6,33.06,408.0,150.0,63.26,42.2
+Telangana,TEL-018,DC Ultra-Fast (150kW),7,32.71,403.2,150.0,79.51,53.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),8,33.05,405.3,150.0,108.08,72.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),9,33.08,399.4,150.0,110.1,73.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),10,32.91,402.6,150.0,98.73,65.8
+Telangana,TEL-018,DC Ultra-Fast (150kW),11,33.01,404.3,150.0,82.1,54.7
+Telangana,TEL-018,DC Ultra-Fast (150kW),12,33.15,409.9,150.0,59.09,39.4
+Telangana,TEL-018,DC Ultra-Fast (150kW),13,33.32,410.6,150.0,48.47,32.3
+Telangana,TEL-018,DC Ultra-Fast (150kW),14,33.1,408.3,150.0,37.61,25.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),15,33.26,408.2,150.0,56.47,37.6
+Telangana,TEL-018,DC Ultra-Fast (150kW),16,32.85,406.0,150.0,68.22,45.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),17,33.01,401.0,150.0,109.67,73.1
+Telangana,TEL-018,DC Ultra-Fast (150kW),18,33.2,397.8,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),19,32.79,397.3,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),20,33.01,400.0,150.0,150.0,100.0
+Telangana,TEL-018,DC Ultra-Fast (150kW),21,33.03,401.0,150.0,112.33,74.9
+Telangana,TEL-018,DC Ultra-Fast (150kW),22,33.08,408.5,150.0,65.25,43.5
+Telangana,TEL-018,DC Ultra-Fast (150kW),23,32.87,407.3,150.0,49.5,33.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",0,11.01,409.1,22.0,4.49,20.4
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",1,11.12,410.5,22.0,4.44,20.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",2,11.25,409.5,22.0,5.82,26.5
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",3,10.63,409.9,22.0,6.87,31.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",4,11.22,405.3,22.0,6.57,29.9
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",5,11.04,412.9,22.0,7.7,35.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",6,10.92,407.4,22.0,8.83,40.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",7,11.02,406.8,22.0,12.82,58.3
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",8,11.14,409.3,22.0,14.73,67.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",9,11.14,402.3,22.0,15.45,70.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",10,11.14,404.7,22.0,14.68,66.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",11,10.99,407.3,22.0,9.94,45.2
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",12,11.1,409.0,22.0,8.8,40.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",13,11.09,408.8,22.0,7.13,32.4
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",14,10.8,409.8,22.0,6.32,28.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",15,11.04,407.7,22.0,5.97,27.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",16,11.1,404.5,22.0,9.89,45.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",17,10.74,401.3,22.0,16.58,75.3
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",18,11.08,400.3,22.0,21.79,99.1
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",19,11.2,401.6,22.0,22.0,100.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",20,10.91,397.0,22.0,21.78,99.0
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",21,11.06,405.4,22.0,15.33,69.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",22,11.26,408.5,22.0,10.5,47.7
+Telangana,TEL-019,"AC Fast (Type 2, 22kW)",23,10.67,411.1,22.0,6.18,28.1
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",0,10.97,408.6,22.0,5.23,23.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",1,11.21,412.2,22.0,4.81,21.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",2,10.77,412.5,22.0,4.87,22.1
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",3,11.16,411.1,22.0,6.3,28.7
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",4,11.12,409.6,22.0,5.9,26.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",5,11.0,406.8,22.0,6.13,27.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",6,11.16,409.5,22.0,8.81,40.1
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",7,11.05,407.7,22.0,12.52,56.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",8,11.07,403.0,22.0,15.53,70.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",9,10.97,403.1,22.0,16.61,75.5
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",10,11.0,401.6,22.0,15.74,71.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",11,10.68,403.2,22.0,13.04,59.3
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",12,11.15,407.4,22.0,9.32,42.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",13,10.99,408.5,22.0,6.95,31.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",14,10.63,410.9,22.0,7.01,31.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",15,11.0,410.1,22.0,7.12,32.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",16,11.19,410.3,22.0,9.54,43.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",17,10.98,402.6,22.0,14.22,64.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",18,10.9,398.5,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",19,10.98,398.0,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",20,10.95,399.6,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",21,10.84,402.7,22.0,16.12,73.3
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",22,11.01,405.4,22.0,9.89,45.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",23,11.05,407.2,22.0,7.42,33.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",0,10.91,410.1,22.0,5.87,26.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",1,10.71,407.9,22.0,4.66,21.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",2,10.93,410.8,22.0,5.91,26.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",3,10.98,411.4,22.0,5.4,24.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",4,11.05,413.0,22.0,5.1,23.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",5,10.88,411.3,22.0,7.16,32.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",6,11.13,407.3,22.0,9.87,44.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",7,11.08,403.3,22.0,12.66,57.5
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",8,10.99,403.4,22.0,15.42,70.1
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",9,11.09,404.3,22.0,16.44,74.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",10,11.07,400.4,22.0,15.23,69.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",11,11.16,410.2,22.0,12.65,57.5
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",12,11.27,409.3,22.0,7.82,35.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",13,11.14,410.1,22.0,7.45,33.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",14,10.96,411.6,22.0,5.88,26.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",15,10.86,411.4,22.0,6.99,31.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",16,11.04,406.0,22.0,10.79,49.1
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",17,11.22,405.4,22.0,14.75,67.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",18,11.04,396.2,22.0,21.92,99.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",19,10.83,395.4,22.0,22.0,100.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",20,10.88,396.7,22.0,21.96,99.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",21,11.05,405.4,22.0,14.28,64.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",22,11.25,411.4,22.0,8.8,40.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",23,10.91,412.6,22.0,6.38,29.0
+Kerala,KER-022,DC Ultra-Fast (150kW),0,33.27,409.8,150.0,41.92,27.9
+Kerala,KER-022,DC Ultra-Fast (150kW),1,32.95,410.4,150.0,37.89,25.3
+Kerala,KER-022,DC Ultra-Fast (150kW),2,33.38,411.2,150.0,36.57,24.4
+Kerala,KER-022,DC Ultra-Fast (150kW),3,33.01,410.3,150.0,36.81,24.5
+Kerala,KER-022,DC Ultra-Fast (150kW),4,33.07,407.0,150.0,45.7,30.5
+Kerala,KER-022,DC Ultra-Fast (150kW),5,32.93,411.3,150.0,43.97,29.3
+Kerala,KER-022,DC Ultra-Fast (150kW),6,33.05,410.1,150.0,51.48,34.3
+Kerala,KER-022,DC Ultra-Fast (150kW),7,32.8,404.8,150.0,80.38,53.6
+Kerala,KER-022,DC Ultra-Fast (150kW),8,32.87,405.0,150.0,107.17,71.4
+Kerala,KER-022,DC Ultra-Fast (150kW),9,33.34,402.7,150.0,110.07,73.4
+Kerala,KER-022,DC Ultra-Fast (150kW),10,33.05,401.3,150.0,106.14,70.8
+Kerala,KER-022,DC Ultra-Fast (150kW),11,33.25,408.0,150.0,76.8,51.2
+Kerala,KER-022,DC Ultra-Fast (150kW),12,32.91,408.8,150.0,69.45,46.3
+Kerala,KER-022,DC Ultra-Fast (150kW),13,32.58,407.4,150.0,42.13,28.1
+Kerala,KER-022,DC Ultra-Fast (150kW),14,33.14,409.7,150.0,46.01,30.7
+Kerala,KER-022,DC Ultra-Fast (150kW),15,33.02,409.2,150.0,54.14,36.1
+Kerala,KER-022,DC Ultra-Fast (150kW),16,33.11,407.0,150.0,65.7,43.8
+Kerala,KER-022,DC Ultra-Fast (150kW),17,33.0,402.6,150.0,106.05,70.7
+Kerala,KER-022,DC Ultra-Fast (150kW),18,32.99,397.0,150.0,150.0,100.0
+Kerala,KER-022,DC Ultra-Fast (150kW),19,32.96,400.8,150.0,150.0,100.0
+Kerala,KER-022,DC Ultra-Fast (150kW),20,33.16,397.6,150.0,148.54,99.0
+Kerala,KER-022,DC Ultra-Fast (150kW),21,32.84,399.4,150.0,115.96,77.3
+Kerala,KER-022,DC Ultra-Fast (150kW),22,33.12,407.8,150.0,66.86,44.6
+Kerala,KER-022,DC Ultra-Fast (150kW),23,33.02,408.0,150.0,42.87,28.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",0,33.08,409.5,50.0,14.24,28.5
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",1,33.0,411.1,50.0,14.39,28.8
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",2,32.92,409.2,50.0,13.22,26.4
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",3,32.98,411.9,50.0,11.18,22.4
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",4,33.07,410.6,50.0,12.36,24.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",5,32.66,410.9,50.0,18.76,37.5
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",6,32.8,411.0,50.0,20.98,42.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",7,33.17,405.1,50.0,28.49,57.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",8,32.97,401.5,50.0,35.17,70.3
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",9,33.17,402.4,50.0,37.29,74.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",10,32.95,406.0,50.0,33.3,66.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",11,33.0,405.9,50.0,28.0,56.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",12,33.13,411.2,50.0,20.61,41.2
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",13,33.04,413.2,50.0,15.45,30.9
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",14,32.93,408.3,50.0,14.83,29.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",15,33.1,410.2,50.0,14.87,29.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",16,32.87,410.6,50.0,23.15,46.3
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",17,32.86,400.5,50.0,35.78,71.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",18,32.88,397.4,50.0,50.0,100.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",19,32.97,396.7,50.0,50.0,100.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",20,33.19,398.3,50.0,48.56,97.1
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",21,32.83,401.6,50.0,34.54,69.1
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",22,33.01,409.2,50.0,20.83,41.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",23,32.73,413.5,50.0,17.06,34.1
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",0,10.96,409.5,22.0,6.05,27.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",1,10.92,409.5,22.0,5.82,26.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",2,10.97,412.3,22.0,5.72,26.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",3,11.03,409.8,22.0,4.85,22.1
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",4,11.08,410.9,22.0,6.11,27.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",5,10.99,410.3,22.0,6.99,31.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",6,10.82,410.6,22.0,9.83,44.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",7,10.96,406.0,22.0,12.0,54.6
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",8,10.88,403.1,22.0,16.39,74.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",9,11.05,402.8,22.0,16.89,76.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",10,10.95,403.4,22.0,16.4,74.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",11,11.2,406.4,22.0,10.88,49.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",12,10.93,403.5,22.0,9.02,41.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",13,10.87,410.3,22.0,7.69,35.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",14,10.9,409.7,22.0,5.92,26.9
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",15,11.19,412.3,22.0,5.66,25.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",16,10.98,410.8,22.0,8.94,40.6
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",17,11.02,402.6,22.0,16.48,74.9
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",18,11.18,396.8,22.0,22.0,100.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",19,11.08,397.6,22.0,22.0,100.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",20,11.21,400.1,22.0,21.92,99.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",21,11.02,398.7,22.0,16.33,74.2
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",22,11.11,404.3,22.0,10.6,48.2
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",23,11.13,407.0,22.0,7.32,33.3
+Haryana,HAR-025,AC Slow (Type 2),0,10.8,226.5,7.4,1.77,23.9
+Haryana,HAR-025,AC Slow (Type 2),1,10.95,226.8,7.4,1.72,23.3
+Haryana,HAR-025,AC Slow (Type 2),2,10.94,226.9,7.4,2.15,29.0
+Haryana,HAR-025,AC Slow (Type 2),3,10.99,227.2,7.4,1.89,25.5
+Haryana,HAR-025,AC Slow (Type 2),4,11.15,228.4,7.4,2.13,28.8
+Haryana,HAR-025,AC Slow (Type 2),5,11.34,227.2,7.4,2.81,37.9
+Haryana,HAR-025,AC Slow (Type 2),6,10.94,228.8,7.4,2.88,38.9
+Haryana,HAR-025,AC Slow (Type 2),7,10.97,224.8,7.4,4.03,54.5
+Haryana,HAR-025,AC Slow (Type 2),8,11.12,222.9,7.4,5.13,69.4
+Haryana,HAR-025,AC Slow (Type 2),9,11.23,224.0,7.4,5.43,73.3
+Haryana,HAR-025,AC Slow (Type 2),10,11.08,224.7,7.4,5.04,68.1
+Haryana,HAR-025,AC Slow (Type 2),11,11.12,223.7,7.4,4.59,62.1
+Haryana,HAR-025,AC Slow (Type 2),12,11.05,226.1,7.4,2.69,36.4
+Haryana,HAR-025,AC Slow (Type 2),13,11.12,225.3,7.4,2.68,36.2
+Haryana,HAR-025,AC Slow (Type 2),14,11.03,225.6,7.4,2.1,28.4
+Haryana,HAR-025,AC Slow (Type 2),15,10.98,225.3,7.4,2.73,36.9
+Haryana,HAR-025,AC Slow (Type 2),16,11.21,225.6,7.4,3.13,42.2
+Haryana,HAR-025,AC Slow (Type 2),17,11.17,225.1,7.4,5.21,70.4
+Haryana,HAR-025,AC Slow (Type 2),18,10.87,220.2,7.4,7.4,100.0
+Haryana,HAR-025,AC Slow (Type 2),19,11.0,221.2,7.4,7.4,100.0
+Haryana,HAR-025,AC Slow (Type 2),20,11.02,219.1,7.4,7.35,99.3
+Haryana,HAR-025,AC Slow (Type 2),21,11.05,223.4,7.4,5.17,69.8
+Haryana,HAR-025,AC Slow (Type 2),22,11.34,224.8,7.4,2.78,37.6
+Haryana,HAR-025,AC Slow (Type 2),23,10.78,224.4,7.4,2.2,29.7
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),0,33.04,415.3,150.0,41.84,27.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),1,32.73,410.1,150.0,38.82,25.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),2,32.92,410.9,150.0,31.14,20.8
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),3,32.91,412.5,150.0,37.81,25.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),4,33.16,408.9,150.0,44.62,29.7
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),5,33.01,408.8,150.0,48.04,32.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),6,33.11,408.5,150.0,60.53,40.4
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),7,32.83,405.1,150.0,82.6,55.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),8,32.82,404.0,150.0,106.29,70.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),9,33.15,399.6,150.0,116.26,77.5
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),10,32.94,404.1,150.0,106.78,71.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),11,33.09,407.8,150.0,85.58,57.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),12,33.17,409.0,150.0,58.87,39.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),13,33.13,408.2,150.0,57.88,38.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),14,33.27,408.0,150.0,47.99,32.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),15,33.05,411.9,150.0,42.92,28.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),16,32.95,412.8,150.0,68.04,45.4
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),17,33.11,406.1,150.0,105.41,70.3
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),18,33.05,398.6,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),19,32.98,396.7,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),20,32.91,398.0,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),21,32.98,405.6,150.0,109.59,73.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),22,32.96,406.3,150.0,66.86,44.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),23,32.88,409.4,150.0,51.76,34.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",0,11.08,414.0,22.0,5.33,24.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",1,10.9,406.8,22.0,5.83,26.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",2,11.24,414.2,22.0,4.31,19.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",3,11.22,408.3,22.0,6.14,27.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",4,10.86,408.1,22.0,5.82,26.4
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",5,10.98,410.0,22.0,6.7,30.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",6,10.98,411.4,22.0,8.14,37.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",7,10.82,408.5,22.0,11.7,53.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",8,11.28,407.0,22.0,14.13,64.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",9,10.83,402.7,22.0,16.2,73.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",10,10.98,402.5,22.0,15.21,69.1
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",11,10.95,403.3,22.0,12.44,56.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",12,10.99,408.3,22.0,7.89,35.8
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",13,11.14,410.1,22.0,7.19,32.7
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",14,11.08,407.9,22.0,5.27,24.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",15,10.82,411.1,22.0,5.65,25.7
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",16,10.97,407.2,22.0,10.98,49.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",17,10.87,400.4,22.0,16.48,74.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",18,11.01,397.0,22.0,21.43,97.4
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",19,10.73,400.4,22.0,22.0,100.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",20,10.97,396.1,22.0,22.0,100.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",21,11.13,402.6,22.0,17.21,78.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",22,10.93,408.9,22.0,11.21,51.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",23,10.91,410.4,22.0,6.03,27.4
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),0,32.91,413.3,150.0,44.99,30.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),1,33.01,410.5,150.0,28.08,18.7
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),2,33.0,415.1,150.0,36.04,24.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),3,32.95,410.9,150.0,41.27,27.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),4,33.49,411.3,150.0,32.13,21.4
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),5,33.29,406.6,150.0,42.05,28.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),6,33.2,408.2,150.0,65.19,43.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),7,33.14,406.0,150.0,79.25,52.8
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),8,33.19,400.0,150.0,113.18,75.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),9,33.0,402.7,150.0,114.22,76.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),10,32.88,406.2,150.0,97.46,65.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),11,33.12,408.2,150.0,78.13,52.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),12,33.21,410.4,150.0,62.24,41.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),13,33.15,407.9,150.0,53.87,35.9
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),14,32.98,413.7,150.0,43.84,29.2
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),15,33.03,408.6,150.0,46.11,30.7
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),16,33.05,408.3,150.0,69.89,46.6
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),17,32.87,402.4,150.0,109.86,73.2
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),18,33.07,400.7,150.0,147.46,98.3
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),19,33.28,400.7,150.0,150.0,100.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),20,32.93,399.3,150.0,148.55,99.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),21,32.99,400.4,150.0,109.64,73.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),22,33.06,409.6,150.0,72.04,48.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),23,32.89,406.7,150.0,45.35,30.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",0,10.78,410.9,22.0,6.26,28.5
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",1,10.93,413.8,22.0,5.67,25.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",2,10.98,408.8,22.0,5.92,26.9
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",3,11.19,410.7,22.0,6.34,28.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",4,10.77,414.9,22.0,6.26,28.5
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",5,10.85,407.6,22.0,6.85,31.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",6,11.03,409.0,22.0,8.41,38.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",7,10.95,403.3,22.0,12.45,56.6
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",8,10.87,405.9,22.0,14.57,66.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",9,10.91,403.8,22.0,16.36,74.4
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",10,11.03,406.5,22.0,15.67,71.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",11,10.94,401.1,22.0,12.77,58.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",12,11.03,405.9,22.0,9.2,41.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",13,10.82,405.3,22.0,7.74,35.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",14,11.11,411.1,22.0,6.41,29.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",15,11.14,410.6,22.0,7.07,32.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",16,10.97,406.4,22.0,9.67,43.9
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",17,10.94,401.7,22.0,15.8,71.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",18,10.97,398.7,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",19,10.85,398.4,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",20,10.85,397.8,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",21,11.09,405.8,22.0,15.63,71.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",22,11.24,404.7,22.0,10.06,45.7
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",23,10.95,412.1,22.0,6.47,29.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",0,11.15,411.7,22.0,5.32,24.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",1,10.94,408.5,22.0,6.56,29.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",2,11.16,411.9,22.0,6.37,28.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",3,10.89,414.7,22.0,4.72,21.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",4,10.87,410.1,22.0,6.11,27.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",5,11.02,406.8,22.0,6.06,27.5
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",6,10.97,406.6,22.0,8.06,36.7
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",7,10.64,408.7,22.0,10.43,47.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",8,11.08,403.6,22.0,15.16,68.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",9,11.03,406.8,22.0,16.47,74.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",10,11.02,401.5,22.0,15.9,72.3
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",11,11.03,404.6,22.0,13.19,60.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",12,10.68,406.1,22.0,9.72,44.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",13,10.8,411.6,22.0,7.21,32.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",14,10.66,411.3,22.0,6.73,30.6
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",15,10.97,409.4,22.0,6.38,29.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",16,11.25,406.2,22.0,9.45,43.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",17,10.99,401.8,22.0,15.6,70.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",18,10.97,398.5,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",19,10.91,397.0,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",20,11.06,396.3,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",21,10.94,403.2,22.0,16.6,75.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",22,10.82,411.4,22.0,9.06,41.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",23,10.96,410.7,22.0,7.44,33.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),0,33.02,414.3,150.0,38.86,25.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),1,33.03,412.0,150.0,35.8,23.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),2,32.98,411.6,150.0,30.59,20.4
+West Bengal,WES-031,DC Ultra-Fast (150kW),3,32.88,413.2,150.0,35.89,23.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),4,33.02,410.0,150.0,42.85,28.6
+West Bengal,WES-031,DC Ultra-Fast (150kW),5,33.03,406.8,150.0,49.5,33.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),6,32.99,403.8,150.0,72.15,48.1
+West Bengal,WES-031,DC Ultra-Fast (150kW),7,33.1,405.9,150.0,88.04,58.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),8,32.89,405.9,150.0,93.0,62.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),9,33.34,402.3,150.0,113.89,75.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),10,32.77,403.0,150.0,106.15,70.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),11,32.99,407.5,150.0,83.54,55.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),12,33.08,407.2,150.0,59.61,39.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),13,32.85,412.1,150.0,51.4,34.3
+West Bengal,WES-031,DC Ultra-Fast (150kW),14,32.99,409.7,150.0,45.26,30.2
+West Bengal,WES-031,DC Ultra-Fast (150kW),15,33.08,410.4,150.0,49.52,33.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),16,33.22,406.5,150.0,63.03,42.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),17,33.16,403.9,150.0,105.84,70.6
+West Bengal,WES-031,DC Ultra-Fast (150kW),18,33.13,399.5,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),19,33.07,397.4,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),20,32.87,398.5,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),21,32.97,405.4,150.0,103.13,68.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),22,32.56,408.8,150.0,67.59,45.1
+West Bengal,WES-031,DC Ultra-Fast (150kW),23,33.04,407.3,150.0,55.88,37.3

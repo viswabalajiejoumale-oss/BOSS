@@ -1,0 +1,101 @@
+#,Brand & Model,Battery (kWh),Range (km),Fast Charge (kW),Efficiency (Wh/km)
+1,Alfa Romeo Junior Elettrica Veloce,54.0,334,100,162
+2,Alpine A290 Electric 220 hp,52.0,380,100,137
+3,Audi A6 Avant e-tron performance,94.9,710,270,134
+4,Audi A6 Sportback e-tron performance,94.9,750,270,127
+5,Audi e-tron GT quattro,97.0,609,320,159
+6,Audi Q4 e-tron 45,77.0,530,175,145
+7,Audi Q6 e-tron performance,94.9,641,270,148
+8,Audi SQ6 e-tron,94.9,598,270,159
+9,BMW i4 eDrive40,81.3,590,205,138
+10,BMW i4 M50,81.3,520,205,156
+11,BMW i5 eDrive40 Sedan,81.2,582,205,140
+12,BMW i5 M60 xDrive Sedan,81.2,516,205,157
+13,BMW i7 eDrive50,101.7,611,195,166
+14,BMW i7 M70 xDrive,101.7,560,195,182
+15,BMW iX xDrive50,105.2,630,195,167
+16,BMW IX M60,105.2,561,195,188
+17,BMW iX1 eDrive20,64.7,475,130,136
+18,BMW iX2 xDrive30,64.7,449,130,144
+19,BMW iX3 50 xDrive,74.0,460,150,161
+20,BYD Atto 3 Extended Range,60.5,420,88,144
+21,BYD Dolphin Active,44.9,340,60,132
+22,BYD Dolphin Boost,44.9,310,88,145
+23,BYD Han EV,85.4,521,120,164
+24,BYD Seal Excellence AWD,82.5,520,150,159
+25,BYD Tang EV,108.8,530,170,205
+26,Cadillac Lyriq AWD,102.0,505,190,202
+27,Citroën e-C3,44.0,320,100,138
+28,Citroën e-C4 54 kWh,50.8,420,100,121
+29,Cupra Born 77 kWh,77.0,548,170,141
+30,Cupra Tavascan VZ,77.0,517,135,149
+31,DS Automobiles N°8 Long Range,97.0,750,160,129
+32,Fiat 500e 42 kWh,37.3,320,85,117
+33,Fiat 600e,50.8,409,100,124
+34,Fiat Grande Panda,43.8,320,100,137
+35,Ford Capri Extended Range AWD,79.0,592,185,133
+36,Ford Explorer Extended Range RWD,77.0,602,135,128
+37,Ford Mustang Mach-E ER RWD,88.0,600,150,147
+38,Ford Mustang Mach-E GT,91.0,490,150,186
+39,Ford Puma Gen-E,43.6,376,100,116
+40,Genesis G80 Electrified,87.2,520,240,168
+41,Genesis GV60 Performance,77.4,466,233,166
+42,Genesis GV70 Electrified,77.4,455,233,170
+43,GWM Ora 03 63 kWh,59.3,420,67,141
+44,Hyundai Inster Long Range,49.0,355,120,138
+45,Hyundai Ioniq 5 Long Range RWD,84.0,570,233,147
+46,Hyundai Ioniq 5 N,84.0,448,233,188
+47,Hyundai Ioniq 6 Long Range 2WD,77.4,614,233,126
+48,Hyundai Ioniq 9 Performance AWD,110.3,620,350,178
+49,Hyundai Kona Electric 65 kWh,65.4,514,102,127
+50,Jeep Avenger Electric,50.8,400,100,127
+51,Kia EV3 Long Range,81.4,600,128,136
+52,Kia EV4 Fastback,81.4,610,128,133
+53,Kia EV6 Long Range RWD,84.0,581,233,145
+54,Kia EV6 GT,84.0,424,233,198
+55,Kia EV9 99.8 kWh AWD,99.8,505,210,198
+56,Kia Niro EV,64.8,460,80,141
+57,Lancia Ypsilon Elettrica,48.1,403,100,119
+58,Leapmotor T03,36.0,265,45,136
+59,Leapmotor C10,69.9,420,84,166
+60,Lexus RZ 450e,64.0,395,150,162
+61,Lotus Eletre R,109.0,490,350,222
+62,Lotus Emeya S,98.9,610,350,162
+63,Lucid Air Grand Touring,112.0,839,300,133
+64,Lucid Air Pure RWD,88.0,676,250,130
+65,Maserati GranTurismo Folgore,83.0,450,270,184
+66,Mercedes-Benz CLA 250+,85.0,750,320,113
+67,Mercedes-Benz EQE 350+,90.6,639,170,142
+68,Mercedes-Benz EQS 450+,118.0,822,200,144
+69,Mercedes-Benz EQS SUV 580 4MATIC,118.0,672,200,176
+70,MG Cyberster GT,77.0,444,144,173
+71,MG4 EV Extended Range,77.0,520,144,148
+72,MG5 EV Long Range,57.4,400,87,144
+73,Mini Cooper SE (JCW),49.2,402,95,122
+74,Mini Countryman SE ALL4,64.7,433,130,150
+75,Nissan Ariya 87kWh e-4ORCE,87.0,500,130,174
+76,Nissan Leaf 39 kWh,39.0,270,50,144
+77,Peugeot e-208 51 kWh,48.1,400,100,120
+78,Peugeot e-3008 97 kWh Long Range,97.0,700,160,139
+79,Peugeot e-5008 97 kWh Long Range,97.0,660,160,147
+80,Polestar 2 Long Range Single Motor,79.0,654,205,121
+81,Polestar 3 Dual Motor,107.0,610,250,175
+82,Polestar 4 Long Range Single Motor,94.0,620,200,152
+83,Porsche Taycan 4S Plus,97.0,642,320,151
+84,Porsche Taycan Turbo GT,97.0,555,320,175
+85,Porsche Macan Electric,95.0,613,270,155
+86,Renault 5 E-Tech 52 kWh,52.0,400,100,130
+87,Renault Scenic E-Tech 87 kWh,87.0,625,150,139
+88,Rolls-Royce Spectre,102.0,530,195,192
+89,Škoda Elroq 85,77.0,560,175,138
+90,Škoda Enyaq 85,77.0,565,175,136
+91,Smart #1 Brabus,62.0,400,150,155
+92,Tesla Cybertruck All-Wheel Drive,123.0,547,250,225
+93,Tesla Model 3 Long Range RWD,75.0,702,250,107
+94,Tesla Model 3 Performance,75.0,528,250,142
+95,Tesla Model S Plaid,95.0,600,250,158
+96,Tesla Model X Plaid,95.0,543,250,175
+97,Tesla Model Y Long Range AWD,75.0,533,250,141
+98,Volkswagen ID.3 Pro S,77.0,559,175,138
+99,Volkswagen ID.7 Pro S,86.0,709,200,121
+100,Volvo EX30 Single Motor Extended Range,64.0,476,153,134

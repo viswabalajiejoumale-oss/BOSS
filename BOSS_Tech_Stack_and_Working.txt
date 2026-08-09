@@ -1,0 +1,270 @@
+================================================================================
+          BOSS - BHARAT EV OPTIMIZATION & SMART CHARGING SYSTEM
+                   COMPLETE TECH STACK & SYSTEM WORKING
+================================================================================
+
+PROJECT NAME : BOSS (Bharat EV Optimization & Smart Charging System)
+PLATFORM     : AI-Powered Smart EV Charging Network & Grid Load Management Platform
+LOCATION     : India (State & District-wise EV Infrastructure)
+
+================================================================================
+1. EXECUTIVE SUMMARY
+================================================================================
+
+The BOSS platform (Bharat EV Optimization & Smart Charging System) is an end-to-end 
+intelligent ecosystem designed to address the dual challenges of EV adoption in 
+India:
+  1. EV Driver Anxiety — Uncertainty around charging slot availability, long queue 
+     times, battery range depletion, and charger downtime.
+  2. Grid Transformer Overload — High-power EV charging causing local DISCOM transformer 
+     tripping, phase imbalances, and voltage instability.
+
+BOSS connects three primary stakeholders into a single synchronized network:
+  • EV Drivers — Discover nearby stations, get AI slot match scores, reserve 1-hour 
+    slots with encrypted 6-digit OTPs, view ML voltage telemetry, and trigger 
+    emergency rescue services.
+  • Station Admins — Manage transformer capacity (kVA), verify user 6-digit OTPs, 
+    monitor per-port charger statuses (CCS2, Type 2, CHAdeMO), and view live alerts.
+  • DISCOM Grid Operators — Monitor city/district transformer loads, peak demand 
+    hours, overloaded stations, and push dynamic peak-shaving tariff discounts.
+
+
+================================================================================
+2. COMPLETE TECH STACK
+================================================================================
+
+--------------------------------------------------------------------------------
+A. FRONTEND LAYER
+--------------------------------------------------------------------------------
+• Framework           : React 18.3.1 (Component-based architecture, Hooks, Context API)
+• Build Tool & Server : Vite 5.4.2 (Lightning-fast HMR, ES modules bundling)
+• Language            : TypeScript 5.5.3 (Strict typing, interface contracts)
+• Routing             : Custom Auth-Gated Dynamic Page Router (React State & Nav)
+
+--------------------------------------------------------------------------------
+B. STYLING & UI COMPONENT SYSTEM
+--------------------------------------------------------------------------------
+• Design System       : Cyber-Green Dark Theme (Pitch black background `#090d16` with neon green `#10b981` / `#22c55e` accents)
+• CSS Framework       : Tailwind CSS 3.4.1 (Utility-first styling with custom dark extensions)
+• Animation Engines   : 
+    - Framer Motion 12.43.0 (Page transitions, tab switches, smooth hover states, modal popups)
+    - Tw-Animate-CSS 1.4.0 (CSS keyframe utility animations)
+• UI Primitives       : Base UI (`@base-ui/react`), Shadcn UI components, Class Variance Authority (`cva`), Tailwind Merge (`clsx`)
+• Icons               : Lucide React 0.344.0 (Crisp SVG iconography)
+• Typography          : Geist Variable Font (`@fontsource-variable/geist`)
+• FX / Celebrations   : Canvas Confetti 1.9.4 (Interactive feedback upon slot booking)
+
+--------------------------------------------------------------------------------
+C. MAPS & DATA VISUALIZATIONS
+--------------------------------------------------------------------------------
+• Interactive Maps    : Leaflet 1.9.4 & React Leaflet 5.0.0 (OpenStreetMap dark tile layer, custom station markers, popup cards, live geolocation)
+• Charting Library    : Recharts 3.10.1 (Responsive bar charts, 24-hour demand area charts, grid load line graphs, tariff pie charts)
+• QR Code Engine      : QRCode 1.5.4 (Client-side dynamic generation of verification QR codes)
+• 3D / WebGL Graphics : OGL 1.0.11 (Interactive WebGL canvas animations)
+
+--------------------------------------------------------------------------------
+D. BACKEND, DATABASE & AUTHENTICATION
+--------------------------------------------------------------------------------
+• Backend Platform    : Supabase (PostgreSQL Cloud Engine)
+• Database            : PostgreSQL Database with custom SQL schema migrations
+• Authentication      : Supabase Auth (JWT session handling, email/password authentication, secure password hashing)
+• Security Model      : PostgreSQL Row Level Security (RLS) with owner-scoped policies (`auth.uid()`)
+• Real-time Subscriptions: Supabase Realtime (WebSocket channels for instant notifications & charger state sync)
+
+--------------------------------------------------------------------------------
+E. AI & MACHINE LEARNING LAYER
+--------------------------------------------------------------------------------
+• LLM Grid Intelligence: OpenRouter API Client (`openRouterService.ts`) connected to models such as:
+    - Google Gemini 2.5 Flash
+    - DeepSeek R1
+    - Meta Llama 3.3 70B
+• ML Predictive Engine: Trained Linear Regressors & Mathematical Formulations (`aiEngine.ts`):
+    - Machine Output Voltage regressor (V DC) based on battery SOC (%)
+    - Power Output calculation (kW) based on selected charge current (16A, 32A, 64A, 150A)
+    - Queue Wait Time predictor based on active reservations, power rating, and charger count
+    - Explainable AI Match Score (0–100%) computed via Haversine distance, load %, wait time, and price
+    - 80% EV Station Load Safety Rule (Automated overload prevention & redirection)
+
+--------------------------------------------------------------------------------
+F. UTILITIES & DEVELOPMENT TOOLS
+--------------------------------------------------------------------------------
+• Date Processing     : Date-Fns 4.4.0
+• Data Scripts        : Python 3 (Synthetic data seed scripts, pandas dataset analytics)
+• Linter              : ESLint 9.9.1 with React Hooks & React Refresh plugins
+
+
+================================================================================
+3. SYSTEM ARCHITECTURE & USER ROLES
+================================================================================
+
++------------------------------------------------------------------------------+
+|                                  BOSS PLATFORM                               |
++------------------------------+-------------------------------+---------------+
+                               |                               |
+                               v                               v
+                     +-------------------+           +-------------------+
+                     | Supabase Postgres |           | OpenRouter LLM &  |
+                     |   (Auth & DB)     |           | ML Predictor      |
+                     +---------+---------+           +---------+---------+
+                               |                               |
+        +----------------------+-------------------------------+----------------------+
+        |                                      |                                      |
+        v                                      v                                      v
++-----------------------+            +-------------------+            +-----------------------+
+|  EV DRIVER PORTAL     |            |  STATION ADMIN    |            | DISCOM GRID UTILITY   |
+|  (User Dashboard)     |            |  (Operator Portal)|            | (Grid Master Control) |
++-----------------------+            +-------------------+            +-----------------------+
+| - Map Discovery       |            | - Transformer Load|            | - District Load Map   |
+| - AI Match Score      |            | - Smart Meter OTP |            | - Peak Shaving Rules  |
+| - 1-Hour Slot Booking |            | - Port Controls   |            | - Substation Telemetry|
+| - ML Voltage Dispense |            | - Overload Alerts |            | - Dynamic Rebate Pushes|
+| - Emergency Priority  |            +-------------------+            +-----------------------+
+| - Rescue Truck Order  |
++-----------------------+
+
+
+================================================================================
+4. STEP-BY-STEP WORKING & CORE FEATURES
+================================================================================
+
+[STEP 1: USER ONBOARDING & VEHICLE PROFILING]
+• EV Driver registers or logs into the platform (AuthPage.tsx).
+• The driver selects their EV profile (e.g., Tata Nexon EV, MG ZS EV, Hyundai Ioniq 5, Mahindra XUV400) or enters custom battery capacity (kWh), max charging speed (kW), and connector type (CCS2, Type 2, CHAdeMO).
+
+[STEP 2: INTERACTIVE STATION DISCOVERY & LEAFLET MAPS]
+• The User Dashboard presents an interactive dark-themed Leaflet map showing charging stations across Indian states (Maharashtra, Karnataka, Tamil Nadu, Delhi, Gujarat, Kerala, UP, etc.).
+• Drivers can filter stations by state, district, operator network, port availability, connector type, and charging speed (Fast / Ultra-Fast / Slow).
+
+[STEP 3: AI RECOMMENDATION & FREE SLOT FINDER]
+• The AI engine (`aiEngine.ts`) evaluates available stations and computes an Explainable Match Score (0–100%) for each station using:
+    Score = w1*(Distance) + w2*(Wait Time) + w3*(Price/kWh) + w4*(Transformer Load %)
+• The platform displays a detailed "Why was this station recommended?" breakdown (e.g., "Lowest wait time: 0 mins", "Optimal transformer load: 45%", "CCS2 Fast Charger available").
+
+[STEP 4: 1-HOUR SLOT RESERVATION & SMART METER OTP GENERATION]
+• Drivers select a 1-hour slot for TODAY (from 24 one-hour time slots) and choose their desired charging current (16A, 32A, 64A, 150A DC).
+• Upon confirming the reservation, the system generates:
+    - An encrypted 6-digit numeric/letter Smart Energy Meter OTP (e.g., `839214`).
+    - A dynamic QR code representing the booking details.
+    - A 5-minute reservation lock holding the slot while the driver navigates.
+
+[STEP 5: 80% EV STATION LOAD SAFETY RULE (AUTOMATED REDIRECTION)]
+• Before confirming a slot, the system checks the station's transformer utilization:
+    Station Load % = (Total Active Charging Power kW / Transformer Capacity kVA) * 100
+• IF Station Load >= 80%: The system automatically triggers the Safety Redirection Mechanism.
+• The booking interface informs the driver: "Station Transformer Load High (>=80%). Auto-redirecting to nearby Station B to protect local grid stability."
+• The driver is offered an alternative station in the same district with free ports and an incentive discount coupon (e.g., 15% off).
+
+[STEP 6: ML OUTPUT DC VOLTAGE & POWER DISPENSING CALCULATION]
+• Based on the vehicle's current State of Charge (SOC %) and requested charging current, the ML regressor model calculates:
+    - Machine Output DC Voltage: `V_out = V_nominal + (SOC * 0.8) + (Current * 0.05)` (e.g., 400V - 450V DC)
+    - Active Power Rate: `P_kW = (V_out * Current) / 1000` (e.g., 50 kW to 150 kW)
+    - Estimated Time to 80% Battery Charge.
+
+[STEP 7: SMART METER VERIFICATION & POWER DISPENSING]
+• Upon arriving at the physical station, the driver provides their 6-digit Smart Meter OTP to the Station Operator or inputs it into the Smart Meter Terminal (AdminDashboard.tsx).
+• The Admin terminal validates the code against the database. Upon verification:
+    - Port status transitions from 'reserved' to 'occupied' / 'dispensing'.
+    - Live user telemetry begins tracking active voltage (V DC), power draw (kW), and energy delivered (kWh) on both User and Admin screens in real time (`LiveUserUsageCard.tsx`).
+
+[STEP 8: EMERGENCY PRIORITY & MOBILE BATTERY RESCUE TRUCK DISPATCH]
+• Priority Mode: EV drivers with battery < 10% or registered emergency vehicles (Ambulance, Fire, Police) can toggle Emergency Priority Mode.
+• Emergency priority overrides standard queues, allocating the next available high-speed charger port immediately.
+• Mobile Battery Rescue Truck: If an EV breaks down due to complete battery exhaustion, the driver can request a Mobile Battery Rescue Truck equipped with portable power packs (20 kWh, 30 kWh, 50 kWh). The system tracks the truck's live dispatch ETA on the map.
+
+[STEP 9: OPENROUTER AI COPILOT & GRID INTELLIGENCE]
+• A floating AI Assistant (`AICopilotChat.tsx`) is accessible on all dashboards.
+• Powered by OpenRouter LLMs (Gemini 2.5 Flash / DeepSeek R1 / Llama 3.3), the AI Copilot reads live contextual data (stations, user battery, grid loads) and assists users with:
+    - Finding closest free fast chargers.
+    - Advising optimal off-peak charging times to save costs.
+    - Diagnosing transformer overload alerts for station admins.
+
+[STEP 10: DISCOM GRID LOAD BALANCING & PEAK SHAVING INCENTIVES]
+• DISCOM Utility Operators monitor city-wide grid demand, transformer health, and hourly load curves via `DiscomDashboard.tsx`.
+• When grid demand spikes during peak hours (e.g., 6:00 PM – 10:00 PM), DISCOM operators deploy dynamic Peak Shaving Incentives:
+    - Off-peak tariff discounts (e.g., ₹1.5/kWh rebate for night charging).
+    - Grid load caps to automatically cap max charging current during peak demand.
+
+
+================================================================================
+5. DATABASE SCHEMA & SECURITY
+================================================================================
+
+The database is built on PostgreSQL via Supabase with Row Level Security (RLS):
+
+• `profiles`
+  Stores user identity, role (`user`, `admin`, `discom`), vehicle brand/model, 
+  battery capacity (kWh), green energy points, and contact info.
+
+• `stations`
+  Stores charging station metadata: name, address, state, district, GPS coordinates 
+  (lat/lng), transformer capacity (kVA), current load (kW), price per kWh, and operator ID.
+
+• `chargers`
+  Stores individual charger ports linked to stations: port number (A, B, C, D), 
+  connector type (CCS2, Type 2, CHAdeMO), max power rating (kW), and live status 
+  (`available`, `occupied`, `reserved`, `fault`).
+
+• `reservations`
+  Stores slot booking records: user_id, station_id, charger_id, 1-hour slot time, 
+  charge current (A), 6-digit OTP code, reservation status (`confirmed`, `active`, 
+  `completed`, `cancelled`), and emergency flag.
+
+• `ai_predictions`
+  Stores explainable AI scoring outputs, predicted wait times, ML voltage/power 
+  calculations, and load redirection logs.
+
+• `notifications`
+  Stores real-time alerts: station overload warnings (>=80%), new slot bookings, 
+  charger fault logs, and DISCOM grid event alerts.
+
+• `coupons`
+  Stores load-balancing incentive discount coupons issued during 80% safety redirections.
+
+
+================================================================================
+6. PROJECT FILE DIRECTORY STRUCTURE
+================================================================================
+
+d:\BOSS-main\BOSS-main\
+├── index.html                      # HTML5 Entry File
+├── package.json                    # Dependencies & NPM Scripts
+├── vite.config.ts                  # Vite Configuration
+├── tailwind.config.js              # Tailwind CSS Theme & Plugins
+├── supabase/
+│   └── migrations/
+│       └── 20260802171500_boss_backend_schema.sql  # Complete Database Schema & RLS
+└── src/
+    ├── main.tsx                    # React Root Hydration & Auth Provider
+    ├── App.tsx                     # Main Router & Auth Gate
+    ├── index.css                   # Global Dark Theme CSS Tokens
+    ├── components/
+    │   ├── MapView.tsx             # Interactive Leaflet Map Visualizer
+    │   ├── LiveChargerDistribution.tsx # Per-Port Charger Power Monitor (LIVE ONLY)
+    │   ├── LiveUserUsageCard.tsx   # Real-time Active Session Telemetry Card
+    │   ├── AICopilotChat.tsx       # Floating OpenRouter AI Assistant Widget
+    │   └── VehicleDetailsModal.tsx # Battery & Vehicle Health Inspector
+    ├── lib/
+    │   ├── supabase.ts             # Supabase Client Instance
+    │   ├── openRouterService.ts    # OpenRouter LLM API Wrapper
+    │   ├── aiEngine.ts             # ML Regressors, AI Match Score, 80% Rule
+    │   ├── backendServices.ts      # Slot Booking & Smart Meter Code Verifier
+    │   └── stationSync.ts          # Station Data Synchronization Utility
+    ├── pages/
+    │   ├── AuthPage.tsx            # Login, Registration & Onboarding Page
+    │   ├── LandingPage.tsx         # Hero Landing Page with Motion Animations
+    │   ├── UserDashboard.tsx       # EV Driver Master Portal
+    │   ├── AdminDashboard.tsx      # Station Operator Terminal & OTP Verifier
+    │   ├── DiscomDashboard.tsx     # DISCOM Grid Master Controller
+    │   ├── BookSlotPage.tsx        # 1-Hour Slot Grid & Booking Workflow
+    │   ├── FullMapPage.tsx         # Full-Screen Interactive India Map
+    │   ├── AnalyticsPage.tsx       # EV & Grid Energy Analytics Charts
+    │   ├── HistoryPage.tsx         # Charging Session Ledger & Receipts
+    │   └── VehicleDetailsPage.tsx  # EV Vehicle Profile & Battery Telemetry
+    ├── hooks/
+    │   └── useData.ts              # Data-fetching & Polling Custom Hooks
+    └── types/
+        └── index.ts                # TypeScript Database & Model Interfaces
+
+================================================================================
+                                END OF FILE
+================================================================================

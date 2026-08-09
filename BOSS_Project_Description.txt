@@ -1,0 +1,100 @@
+================================================================================
+          BOSS - SMART EV CHARGING STATIONS & GRID MANAGEMENT SYSTEM
+================================================================================
+
+PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+BOSS (Bharat EV Optimization & Smart Charging System) is an end-to-end 
+intelligent EV charging network platform tailored for India's growing electric 
+vehicle ecosystem. The platform seamlessly links EV Drivers, Charging Station 
+Admins, and Electrical Utilities (DISCOMs) into a real-time, AI-powered smart grid.
+
+Key Objectives:
+1. Provide real-time visibility into free charging slots and station load across India.
+2. Prevent grid overload using an automated 80% EV Station Load Rule.
+3. Deliver accurate Machine Output DC Voltage & Power predictions via ML models.
+4. Enable OpenRouter LLM-driven AI Copilot assistance for smart charging optimization.
+5. Provide live per-port charger power distribution monitoring (LIVE ONLY).
+
+
+MAIN MODULES & USER ROLES
+--------------------------------------------------------------------------------
+1. EV USER DASHBOARD
+   - Interactive India Map: Pinpoints EV charging stations across top Indian 
+     states (Maharashtra, Tamil Nadu, Karnataka, Delhi, Kerala, Gujarat, etc.) 
+     and specific districts.
+   - AI Free Slot Finder: Evaluates distance, queue time, battery %, price, 
+     and transformer load to recommend the best available charging slots.
+   - 1-Hour Slot Reservation: Locks 1-hour prebooking slots for TODAY ONLY, 
+     generating a 6-digit numeric/letter code expiring at the end of the slot.
+   - Machine Output Voltage & Power: Machine DC voltage (V) and power rate (kW) 
+     calculated dynamically using ML linear regressors trained on EV datasets.
+   - 80% EV Station Load Rule: Automatically redirects booking to a nearby station 
+     in the district if the selected station's load reaches or exceeds 80%.
+   - Emergency Rescue Mode: One-touch priority allocation for emergency vehicles 
+     or dispatching a Mobile Battery Delivery Truck en route with live ETA tracking.
+   - Live User Usage Telemetry Card: Real-time tracking of active charging session 
+     voltage (V DC), power draw (kW), energy delivered (kWh), and countdown timer.
+
+2. STATION ADMIN DASHBOARD
+   - Transformer Load Management: Real-time monitoring and editing of transformer 
+     capacity limits (kVA).
+   - Smart Meter Code Verification: Verification terminal to validate user 6-digit 
+     booking codes and activate/complete charging sessions.
+   - Port Control: Monitor individual charger status ('available', 'occupied', 'fault') 
+     and view live power distribution across ports A, B, C, D...
+   - Notifications: Live alert system for transformer overload warnings and grid events.
+
+3. ELECTRICAL UTILITY (DISCOM) DASHBOARD
+   - Grid Load Monitoring: High-level overview of district power demand and transformer 
+     utilization rates.
+   - Peak Shaving & Incentive Controls: Identify overloaded substations and push 
+     discount incentives to redirect EV traffic to low-utilization stations.
+
+4. OPENROUTER AI INTEGRATION & AI COPILOT
+   - Bound OpenRouter API key (`sk-or-v1-...`) for natural language grid intelligence.
+   - AI Copilot Chatbot: Interactive floating widget available in User and Admin 
+     dashboards for asking about free slots, live load status, port freeness, 
+     and battery charge optimization.
+   - Powered by models such as Google Gemini 2.5 Flash, DeepSeek R1, and Llama 3.3.
+
+5. LIVE CHARGER POWER DISTRIBUTION & LOAD MONITOR (LIVE ONLY)
+   - Visual per-port charger power breakdown displaying live kW draw, connector 
+     type (CCS2, Type2, CHAdeMO), and port freeness badges (FREE, BUSY, FAULT).
+   - One-click OpenRouter AI Grid Assessment for real-time load diagnostics.
+
+
+TECHNICAL STACK
+--------------------------------------------------------------------------------
+- Frontend: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, Recharts, 
+  Lucide Icons, Leaflet Maps, Canvas Confetti.
+- Backend & Database: Supabase (Authentication, PostgreSQL Database, SQL Migrations, 
+  Real-time Subscriptions).
+- AI & ML Integration: OpenRouter API Client, Trained ML Linear Regressors.
+
+
+PROJECT FILE STRUCTURE
+--------------------------------------------------------------------------------
+- /src
+  - /components
+    - MapView.tsx                  (Leaflet Interactive Station Map)
+    - LiveChargerDistribution.tsx  (Per-Port Power & Load Visualizer - LIVE ONLY)
+    - LiveUserUsageCard.tsx        (Real-time Active Session Telemetry Card)
+    - AICopilotChat.tsx            (Floating OpenRouter AI Assistant Widget)
+  - /lib
+    - openRouterService.ts         (OpenRouter API Wrapper & AI Inference)
+    - aiEngine.ts                  (Slot Recommendation, ML Voltage Calculator, 80% Rule)
+    - backendServices.ts           (Booking Handler, Code Verification, Cancellations)
+    - supabase.ts                  (Supabase Client Initialization)
+  - /pages
+    - UserDashboard.tsx            (EV Driver Portal)
+    - AdminDashboard.tsx           (Station Operator Portal)
+    - DiscomDashboard.tsx          (Grid Power Utility Portal)
+    - AuthPage.tsx                 (User Login & Registration)
+  - /hooks
+    - useData.ts                   (Data fetching & polling hooks)
+  - /types
+    - index.ts                     (TypeScript Types & Interfaces)
+- /.env                            (Environment configuration & API Keys)
+
+================================================================================

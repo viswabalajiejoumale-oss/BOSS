@@ -1,0 +1,73 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",0,10.78,410.9,22.0,6.26,28.5
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",1,10.93,413.8,22.0,5.67,25.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",2,10.98,408.8,22.0,5.92,26.9
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",3,11.19,410.7,22.0,6.34,28.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",4,10.77,414.9,22.0,6.26,28.5
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",5,10.85,407.6,22.0,6.85,31.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",6,11.03,409.0,22.0,8.41,38.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",7,10.95,403.3,22.0,12.45,56.6
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",8,10.87,405.9,22.0,14.57,66.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",9,10.91,403.8,22.0,16.36,74.4
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",10,11.03,406.5,22.0,15.67,71.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",11,10.94,401.1,22.0,12.77,58.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",12,11.03,405.9,22.0,9.2,41.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",13,10.82,405.3,22.0,7.74,35.2
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",14,11.11,411.1,22.0,6.41,29.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",15,11.14,410.6,22.0,7.07,32.1
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",16,10.97,406.4,22.0,9.67,43.9
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",17,10.94,401.7,22.0,15.8,71.8
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",18,10.97,398.7,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",19,10.85,398.4,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",20,10.85,397.8,22.0,22.0,100.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",21,11.09,405.8,22.0,15.63,71.0
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",22,11.24,404.7,22.0,10.06,45.7
+West Bengal,WES-029,"AC Fast (Type 2, 22kW)",23,10.95,412.1,22.0,6.47,29.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",0,11.15,411.7,22.0,5.32,24.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",1,10.94,408.5,22.0,6.56,29.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",2,11.16,411.9,22.0,6.37,28.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",3,10.89,414.7,22.0,4.72,21.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",4,10.87,410.1,22.0,6.11,27.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",5,11.02,406.8,22.0,6.06,27.5
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",6,10.97,406.6,22.0,8.06,36.7
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",7,10.64,408.7,22.0,10.43,47.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",8,11.08,403.6,22.0,15.16,68.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",9,11.03,406.8,22.0,16.47,74.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",10,11.02,401.5,22.0,15.9,72.3
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",11,11.03,404.6,22.0,13.19,60.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",12,10.68,406.1,22.0,9.72,44.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",13,10.8,411.6,22.0,7.21,32.8
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",14,10.66,411.3,22.0,6.73,30.6
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",15,10.97,409.4,22.0,6.38,29.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",16,11.25,406.2,22.0,9.45,43.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",17,10.99,401.8,22.0,15.6,70.9
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",18,10.97,398.5,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",19,10.91,397.0,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",20,11.06,396.3,22.0,22.0,100.0
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",21,10.94,403.2,22.0,16.6,75.4
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",22,10.82,411.4,22.0,9.06,41.2
+West Bengal,WES-030,"AC Fast (Type 2, 22kW)",23,10.96,410.7,22.0,7.44,33.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),0,33.02,414.3,150.0,38.86,25.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),1,33.03,412.0,150.0,35.8,23.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),2,32.98,411.6,150.0,30.59,20.4
+West Bengal,WES-031,DC Ultra-Fast (150kW),3,32.88,413.2,150.0,35.89,23.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),4,33.02,410.0,150.0,42.85,28.6
+West Bengal,WES-031,DC Ultra-Fast (150kW),5,33.03,406.8,150.0,49.5,33.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),6,32.99,403.8,150.0,72.15,48.1
+West Bengal,WES-031,DC Ultra-Fast (150kW),7,33.1,405.9,150.0,88.04,58.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),8,32.89,405.9,150.0,93.0,62.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),9,33.34,402.3,150.0,113.89,75.9
+West Bengal,WES-031,DC Ultra-Fast (150kW),10,32.77,403.0,150.0,106.15,70.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),11,32.99,407.5,150.0,83.54,55.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),12,33.08,407.2,150.0,59.61,39.7
+West Bengal,WES-031,DC Ultra-Fast (150kW),13,32.85,412.1,150.0,51.4,34.3
+West Bengal,WES-031,DC Ultra-Fast (150kW),14,32.99,409.7,150.0,45.26,30.2
+West Bengal,WES-031,DC Ultra-Fast (150kW),15,33.08,410.4,150.0,49.52,33.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),16,33.22,406.5,150.0,63.03,42.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),17,33.16,403.9,150.0,105.84,70.6
+West Bengal,WES-031,DC Ultra-Fast (150kW),18,33.13,399.5,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),19,33.07,397.4,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),20,32.87,398.5,150.0,150.0,100.0
+West Bengal,WES-031,DC Ultra-Fast (150kW),21,32.97,405.4,150.0,103.13,68.8
+West Bengal,WES-031,DC Ultra-Fast (150kW),22,32.56,408.8,150.0,67.59,45.1
+West Bengal,WES-031,DC Ultra-Fast (150kW),23,33.04,407.3,150.0,55.88,37.3

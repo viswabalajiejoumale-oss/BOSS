@@ -1,0 +1,49 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),0,32.9,408.3,150.0,34.1,22.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),1,33.13,414.9,150.0,32.66,21.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),2,33.01,413.9,150.0,37.63,25.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),3,33.08,414.3,150.0,34.46,23.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),4,32.87,410.6,150.0,36.13,24.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),5,33.29,412.3,150.0,41.43,27.6
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),6,32.9,410.0,150.0,55.56,37.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),7,32.87,404.8,150.0,80.8,53.9
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),8,33.04,401.8,150.0,103.91,69.3
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),9,32.86,402.1,150.0,112.27,74.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),10,33.08,405.4,150.0,101.09,67.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),11,33.11,406.5,150.0,78.59,52.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),12,32.9,410.1,150.0,54.37,36.2
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),13,32.73,407.8,150.0,50.55,33.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),14,33.04,411.2,150.0,35.56,23.7
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),15,32.75,411.5,150.0,43.64,29.1
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),16,32.9,405.0,150.0,67.49,45.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),17,32.94,401.4,150.0,107.05,71.4
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),18,33.13,397.2,150.0,150.0,100.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),19,33.22,399.5,150.0,150.0,100.0
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),20,33.09,397.8,150.0,140.65,93.8
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),21,32.91,404.1,150.0,105.9,70.6
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),22,33.18,407.2,150.0,68.01,45.3
+Tamil Nadu,TAM-008,DC Ultra-Fast (150kW),23,32.94,410.4,150.0,48.03,32.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",0,10.91,411.6,22.0,5.84,26.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",1,11.04,412.7,22.0,5.05,23.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",2,10.92,406.9,22.0,6.07,27.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",3,11.04,411.0,22.0,6.88,31.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",4,11.3,414.7,22.0,6.45,29.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",5,10.76,408.0,22.0,5.95,27.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",6,11.04,408.6,22.0,8.58,39.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",7,10.89,402.7,22.0,11.16,50.7
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",8,11.26,405.3,22.0,15.81,71.9
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",9,11.15,404.3,22.0,16.48,74.9
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",10,11.1,404.6,22.0,14.88,67.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",11,10.99,409.7,22.0,11.57,52.6
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",12,10.88,406.1,22.0,9.13,41.5
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",13,11.38,410.9,22.0,5.59,25.4
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",14,11.21,416.9,22.0,5.62,25.5
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",15,10.98,410.0,22.0,6.69,30.4
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",16,11.18,407.7,22.0,11.07,50.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",17,11.05,402.8,22.0,15.91,72.3
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",18,11.12,395.4,22.0,21.99,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",19,10.93,397.8,22.0,22.0,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",20,11.18,401.6,22.0,22.0,100.0
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",21,10.97,401.5,22.0,16.11,73.2
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",22,10.94,406.7,22.0,9.7,44.1
+Tamil Nadu,TAM-009,"AC Fast (Type 2, 22kW)",23,11.14,409.0,22.0,6.59,30.0

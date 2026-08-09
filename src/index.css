@@ -1,82 +1,199 @@
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --boss-bg: #0a0f0a;
-    --boss-surface: #111a11;
-    --boss-border: #1a2a1a;
-    --boss-green: #22c55e;
-    --boss-green-dim: #16a34a;
-    --boss-green-bright: #4ade80;
-    --boss-green-glow: #22c55e33;
+    /* LIGHT THEME DESIGN TOKENS (Default) */
+    --background: #F5FAF8;
+    --foreground: #0F172A;
+    --surface: #FFFFFF;
+    --surface-elevated: #FFFFFF;
+    --surface-muted: #F1F5F9;
+
+    --card: #FFFFFF;
+    --card-foreground: #0F172A;
+
+    --popover: #FFFFFF;
+    --popover-foreground: #0F172A;
+
+    --primary: #10B981;
+    --primary-dark: #047857;
+    --primary-foreground: #FFFFFF;
+
+    --secondary: #F1F5F9;
+    --secondary-foreground: #0F172A;
+
+    --muted: #E2E8F0;
+    --muted-foreground: #64748B;
+
+    --border: #D8E5DF;
+    --border-strong: #C3D5CE;
+
+    --input: #FFFFFF;
+    --input-border: #CBD5E1;
+
+    --ring: #10B981;
+    --radius: 0.75rem;
+
+    --success: #059669;
+    --success-foreground: #FFFFFF;
+    --warning: #D97706;
+    --warning-foreground: #FFFFFF;
+    --danger: #DC2626;
+    --danger-foreground: #FFFFFF;
+    --info: #2563EB;
+    --info-foreground: #FFFFFF;
+  }
+
+  html.dark {
+    /* DARK THEME DESIGN TOKENS (Control Room) */
+    --background: #07110F;
+    --foreground: #F8FAFC;
+    --surface: #0B1714;
+    --surface-elevated: #101E1A;
+    --surface-muted: #14241F;
+
+    --card: #111F1C;
+    --card-foreground: #F8FAFC;
+
+    --popover: #111F1C;
+    --popover-foreground: #F8FAFC;
+
+    --primary: #34D399;
+    --primary-bright: #10B981;
+    --primary-foreground: #07110F;
+
+    --secondary: #1E293B;
+    --secondary-foreground: #F8FAFC;
+
+    --muted: #1E293B;
+    --muted-foreground: #94A3B8;
+
+    --border: rgba(148, 163, 184, 0.16);
+    --border-strong: rgba(16, 185, 129, 0.30);
+
+    --input: #0B1714;
+    --input-border: rgba(148, 163, 184, 0.22);
+
+    --ring: #34D399;
+
+    --success: #34D399;
+    --success-foreground: #07110F;
+    --warning: #FBBF24;
+    --warning-foreground: #07110F;
+    --danger: #F87171;
+    --danger-foreground: #FFFFFF;
+    --info: #60A5FA;
+    --info-foreground: #07110F;
   }
 
   body {
-    background-color: var(--boss-bg);
-    color: #e5f0e5;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
   }
 }
 
 @layer components {
   .boss-card {
-    @apply rounded-2xl border border-[var(--boss-border)] bg-[var(--boss-surface)] p-5 shadow-lg;
+    @apply rounded-2xl border border-[#D8E5DF] dark:border-[rgba(148,163,184,0.16)] bg-white dark:bg-[#111F1C] p-5 shadow-sm dark:shadow-md backdrop-blur-md transition-all duration-200 hover:border-emerald-500/40 hover:shadow-emerald-500/10 text-[#0F172A] dark:text-[#F8FAFC];
+  }
+  .boss-card-glow {
+    @apply rounded-2xl border border-[#A7F3D0] dark:border-[rgba(16,185,129,0.30)] bg-[#F0FDF4] dark:bg-[#14241F] p-5 shadow-md dark:shadow-xl dark:shadow-emerald-500/10 backdrop-blur-md transition-all duration-200 text-[#0F172A] dark:text-[#F8FAFC];
   }
   .boss-btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-semibold transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2.5 font-bold text-sm tracking-wide transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer active:scale-[0.98];
   }
   .boss-btn-primary {
-    @apply boss-btn bg-[var(--boss-green)] text-black hover:bg-[var(--boss-green-bright)] hover:shadow-[0_0_20px_var(--boss-green-glow)];
+    @apply boss-btn bg-emerald-600 text-white hover:bg-emerald-500 shadow-lg shadow-emerald-600/30 hover:shadow-emerald-500/40 hover:scale-[1.02];
   }
   .boss-btn-ghost {
-    @apply boss-btn border border-[var(--boss-border)] text-[var(--boss-green-bright)] hover:bg-[var(--boss-border)];
+    @apply boss-btn border border-[#CBD5E1] dark:border-[rgba(148,163,184,0.22)] bg-slate-100/90 dark:bg-slate-800/80 text-[#334155] dark:text-[#E2E8F0] hover:bg-slate-200 dark:hover:bg-slate-700 hover:border-emerald-500/50 hover:text-emerald-700 dark:hover:text-white;
   }
   .boss-btn-danger {
-    @apply boss-btn bg-red-600 text-white hover:bg-red-500 hover:shadow-[0_0_20px_#ef444455];
+    @apply boss-btn bg-red-600 text-white hover:bg-red-500 shadow-lg shadow-red-600/30 hover:scale-[1.02];
   }
   .boss-input {
-    @apply w-full rounded-xl border border-[var(--boss-border)] bg-black/40 px-4 py-2.5 text-white placeholder-gray-500 outline-none transition focus:border-[var(--boss-green)] focus:ring-1 focus:ring-[var(--boss-green)];
+    @apply w-full rounded-xl border border-[#CBD5E1] dark:border-[rgba(148,163,184,0.22)] bg-white dark:bg-[#0B1714] px-4 py-2.5 text-[#0F172A] dark:text-[#F8FAFC] placeholder-[#64748B] dark:placeholder-[#94A3B8] outline-none transition-colors duration-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20;
   }
   .boss-label {
-    @apply mb-1.5 block text-sm font-medium text-gray-300;
+    @apply mb-1.5 block text-xs font-bold uppercase tracking-wider text-[#334155] dark:text-[#CBD5E1];
+  }
+  .boss-badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold tracking-wide border;
+  }
+  .boss-badge-green {
+    @apply boss-badge border-emerald-500/40 bg-emerald-500/15 text-emerald-700 dark:text-emerald-400;
+  }
+  .boss-badge-blue {
+    @apply boss-badge border-blue-500/40 bg-blue-500/15 text-blue-700 dark:text-blue-400;
+  }
+  .boss-badge-amber {
+    @apply boss-badge border-amber-500/40 bg-amber-500/15 text-amber-700 dark:text-amber-400;
   }
 }
 
-/* Leaflet map dark theme overrides */
+/* Leaflet Map Custom Styling */
 .leaflet-container {
-  background: #0a0f0a !important;
+  background: var(--background) !important;
   border-radius: 1rem;
+  z-index: 1 !important;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
 }
-.leaflet-tile {
-  filter: invert(1) hue-rotate(120deg) brightness(0.7) contrast(1.1);
+.leaflet-popup-content-wrapper {
+  background: var(--card) !important;
+  color: var(--card-foreground) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2) !important;
+}
+.leaflet-popup-tip {
+  background: var(--card) !important;
 }
 .leaflet-control-attribution {
-  background: rgba(10, 15, 10, 0.8) !important;
-  color: #4ade80 !important;
+  background: var(--card) !important;
+  color: var(--muted-foreground) !important;
 }
 .leaflet-control-attribution a {
-  color: #22c55e !important;
+  color: var(--primary) !important;
 }
 .leaflet-bar a {
-  background: #111a11 !important;
-  color: #4ade80 !important;
-  border-color: #1a2a1a !important;
+  background: var(--card) !important;
+  color: var(--foreground) !important;
+  border-color: var(--border) !important;
 }
 
-/* Scrollbar */
+/* Custom Scrollbars */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0f0a;
+  background: var(--background);
 }
 ::-webkit-scrollbar-thumb {
-  background: #1a2a1a;
+  background: #cbd5e1;
   border-radius: 4px;
 }
+html.dark ::-webkit-scrollbar-thumb {
+  background: #1e293b;
+}
 ::-webkit-scrollbar-thumb:hover {
-  background: #22c55e;
+  background: #10b981;
+}
+
+@theme inline {
+  @keyframes gradient {
+    to {
+      background-position: var(--bg-size, 300%) 0;
+    }
+  }
 }

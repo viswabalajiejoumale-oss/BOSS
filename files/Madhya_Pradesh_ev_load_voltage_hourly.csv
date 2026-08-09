@@ -1,0 +1,73 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),0,33.04,415.3,150.0,41.84,27.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),1,32.73,410.1,150.0,38.82,25.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),2,32.92,410.9,150.0,31.14,20.8
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),3,32.91,412.5,150.0,37.81,25.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),4,33.16,408.9,150.0,44.62,29.7
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),5,33.01,408.8,150.0,48.04,32.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),6,33.11,408.5,150.0,60.53,40.4
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),7,32.83,405.1,150.0,82.6,55.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),8,32.82,404.0,150.0,106.29,70.9
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),9,33.15,399.6,150.0,116.26,77.5
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),10,32.94,404.1,150.0,106.78,71.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),11,33.09,407.8,150.0,85.58,57.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),12,33.17,409.0,150.0,58.87,39.2
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),13,33.13,408.2,150.0,57.88,38.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),14,33.27,408.0,150.0,47.99,32.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),15,33.05,411.9,150.0,42.92,28.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),16,32.95,412.8,150.0,68.04,45.4
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),17,33.11,406.1,150.0,105.41,70.3
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),18,33.05,398.6,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),19,32.98,396.7,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),20,32.91,398.0,150.0,150.0,100.0
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),21,32.98,405.6,150.0,109.59,73.1
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),22,32.96,406.3,150.0,66.86,44.6
+Madhya Pradesh,MAD-026,DC Ultra-Fast (150kW),23,32.88,409.4,150.0,51.76,34.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",0,11.08,414.0,22.0,5.33,24.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",1,10.9,406.8,22.0,5.83,26.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",2,11.24,414.2,22.0,4.31,19.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",3,11.22,408.3,22.0,6.14,27.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",4,10.86,408.1,22.0,5.82,26.4
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",5,10.98,410.0,22.0,6.7,30.5
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",6,10.98,411.4,22.0,8.14,37.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",7,10.82,408.5,22.0,11.7,53.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",8,11.28,407.0,22.0,14.13,64.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",9,10.83,402.7,22.0,16.2,73.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",10,10.98,402.5,22.0,15.21,69.1
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",11,10.95,403.3,22.0,12.44,56.6
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",12,10.99,408.3,22.0,7.89,35.8
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",13,11.14,410.1,22.0,7.19,32.7
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",14,11.08,407.9,22.0,5.27,24.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",15,10.82,411.1,22.0,5.65,25.7
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",16,10.97,407.2,22.0,10.98,49.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",17,10.87,400.4,22.0,16.48,74.9
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",18,11.01,397.0,22.0,21.43,97.4
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",19,10.73,400.4,22.0,22.0,100.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",20,10.97,396.1,22.0,22.0,100.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",21,11.13,402.6,22.0,17.21,78.2
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",22,10.93,408.9,22.0,11.21,51.0
+Madhya Pradesh,MAD-027,"AC Fast (Type 2, 22kW)",23,10.91,410.4,22.0,6.03,27.4
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),0,32.91,413.3,150.0,44.99,30.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),1,33.01,410.5,150.0,28.08,18.7
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),2,33.0,415.1,150.0,36.04,24.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),3,32.95,410.9,150.0,41.27,27.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),4,33.49,411.3,150.0,32.13,21.4
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),5,33.29,406.6,150.0,42.05,28.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),6,33.2,408.2,150.0,65.19,43.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),7,33.14,406.0,150.0,79.25,52.8
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),8,33.19,400.0,150.0,113.18,75.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),9,33.0,402.7,150.0,114.22,76.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),10,32.88,406.2,150.0,97.46,65.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),11,33.12,408.2,150.0,78.13,52.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),12,33.21,410.4,150.0,62.24,41.5
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),13,33.15,407.9,150.0,53.87,35.9
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),14,32.98,413.7,150.0,43.84,29.2
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),15,33.03,408.6,150.0,46.11,30.7
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),16,33.05,408.3,150.0,69.89,46.6
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),17,32.87,402.4,150.0,109.86,73.2
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),18,33.07,400.7,150.0,147.46,98.3
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),19,33.28,400.7,150.0,150.0,100.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),20,32.93,399.3,150.0,148.55,99.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),21,32.99,400.4,150.0,109.64,73.1
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),22,33.06,409.6,150.0,72.04,48.0
+Madhya Pradesh,MAD-028,DC Ultra-Fast (150kW),23,32.89,406.7,150.0,45.35,30.2

@@ -1,7 +1,7 @@
 export type Role = 'user' | 'admin' | 'discom';
 
-export type ChargerStatus = 'available' | 'occupied' | 'fault' | 'reserved';
-export type ReservationStatus = 'pending' | 'confirmed' | 'cancelled' | 'completed' | 'expired';
+export type ChargerStatus = 'available' | 'occupied' | 'fault' | 'reserved' | 'maintenance' | 'disabled';
+export type ReservationStatus = 'pending' | 'confirmed' | 'cancelled' | 'completed' | 'expired' | 'rejected';
 
 export interface Profile {
   id: string;
@@ -39,6 +39,12 @@ export interface Station {
   current_load_kva: number;
   is_active: boolean;
   created_at: string;
+  charging_points?: number;
+  status?: string;
+  city?: string;
+  state?: string;
+  operator?: string;
+  availability_timing?: string;
 }
 
 export interface Charger {
@@ -66,6 +72,57 @@ export interface Reservation {
   code_expires_at: string | null;
   is_emergency: boolean;
   price: number | null;
+  created_at: string;
+  output_voltage_v?: number;
+  output_power_kw?: number;
+  slot_end_time?: string;
+  district?: string;
+  is_redirected?: boolean;
+  original_station_name?: string;
+  soc_verification_id?: string;
+  is_soc_verified?: boolean;
+}
+
+export type SOCVerificationStatus =
+  | 'verified'
+  | 'mismatch'
+  | 'low_confidence'
+  | 'suspicious'
+  | 'failed'
+  | 'manual_review';
+
+export interface SOCVerificationResult {
+  extractedSOC: number | null;
+  claimedSOC: number | null;
+  confidence: number;
+  status: SOCVerificationStatus;
+  reason: string;
+  imageHash?: string;
+  verifiedAt?: string;
+  expiresAt?: string;
+  verificationId?: string;
+  isReusedImage?: boolean;
+  requiredVoltageV?: number;
+  captureTimestamp?: string;
+}
+
+export interface EVSOCVerification {
+  id: string;
+  user_id: string;
+  vehicle_id?: string | null;
+  booking_id?: string | null;
+  station_id?: string | null;
+  claimed_soc: number;
+  verified_soc?: number | null;
+  ocr_confidence: number;
+  verification_status: SOCVerificationStatus;
+  image_hash: string;
+  image_url?: string | null;
+  captured_at: string;
+  verified_at: string;
+  expires_at: string;
+  is_reused_image: boolean;
+  failure_reason?: string | null;
   created_at: string;
 }
 
@@ -120,4 +177,12 @@ export interface BookingResult {
   reservation?: Reservation;
   station?: Station;
   qrData?: string;
+  output_voltage_v?: number;
+  output_power_kw?: number;
+  slot_end_time?: string;
+  district?: string;
+  is_redirected?: boolean;
+  original_station_name?: string;
+  soc_verification_id?: string;
+  is_soc_verified?: boolean;
 }

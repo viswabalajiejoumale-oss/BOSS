@@ -1,0 +1,2114 @@
+==================================================
+BOSS EV CHARGING STATIONS DISTRICT REPORT
+Generated: 2026-08-03T04:38:08.036Z
+Total Districts: 369
+Total Stations: 1000
+==================================================
+
+District: ADIMALI (2 stations)
+--------------------------------------------------
+  [1] Adimali Rangers (Kerala)
+  [2] Nest Homestay EVOK | Adimali (Kerala)
+
+District: ADOOR (5 stations)
+--------------------------------------------------
+  [1] EQ Kalayil EVCS | Adoor (Kerala)
+  [2] JB Power EVCS - GO EC (Kerala)
+  [3] Peninsula Park Residency EVCS - GO EC (Kerala)
+  [4] Green Earth - GO EC (Kerala)
+  [5] SR Auto Zone - ChargeMOD (Kerala)
+
+District: AGRA (2 stations)
+--------------------------------------------------
+  [1] Bundelkhand Expressway 188 Km Rest Area (Uttar Pradesh)
+  [2] Statiq Jaypee Agra (Uttar Pradesh)
+
+District: AIKKARAPADI (1 stations)
+--------------------------------------------------
+  [1] RG Nallanna EVCS (EVOK) - ChargeMOD (Kerala)
+
+District: ALAPPUZHA (6 stations)
+--------------------------------------------------
+  [1] Cassia Regency EVCS - GO EC (Kerala)
+  [2] Neo Charge EVCS - GO EC (Kerala)
+  [3] Jason Orchard Inn EVCS - GO EC (Kerala)
+  [4] Amma Restaurant (Kerala)
+  [5] Thankamanys EV Fast Charging Station - ChargeMOD (Kerala)
+  [6] Cassia Restaurant (Kerala)
+
+District: ALATHUR (1 stations)
+--------------------------------------------------
+  [1] Doctor Green EVCS - GO EC (Kerala)
+
+District: ALLIYAR (1 stations)
+--------------------------------------------------
+  [1] Calvarymount Jerry Plaza (Kerala)
+
+District: ALUVA (3 stations)
+--------------------------------------------------
+  [1] Yash Square EVCS (Kerala)
+  [2] Innate Convention Centre (Kerala)
+  [3] Rajagiri Hospital EVCS - ChargeMOD (Kerala)
+
+District: AMBALLUR (2 stations)
+--------------------------------------------------
+  [1] Gokulam Residency - Tata Power (Kerala)
+  [2] Topup Zone EVCS - ChargeMOD (Kerala)
+
+District: ANGAMALY (6 stations)
+--------------------------------------------------
+  [1] Sree Gokulam Motors - Tata Power (Kerala)
+  [2] V-Green EVCS - GO EC (Kerala)
+  [3] EVOK Charging Station - ChargeMOD (Kerala)
+  [4] Edassery Blue Bells EVCS - ChargeMOD (Kerala)
+  [5] Hotel Elite Palazzo (Kerala)
+  [6] Maxx Inn M Star (Kerala)
+
+District: ANJARAKANDY (1 stations)
+--------------------------------------------------
+  [1] Power Drive EV Supercharging Station (Kerala)
+
+District: ANTHIKKAD (1 stations)
+--------------------------------------------------
+  [1] GO Green EVCS (Kerala)
+
+District: ARASUR (1 stations)
+--------------------------------------------------
+  [1] Sugam Hospitality (Tamil Nadu)
+
+District: ARMOOR (1 stations)
+--------------------------------------------------
+  [1] JIO-BP Pulse (Telangana)
+
+District: AROOKUTTY (1 stations)
+--------------------------------------------------
+  [1] Club Mahindra Aleppey Resort (Kerala)
+
+District: ARPOOKARA (1 stations)
+--------------------------------------------------
+  [1] Gandhi Nagar KSEB EVCS - ChargeMOD (Kerala)
+
+District: ASANSOL (1 stations)
+--------------------------------------------------
+  [1] FC - TataPower - TMSC Chandrani Enterprises (West Bengal)
+
+District: ATHANI (2 stations)
+--------------------------------------------------
+  [1] Athani Energize EVCS (Kerala)
+  [2] Hotel Airlink Castle - GO EC (Kerala)
+
+District: ATHIRAPPILLY (1 stations)
+--------------------------------------------------
+  [1] Hill View Resort (EVOK) - ChargeMOD (Kerala)
+
+District: ATTINGAL (3 stations)
+--------------------------------------------------
+  [1] Aeron EVCS - GO EC (Kerala)
+  [2] Zenith EVCS - GO EC (Kerala)
+  [3] Avananchery KSEB EVCS - ChargeMOD (Kerala)
+
+District: BAKKALAM (1 stations)
+--------------------------------------------------
+  [1] PCR Bank EVCS - ChargeMOD (Kerala)
+
+District: BALASORE (49 stations)
+--------------------------------------------------
+  [1] Ather Grid Charging Station (Odisha)
+  [2] Ather Grid Charging Station (Odisha)
+  [3] Tata Power Charging Station (Odisha)
+  [4] Jio-bp pulse Charging Station (Odisha)
+  [5] Ather Grid Charging Station (Odisha)
+  [6] Ather Grid Charging Station (Odisha)
+  [7] BPCL Charging Station (Odisha)
+  [8] Electric Vehicle Charging Station (Odisha)
+  [9] Jio-bp (Odisha)
+  [10] Jio-bp (Odisha)
+  [11] BPCL Charging Station (Odisha)
+  [12] BPCL Charging Station (Odisha)
+  [13] Ather Charging Station (Odisha)
+  [14] Ather Grid Charging Station (Odisha)
+  [15] Jio-bp pulse Charging Station (Odisha)
+  [16] Ather Grid Charging Station (Odisha)
+  [17] Om sai corporation e rickshaw (Odisha)
+  [18] Ather Grid Charging Station (Odisha)
+  [19] Bal Gopal Motors (Odisha)
+  [20] Ather Grid Charging Station (Odisha)
+  [21] Ather Grid Charging Station (Odisha)
+  [22] Ather Grid Charging Station (Odisha)
+  [23] Ather Grid Charging Station (Odisha)
+  [24] Tata Power Charging Station (Odisha)
+  [25] Tata Power Charging Station (Odisha)
+  [26] Electric Vehicle Charging Station (Odisha)
+  [27] Ather Charging Station (Odisha)
+  [28] Ather Grid Charging Station (Odisha)
+  [29] Jio-bp pulse Charging Station (Odisha)
+  [30] BPCL Charging Station (Odisha)
+  [31] Electric Vehicle Charging Station (Odisha)
+  [32] Electric Vehicle Charging Station (Odisha)
+  [33] Ather Grid Charging Station (Odisha)
+  [34] BPCL Charging Station (Odisha)
+  [35] okinawa electric scooter (Odisha)
+  [36] Electric Vehicle Charging Station (Odisha)
+  [37] Ather Grid Charging Station (Odisha)
+  [38] Ather Grid Charging Station (Odisha)
+  [39] Ather Grid Charging Station (Odisha)
+  [40] Jio-bp pulse Charging Station (Odisha)
+  [41] BPCL Charging Station (Odisha)
+  [42] Electric Vehicle Charging Station (Odisha)
+  [43] Electric Vehicle Charging Station (Odisha)
+  [44] Ather Grid Charging Station (Odisha)
+  [45] BPCL Charging Station (Odisha)
+  [46] okinawa electric scooter (Odisha)
+  [47] Electric Vehicle Charging Station (Odisha)
+  [48] Ather Grid Charging Station (Odisha)
+  [49] Ather Grid Charging Station (Odisha)
+
+District: BALUSSERI (1 stations)
+--------------------------------------------------
+  [1] Iris Mall EVCS (Kerala)
+
+District: BEKKAL (1 stations)
+--------------------------------------------------
+  [1] Taj Bekkal - Tata Power (Kerala)
+
+District: BHARANANGANAM (1 stations)
+--------------------------------------------------
+  [1] Cargo Auto Hub EVCS (Kerala)
+
+District: BIORA (1 stations)
+--------------------------------------------------
+  [1] Hotel Shivani (Madhya Pradesh)
+
+District: BONLI (2 stations)
+--------------------------------------------------
+  [1] Rest Area Jio BP  RHS (Rajasthan)
+  [2] DME Bonli Jio BP LHS (RJ)
+
+District: COIMBATORE (1 stations)
+--------------------------------------------------
+  [1] ev (TAMILNADU)
+
+District: CHADAYAMANGALAM (1 stations)
+--------------------------------------------------
+  [1] Orion Plaza EVCS - GO EC (Kerala)
+
+District: CHALAKKA (1 stations)
+--------------------------------------------------
+  [1] Irrai EVCS | Chalakka (Kerala)
+
+District: CHALAKKUDY (2 stations)
+--------------------------------------------------
+  [1] Indian Coffee House (EVOK) - ChargeMOD (Kerala)
+  [2] Clay House Hotel (Kerala)
+
+District: CHALAKUDY (2 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS - ChargeMOD (Kerala)
+  [2] Edassery Samrudhi Hypermarket (EVOK) - ChargeMOD (Kerala)
+
+District: CHANGANASSERI (1 stations)
+--------------------------------------------------
+  [1] Iongrid | Thuruthy (Kerala)
+
+District: CHANGANASSERY (4 stations)
+--------------------------------------------------
+  [1] EQ Charis EVCS | Cheeranchira (Kerala)
+  [2] 160kW GREEN ENERGY EV CHARGING STATION (Kerala)
+  [3] Changanassery Immaculate Mary EVCS (Kerala)
+  [4] JJ E Fills - ChargeMOD (Kerala)
+
+District: CHANGARAMKULAM (3 stations)
+--------------------------------------------------
+  [1] Environ EVCS (Kerala)
+  [2] Sihla Energy EVCS - ChargeMOD (Kerala)
+  [3] Kadharkkante Chayakkada - ChargeMOD (Kerala)
+
+District: CHAVARA (2 stations)
+--------------------------------------------------
+  [1] Panamthodil Bakers | Chavara (Kerala)
+  [2] Panamthodil Bakers | Chavara (Kerala)
+
+District: CHAZHOOR (1 stations)
+--------------------------------------------------
+  [1] Surya Hotel (EVOK) - ChargeMOD (Kerala)
+
+District: CHELAVOOR (1 stations)
+--------------------------------------------------
+  [1] Kunnamangalam Little Flower EVCS (Kerala)
+
+District: CHENDAMANGALAM (1 stations)
+--------------------------------------------------
+  [1] Chendamangalam Combined Energy (Kerala)
+
+District: CHENGALA (1 stations)
+--------------------------------------------------
+  [1] Apco Hyundai - ChargeZone (Kerala)
+
+District: CHENGANNUR (4 stations)
+--------------------------------------------------
+  [1] Quik Energy EVCS - GO EC (Kerala)
+  [2] Amrutham Auto Care EVCS - GO EC (Kerala)
+  [3] Green Plug EVCS - ChargeMOD (Kerala)
+  [4] PTC Arcade - ChargeMOD (Kerala)
+
+District: CHENNAI (1 stations)
+--------------------------------------------------
+  [1] Sheraton Grand Chennai Resort (Tamil Nadu)
+
+District: CHERAI (1 stations)
+--------------------------------------------------
+  [1] Club Mahindra Resort - Cherai Beach (Kerala)
+
+District: CHERTHALA (3 stations)
+--------------------------------------------------
+  [1] Adithya Shree EVCS | Ponnamveli (Kerala)
+  [2] Huts Restaurant EVCS - GO EC (Kerala)
+  [3] ANERT EESL - Autokast (Kerala)
+
+District: CHERUTHURUTHI (1 stations)
+--------------------------------------------------
+  [1] AR Dine - GO EC (Kerala)
+
+District: CHERUVATHUR (1 stations)
+--------------------------------------------------
+  [1] Ammas Fast - ChargeMOD (Kerala)
+
+District: CHETTUVA (1 stations)
+--------------------------------------------------
+  [1] VKJ | Flash Charge EVCS | Chettuva (Kerala)
+
+District: CHIKHLI (1 stations)
+--------------------------------------------------
+  [1] Hotel Empire ChargeZone (Gujarat)
+
+District: CHINNAKKADA (1 stations)
+--------------------------------------------------
+  [1] Bishop Jerome Nagar (EVOK) EVCS - ChargeMOD (Kerala)
+
+District: CHIRAKKAL (1 stations)
+--------------------------------------------------
+  [1] Chirakkal Bank EVCS (Kerala)
+
+District: CHOORNIKKARA (2 stations)
+--------------------------------------------------
+  [1] Tata.ev Gokulam Motors - Tata Power (Kerala)
+  [2] Sulfex Mattress (EVOK) - ChargeMOD (Kerala)
+
+District: COCHIN (1 stations)
+--------------------------------------------------
+  [1] Brunton Boatyard (Kerala)
+
+District: COIMBATORE (2 stations)
+--------------------------------------------------
+  [1] Lotus Hyundai (Tamil Nadu)
+  [2] Hydra Charging (Tamil Nadu)
+
+District: CUTTACK (62 stations)
+--------------------------------------------------
+  [1] Hindustan Petroleum Corporation Limited Charging Station (Odisha)
+  [2] Ather Grid Charging Station (Odisha)
+  [3] BPCL Charging Station (Odisha)
+  [4] Ankush Vehicles (Odisha)
+  [5] BPCL Charging Station (Odisha)
+  [6] Electric Vehicle Charging Station (Odisha)
+  [7] Electric Vehicle Charging Station (Odisha)
+  [8] Adani Charging Station (Odisha)
+  [9] Tata Power Charging Station (Odisha)
+  [10] Ather Charging Station (Odisha)
+  [11] Tata Power Charging Station (Odisha)
+  [12] Ather Grid Charging Station (Odisha)
+  [13] Ather Grid Charging Station (Odisha)
+  [14] Tata Power Charging Station (Odisha)
+  [15] Tata Power Charging Station (Odisha)
+  [16] Ather Grid Charging Station (Odisha)
+  [17] Ather Grid Charging Station (Odisha)
+  [18] Ather Charging Station (Odisha)
+  [19] Ather Grid Charging Station (Odisha)
+  [20] Ather Grid Charging Station (Odisha)
+  [21] Ather Grid Charging Station (Odisha)
+  [22] Tata Power Charging Station (Odisha)
+  [23] Thunder Plus Charging Station (Odisha)
+  [24] Tata Power Charging Station (Odisha)
+  [25] Hindustan Petroleum Corporation Limited (Odisha)
+  [26] Jio-bp pulse Charging Station (Odisha)
+  [27] Ather Grid Charging Station (Odisha)
+  [28] Electric Vehicle Charging Station (Odisha)
+  [29] Electric Vehicle Charging Station (Odisha)
+  [30] Jio-bp (Odisha)
+  [31] Tata Power Charging Station (Odisha)
+  [32] Electric Vehicle Charging Station (Odisha)
+  [33] Ather Grid Charging Station (Odisha)
+  [34] Ather Grid Charging Station (Odisha)
+  [35] DIMILI VILLAGE (Odisha)
+  [36] Tata Power Charging Station (Odisha)
+  [37] Tata Power Charging Station (Odisha)
+  [38] Jio-bp (Odisha)
+  [39] Jio-bp pulse Charging Station (Odisha)
+  [40] Ather Energy Charging Station (Odisha)
+  [41] Jio-bp (Odisha)
+  [42] Jio-bp pulse Charging Station (Odisha)
+  [43] Tata Power Charging Station (Odisha)
+  [44] JoulePoint Charging Station (Odisha)
+  [45] Electric Vehicle Charging Station (Odisha)
+  [46] Electric Vehicle Charging Station (Odisha)
+  [47] Jio-bp (Odisha)
+  [48] Tata Power Charging Station (Odisha)
+  [49] Electric Vehicle Charging Station (Odisha)
+  [50] Ather Grid Charging Station (Odisha)
+  [51] Ather Grid Charging Station (Odisha)
+  [52] DIMILI VILLAGE (Odisha)
+  [53] Tata Power Charging Station (Odisha)
+  [54] Tata Power Charging Station (Odisha)
+  [55] Jio-bp (Odisha)
+  [56] Jio-bp pulse Charging Station (Odisha)
+  [57] Ather Energy Charging Station (Odisha)
+  [58] Jio-bp (Odisha)
+  [59] Jio-bp pulse Charging Station (Odisha)
+  [60] Tata Power Charging Station (Odisha)
+  [61] JoulePoint Charging Station (Odisha)
+  [62] Electric Vehicle Charging Station (Odisha)
+
+District: DAHOD (1 stations)
+--------------------------------------------------
+  [1] Avantika Resort EV Cosmos (Gujarat)
+
+District: DHANBAD (1 stations)
+--------------------------------------------------
+  [1] FC - TataPower - Hotel Sumandeep (Jharkhand)
+
+District: DHARAMSHALA (1 stations)
+--------------------------------------------------
+  [1] BPCL EV Dharamshala Road (Himachal Pradesh)
+
+District: DHARAPURAM (1 stations)
+--------------------------------------------------
+  [1] Hydra Charging Station (Tamil Nadu)
+
+District: DUDU (1 stations)
+--------------------------------------------------
+  [1] Old Rao Hotel (rajasthan)
+
+District: DUMRI (1 stations)
+--------------------------------------------------
+  [1] Green Garden Family Restaurant (Jharkhand)
+
+District: EDAPALLY (3 stations)
+--------------------------------------------------
+  [1] Daffodils EVCS - GO EC (Kerala)
+  [2] Oberon Mall EVCS - GO EC (Kerala)
+  [3] Lulu International Shopping Mall EVCS - GO EC (Kerala)
+
+District: EDAPPAL (1 stations)
+--------------------------------------------------
+  [1] Emirates Mall - Zeon (Kerala)
+
+District: EDAPPALLI (2 stations)
+--------------------------------------------------
+  [1] Grand Mall (Kerala)
+  [2] Gokul Oottupura Restaurant (Kerala)
+
+District: EDAPPALLY (3 stations)
+--------------------------------------------------
+  [1] Tata.ev Luxon Motors - Tata Power (Kerala)
+  [2] TML Sree Gokulam Motors - Tata Power (Kerala)
+  [3] Flash Charge - ChargeMOD (Keral)
+
+District: EDATHWA (1 stations)
+--------------------------------------------------
+  [1] Iongrid EV Spark - ChargeMOD (Kerala)
+
+District: EDAVANNA (1 stations)
+--------------------------------------------------
+  [1] One Stop Automotive Cahrging Station - Tata Power (Kerala)
+
+District: EDAVANNAPPARA (2 stations)
+--------------------------------------------------
+  [1] Bisluck Energy EVCS | Vattaparamba (Kerala)
+  [2] Trends Edavannappara EVCS - ChargeMOD (Kerala)
+
+District: ELAMBALUR (1 stations)
+--------------------------------------------------
+  [1] Ashva Hyundai (Tamil Nadu)
+
+District: ELAPPULLY (3 stations)
+--------------------------------------------------
+  [1] Palakkad Ahalia Women and Childern Hospital EVCS - GO EC (Kerala)
+  [2] Palakkad Ahalia Eye Hospital EVCS - GO EC (Kerala)
+  [3] Palakkad Ahalia Food Point EVCS - GO EC (Kerala)
+
+District: ENGANDIYOOR (1 stations)
+--------------------------------------------------
+  [1] Hotel Bhavan EVCS (EVOK) - ChargeMOD (Kerala)
+
+District: ENGAPUZHA (1 stations)
+--------------------------------------------------
+  [1] IOCL Engapuzha Fuel - Tata Power (Kerala)
+
+District: ERATTUPETTA (1 stations)
+--------------------------------------------------
+  [1] Palm Peats (EVOK) - ChargeMOD (Kerala)
+
+District: ERNAKULAM (4 stations)
+--------------------------------------------------
+  [1] EC City Centre EVCS - GO EC (Kerala)
+  [2] ANERT EESL - Ernakulam (Kerala)
+  [3] Le Meridien - ChargeZone (Kerala)
+  [4] MB#Coastal Star (Kerala)
+
+District: ERUMAPPETTI (1 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS - ChargeMOD (Kerala)
+
+District: ERUMELY (1 stations)
+--------------------------------------------------
+  [1] Ayyappa EVCS (Kerala)
+
+District: ETTUMANOOR (4 stations)
+--------------------------------------------------
+  [1] Minerva EVCS (Kerala)
+  [2] Qwik Volt EVCS | Kothanalloor (Kerala)
+  [3] Ettumanur Skylight EVCS - GO EC (Kerala)
+  [4] Alpha Hangout Play World (Kerala)
+
+District: FEROKE (1 stations)
+--------------------------------------------------
+  [1] Indus Motors - ChargeMOD (Kerala)
+
+District: GANGANAGAR (2 stations)
+--------------------------------------------------
+  [1] KR RESORT (Rajasthan)
+  [2] KR RESORT (Rajasthan)
+
+District: GANJAM (64 stations)
+--------------------------------------------------
+  [1] Hindustan Petroleum Corporation Limited (Odisha)
+  [2] Tata Power Charging Station (Odisha)
+  [3] Ather Grid Charging Station (Odisha)
+  [4] CharjKaro Charging Station (Odisha)
+  [5] BPCL Charging Station (Odisha)
+  [6] Ather Charging Station (Odisha)
+  [7] Tata Power Charging Station (Odisha)
+  [8] PRATIK E RICKSHAW (Odisha)
+  [9] BPCL Charging Station (Odisha)
+  [10] Electric Vehicle Charging Station (Odisha)
+  [11] BPCL Charging Station (Odisha)
+  [12] BPCL Charging Station (Odisha)
+  [13] Ather Grid Charging Station (Odisha)
+  [14] BPCL Charging Station (Odisha)
+  [15] Electric Vehicle Charging Station (Odisha)
+  [16] BPCL Charging Station (Odisha)
+  [17] Tata Power Charging Station (Odisha)
+  [18] Jio-bp pulse Charging Station (Odisha)
+  [19] Ather Grid Charging Station (Odisha)
+  [20] Electric Vehicle Charging Station (Odisha)
+  [21] EESL Charging Station (Odisha)
+  [22] Jio-bp pulse Charging Station (Odisha)
+  [23] Tata Power Charging Station (Odisha)
+  [24] Tata Power Charging Station (Odisha)
+  [25] Hindustan Petroleum Corporation Limited Charging Station (Odisha)
+  [26] Electric Vehicle Charging Station (Odisha)
+  [27] Electric Vehicle Charging Station (Odisha)
+  [28] Ather Grid Charging Station (Odisha)
+  [29] Jio-bp pulse Charging Station (Odisha)
+  [30] Tata Power Charging Station (Odisha)
+  [31] Electric Vehicle Charging Station (Odisha)
+  [32] Ather Grid Charging Station (Odisha)
+  [33] Kazam Charging Station (Odisha)
+  [34] Electric Vehicle Charging Station (Odisha)
+  [35] Ather Grid Charging Station (Odisha)
+  [36] MIRZA RIYAZ HOUSE , CONNON XEROX SERVICE CENTRE, (Odisha)
+  [37] BPCL Charging Station (Odisha)
+  [38] Tata Power Charging Station (Odisha)
+  [39] Ather Grid Charging Station (Odisha)
+  [40] G.K Rickshaw (Odisha)
+  [41] KACHERI SECTION TPCODL (Odisha)
+  [42] Ather Grid Charging Station (Odisha)
+  [43] Ather Charging Station (Odisha)
+  [44] Tata Power Charging Station (Odisha)
+  [45] Electric Vehicle Charging Station (Odisha)
+  [46] Ather Grid Charging Station (Odisha)
+  [47] Tata Power Charging Station (Odisha)
+  [48] AtherGrid Charging Station (Odisha)
+  [49] Ather Grid Charging Station (Odisha)
+  [50] Hindustan Petroleum Corporation Limited Charging Station (Odisha)
+  [51] Ather Grid Charging Station (Odisha)
+  [52] Ather Grid Charging Station (Odisha)
+  [53] G.K Rickshaw (Odisha)
+  [54] KACHERI SECTION TPCODL (Odisha)
+  [55] Ather Grid Charging Station (Odisha)
+  [56] Ather Charging Station (Odisha)
+  [57] Tata Power Charging Station (Odisha)
+  [58] Electric Vehicle Charging Station (Odisha)
+  [59] Ather Grid Charging Station (Odisha)
+  [60] Tata Power Charging Station (Odisha)
+  [61] AtherGrid Charging Station (Odisha)
+  [62] Ather Grid Charging Station (Odisha)
+  [63] Hindustan Petroleum Corporation Limited Charging Station (Odisha)
+  [64] Ather Grid Charging Station (Odisha)
+
+District: GAROTH (2 stations)
+--------------------------------------------------
+  [1] DME Garoth Rest Area RHS (MP)
+  [2] Volttic Delhi Mumbai Expressway LHS Garoth (MP)
+
+District: GOVINDAPURAM (1 stations)
+--------------------------------------------------
+  [1] Lulu Mall EVCS (Kerala)
+
+District: GUNA (2 stations)
+--------------------------------------------------
+  [1] K2 Highway Treat & Resort (Madhya Pradesh)
+  [2] Green Mountain Resort (Madhya Pradesh)
+
+District: GURUVAYOOR (1 stations)
+--------------------------------------------------
+  [1] Sree Krishna Hotel - GO EC (Kerala)
+
+District: GURUVAYUR (3 stations)
+--------------------------------------------------
+  [1] Guruvayoor Sreeja EVCS (Kerala)
+  [2] Hotel Gokulam Sabari - Tata Power (Kerala)
+  [3] Hotel Devaragam (Kerala)
+
+District: HAILAKANDI (1 stations)
+--------------------------------------------------
+  [1] Home (Assam)
+
+District: HALDWANI (6 stations)
+--------------------------------------------------
+  [1] Shree Bihariji Filling Station (Uttarakhand)
+  [2] BPCL Royal Fuel Station (Uttarakhand)
+  [3] Fortune Walkway Mall (Uttarakhand)
+  [4] Bikanerwala Sweets Haldwani (Aargo) (Uttarakhand)
+  [5] Bharat Petroleum - Janta Petrol Pump (Uttarakhand)
+  [6] Tata Power - Electric Vehicle Charging Station (Uttarakhand)
+
+District: HARIPAD (1 stations)
+--------------------------------------------------
+  [1] V Volte EVCS - GO EC (Kerala)
+
+District: HARIPPAD (1 stations)
+--------------------------------------------------
+  [1] Muzhangodayil EVCS - ChargeMOD (Kerala)
+
+District: HOSDURG (1 stations)
+--------------------------------------------------
+  [1] Periya A Star - GO EC (Kerala)
+
+District: HUBBALLI-DHARWAD (1 stations)
+--------------------------------------------------
+  [1] Charging station (Karnataka)
+
+District: IDUKKI (4 stations)
+--------------------------------------------------
+  [1] EVee Buddy | Everest Hotel | Idukki (Kerala)
+  [2] GO EC Charging Station (Kerala)
+  [3] ANERT EESL - DTPC Idukki Park (Kerala)
+  [4] GreenVeel - ChargeZone (Kerala)
+
+District: INCHAKKAD (1 stations)
+--------------------------------------------------
+  [1] Vrindavan EVCS - GO EC (Kerala)
+
+District: IRINJALAKKUDA (1 stations)
+--------------------------------------------------
+  [1] Irinjalakkuda KSEB EVCS - ChargeMOD (Kerala)
+
+District: IRITTY (2 stations)
+--------------------------------------------------
+  [1] KVR Dream Vehicles Service Centre - Tata Power (Kerala)
+  [2] Sky Penta EVCS - ChargeMOD (Kerala)
+
+District: JAIPUR (1 stations)
+--------------------------------------------------
+  [1] Hotel Highway King (Rajasthan)
+
+District: KADAVANTHRA (1 stations)
+--------------------------------------------------
+  [1] Prithvi EVCS - GO EC (Kerala)
+
+District: KAKKANAD (2 stations)
+--------------------------------------------------
+  [1] Park Residency EVCS - GO EC (Kerala)
+  [2] Hound Mobility EVCS | Kakkanad (Kerala)
+
+District: KALADY (1 stations)
+--------------------------------------------------
+  [1] Smartvolt EVCS (Kerala)
+
+District: KALAMASSERY (3 stations)
+--------------------------------------------------
+  [1] Steelane (EVOK) - ChargeMOD (Kerala)
+  [2] Kalamassery KSEB EVCS - ChargeMOD (Kerala)
+  [3] Rajagiri College EVCS - ChargeMOD (Kerala)
+
+District: KALOOR (1 stations)
+--------------------------------------------------
+  [1] Kaloor KSEB EVCS - ChargeMOD (Kerala)
+
+District: KALPETTA (5 stations)
+--------------------------------------------------
+  [1] TML Marina Motors Pvt. Ltd. Kalpetta - Tata Power (Kerala)
+  [2] Cafe Manoila - GO EC (Kerala)
+  [3] Konfudha Resort - ChargeMOD (Kerala)
+  [4] Great Trails Wayanad by GRT Hotels (Kerala)
+  [5] Nesto Hypermarket - Zeon (Kerala)
+
+District: KAMABALAKKAD (1 stations)
+--------------------------------------------------
+  [1] JetEV Nest Developers | Kambalakkad (Kerala)
+
+District: KANHANGAD (2 stations)
+--------------------------------------------------
+  [1] Kanhangad KSEB EVCS - ChangeMOD (Kerala)
+  [2] Raj Residency - Zeon (Kerala)
+
+District: KANJIKKODE (1 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS - ChargeMOD (Kerala)
+
+District: KANJIKODE (1 stations)
+--------------------------------------------------
+  [1] EVMOD EVCS | Pudussery (Kerala)
+
+District: KANJIRAMATTOM (1 stations)
+--------------------------------------------------
+  [1] Vijaya EVCS - GO EC (Kerala)
+
+District: KANNUR (6 stations)
+--------------------------------------------------
+  [1] Tata.ev KVR Dreams Kannur - Tata Power (Kerala)
+  [2] Mandrin Sky - GO EC (Kerala)
+  [3] G Mall - GO EC (Kerala)
+  [4] Manjapalam KSEB EVCS - ChargeMOD (Kerala)
+  [5] ANERT EESL - Pinarayi Park (Kerala)
+  [6] Koodali SCB (Kerala)
+
+District: KARAIKUDI (1 stations)
+--------------------------------------------------
+  [1] Sree Karpagamoorthy Automobiles (Tamil Nadu)
+
+District: KARETTE (2 stations)
+--------------------------------------------------
+  [1] Karthika Residency Hotel EVCS - GO EC (Kerala)
+  [2] KKP Renewables EVCS - GO EC (Kerala)
+
+District: KARIMKUNNAM (1 stations)
+--------------------------------------------------
+  [1] EQ EV Nest - ChargeMOD (Kerala)
+
+District: KARIPPOL (1 stations)
+--------------------------------------------------
+  [1] Relax Point Restaurant (Kerala)
+
+District: KARIYAD (1 stations)
+--------------------------------------------------
+  [1] Luxon Motors - Tata Power (Kerala)
+
+District: KARNAL (1 stations)
+--------------------------------------------------
+  [1] NE-4 KFC Parking (Haryana)
+
+District: KARULAI (1 stations)
+--------------------------------------------------
+  [1] Karulai Malayora Express EVCS - GO EC (Kerala)
+
+District: KARUNAGAPALLY (1 stations)
+--------------------------------------------------
+  [1] Best EVCS | Karunagappalli (Kerala)
+
+District: KARUNAGAPPALLI (4 stations)
+--------------------------------------------------
+  [1] Throw In Foodcourt | Karunagappalli (Kerala)
+  [2] Zufo EVCS (Kerala)
+  [3] Hotel Indraprastha (Kerala)
+  [4] Best EVCS - ChargeMOD (Kerala)
+
+District: KARUR (3 stations)
+--------------------------------------------------
+  [1] Aravai Aanandas (Tamil Nadu)
+  [2] VSB Auto Care (Tamil Nadu)
+  [3] AKR Textiles (Tamil Nadu)
+
+District: KARUVANNUR (1 stations)
+--------------------------------------------------
+  [1] Sihla Energy EVCS - ChargeMOD (Kerala)
+
+District: KARUVATTA (2 stations)
+--------------------------------------------------
+  [1] V Charge Hub - ChargeMOD (Kerala)
+  [2] Quick Charge EVCS - ChargeMOD (Kerala)
+
+District: KARYAVATTOM (1 stations)
+--------------------------------------------------
+  [1] Electro Zone EV Fast Charging Station - ChargeMOD (Kerala)
+
+District: KASARAGOD (3 stations)
+--------------------------------------------------
+  [1] TML KVR Dream Vehicles EVCS - Tata Power (Kerala)
+  [2] IOCL Top Fuels Karanthakkad Charging Station - Tata Power (Kerala)
+  [3] Roshi EVCS (EVOK) - ChargeMOD (Kerala)
+
+District: KATHIRUR (1 stations)
+--------------------------------------------------
+  [1] Co-Operqative Bank - Zeon (Kerala)
+
+District: KATTAPPANA (2 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS | Kattappana (Kerala)
+  [2] Westgate Inn EVCS - GO EC (Kerala)
+
+District: KAVALAYUR (1 stations)
+--------------------------------------------------
+  [1] AR Square EVCS | Kavalayoor (Kerala)
+
+District: KAYAMKULAM (4 stations)
+--------------------------------------------------
+  [1] Sparkzone EVCS - GO EC (Kerala)
+  [2] Cartist - GO EC (Kerala)
+  [3] ANERT EESL - KTDC Aahar Restaurant (Lerala)
+  [4] GDM Auditorium - ChargeZone (Kerala)
+
+District: KAZHAKUTTOM (1 stations)
+--------------------------------------------------
+  [1] Akshaya EV Fast Charging Station - ChargeMOD (Kerala)
+
+District: KECHERY (2 stations)
+--------------------------------------------------
+  [1] Regen Energy (Kerala)
+  [2] Executive EVCS - ChargeMOD (Kerala)
+
+District: KHAJURAHO (2 stations)
+--------------------------------------------------
+  [1] Khajuraho Airport (MP)
+  [2] Hotel Bundela (MP)
+
+District: KHORDHA (44 stations)
+--------------------------------------------------
+  [1] Jio-bp (Odisha)
+  [2] Ather charging station (Odisha)
+  [3] Tata Power Charging Station (Odisha)
+  [4] Ather Grid Charging Station (Odisha)
+  [5] Jio-bp pulse Charging Station (Odisha)
+  [6] Ather Grid Charging Station (Odisha)
+  [7] Ather Charging Station (Odisha)
+  [8] Electric Vehicle Charging Station (Odisha)
+  [9] Ather Charging Station (Odisha)
+  [10] Electric Vehicle Charging Station (Odisha)
+  [11] NIKOL EV Charging Station (Odisha)
+  [12] Ather Grid Charging Station (Odisha)
+  [13] Ather Grid Charging Station (Odisha)
+  [14] Ola Charging Station (Odisha)
+  [15] Tata Power Charging Station (Odisha)
+  [16] BPCL Charging Station (Odisha)
+  [17] BPCL Charging Station (Odisha)
+  [18] Electric Vehicle Charging Station (Odisha)
+  [19] Electric Vehicle Charging Station (Odisha)
+  [20] Jio-bp (Odisha)
+  [21] Adani Charging Station (Odisha)
+  [22] Ather Charging Station (Odisha)
+  [23] DiodeEV Charging Station (Odisha)
+  [24] BPCL Charging Station (Odisha)
+  [25] Hindustan Petroleum Corporation Limited (Odisha)
+  [26] Jio-bp (Odisha)
+  [27] Relux Charging Station (Odisha)
+  [28] Tata Power Charging Station (Odisha)
+  [29] Adani Charging Station (Odisha)
+  [30] Ather Grid Charging Station (Odisha)
+  [31] Ather Grid Charging Station (Odisha)
+  [32] Maa Tara Tarini Tour And Travels (Odisha)
+  [33] Ather Grid Charging Station (Odisha)
+  [34] BPCL Charging Station (Odisha)
+  [35] Hindustan Petroleum Corporation Limited (Odisha)
+  [36] Jio-bp (Odisha)
+  [37] Relux Charging Station (Odisha)
+  [38] Tata Power Charging Station (Odisha)
+  [39] Adani Charging Station (Odisha)
+  [40] Ather Grid Charging Station (Odisha)
+  [41] Ather Grid Charging Station (Odisha)
+  [42] Maa Tara Tarini Tour And Travels (Odisha)
+  [43] Ather Grid Charging Station (Odisha)
+  [44] Jio-bp (Odisha)
+
+District: KICHHA (3 stations)
+--------------------------------------------------
+  [1] Sagar Tranport Company (Uttarakhand)
+  [2] Yash Filling Station (Uttarakhand)
+  [3] 2012531-PRAKASH PETROLEUM (Uttarakhand)
+
+District: KIDANGOOR (1 stations)
+--------------------------------------------------
+  [1] Nilas Magestic Arcade (Kerala)
+
+District: KILLANNUR (1 stations)
+--------------------------------------------------
+  [1] Core Multicusine Restaurant - ChargeMOD (Kerala)
+
+District: KIZHAKKAMBALAM (2 stations)
+--------------------------------------------------
+  [1] SK EVCS | Kizhakkambalam (Kerala)
+  [2] Matha DC EVCS - ChargeMOD (Kerala)
+
+District: KOCHI (5 stations)
+--------------------------------------------------
+  [1] Keys Select Kochi (Kerala)
+  [2] EVM MG Motors Coastline Garage - ChargeMOD (Kerala)
+  [3] Gandhinagar KSEB EVCS - ChargeMOD (Kerala)
+  [4] Kochi Marriot Hotel (Kerala)
+  [5] Casino Hotel (Kerala)
+
+District: KOCHUVELI (1 stations)
+--------------------------------------------------
+  [1] BMW EVM Autokraft Service Center - ChargeMOD (Kerala)
+
+District: KODAKARA (1 stations)
+--------------------------------------------------
+  [1] EV Point EVCS - ChargeMOD (Kerala)
+
+District: KODUNGALLUR (5 stations)
+--------------------------------------------------
+  [1] rajeEVam EVCS (Kerala)
+  [2] Centro Mall Charging Station - Tata Power (Kerala)
+  [3] Kodungallur SVS - GO EC (Kerala)
+  [4] FUZO EV Super Charging Station (Kerala)
+  [5] Mughal Mall (Kerala)
+
+District: KODUNGOOR (1 stations)
+--------------------------------------------------
+  [1] Nandanam EVCS - GO EC (Kerala)
+
+District: KODUVALLY (1 stations)
+--------------------------------------------------
+  [1] Locus EVCS - ChargeMOD (Kerala)
+
+District: KOLENCHERY (1 stations)
+--------------------------------------------------
+  [1] EVee Buddy | Mangalath EVCS | Mangalathunada (Kerala)
+
+District: KOLKATA (1 stations)
+--------------------------------------------------
+  [1] Konnagar (west bengal)
+
+District: KOLLAM (5 stations)
+--------------------------------------------------
+  [1] M Square EVOK | Kureepuzha (Kerala)
+  [2] Sree Suprabhatham - ChargeMOD (Kerala)
+  [3] VOX Xpress Wash (EVOK) - ChargeMOD (Kerala)
+  [4] Instacharge EV Fast Charging and Café (Kerala)
+  [5] Chungath Sprise Hyundai - ChargeZone (Kerala)
+
+District: KOLLENGODE (1 stations)
+--------------------------------------------------
+  [1] Swathi EVCS (Kerala)
+
+District: KONDOTTY (1 stations)
+--------------------------------------------------
+  [1] Calicut Airport Charging Station - Tata Power (Kerala)
+
+District: KONNI (1 stations)
+--------------------------------------------------
+  [1] Anaswara Jewellers EVCS - ChargeMOD (Kerala)
+
+District: KOOTANAD (1 stations)
+--------------------------------------------------
+  [1] Koottanad KSEB EVCS - ChargeMOD (Kerala)
+
+District: KOOTHATTUKULAM (3 stations)
+--------------------------------------------------
+  [1] Savoi Complex EVCS (Kerala)
+  [2] Haridwar EVCS (Kerala)
+  [3] Royal EV Charging - ChargeMOD (Keraka)
+
+District: KOPPAM (2 stations)
+--------------------------------------------------
+  [1] KVR Automotive - Tata Power (Kerala)
+  [2] Syndicate Mall and Cinemas (Kerala)
+
+District: KORATTY (1 stations)
+--------------------------------------------------
+  [1] Koratty Chennai Anandabhavan EVCS - GO EC (Kerala)
+
+District: KOTA DISTRICT (1 stations)
+--------------------------------------------------
+  [1] Lakshya Water Park (Rajasthan)
+
+District: KOTHAMANGALAM (3 stations)
+--------------------------------------------------
+  [1] Pattakulam EV Super Charging Station (Kerala)
+  [2] Renvolt (EVOK) - ChargeMOD (Kerala)
+  [3] Kothamangalam KSEB EVCS - ChargeMOD (Kerala)
+
+District: KOTTAKKAL (3 stations)
+--------------------------------------------------
+  [1] Thirunilath ECVS Charging Station - ChargeMOD (Kerala)
+  [2] Nesto Hypermarket - Zeon (Kerala)
+  [3] Club Sulaimani - Zeon (Kerala)
+
+District: KOTTARAKKARA (4 stations)
+--------------------------------------------------
+  [1] Green Planet EVCS - GO EC (Kerala)
+  [2] Delight Launch Cafe - ChargeMOD (Kerala)
+  [3] Ente Veedu Interior (EVOK) - ChargeMOD (Kerala)
+  [4] Plug N Pay EVCS (Kerala)
+
+District: KOTTAYAM (6 stations)
+--------------------------------------------------
+  [1] The Grand Ambassador EVCS (Kerala)
+  [2] Hotel Athira Residency EVCS - GO EC (Kerala)
+  [3] Indraprastha Hotel (EVOK) - ChargeMOD (Kerala)
+  [4] Charge n Fresh EVCS - ChargeMOD (Kerala)
+  [5] Athirampuzha (Kerala)
+  [6] Hotel Aida (Kerala)
+
+District: KOTTIYAM (1 stations)
+--------------------------------------------------
+  [1] Kottiyam KSEB EVCS - ChargeMOD (Kerala)
+
+District: KOYILANDI (1 stations)
+--------------------------------------------------
+  [1] Solar Sparks EVCS - ChargeMOD (Kerala)
+
+District: KOZHIKODE (21 stations)
+--------------------------------------------------
+  [1] Lemon Tree Hotel (Kerala)
+  [2] SK Volt Hub Kovoor (Kerala)
+  [3] EVM Citroen Calicut (Kerala)
+  [4] Shakti | EVOK Charging Hub (Kerala)
+  [5] TML Marina Motors - Tata Power (Kerala)
+  [6] IOCL Lakshmi Sales & Service - Tata Power (Kerala)
+  [7] Gokulam Galleria Mall - Tata Power (Kerala)
+  [8] Hotel Hyson Heritage - Tata Power (Kerala)
+  [9] Taj The Gateway Hotel - Tata Power (Kerala)
+  [10] Taj The Gateway Hotel - Tata Power (Kerala)
+  [11] Reliance Fresh EVCS (Keral)
+  [12] Green Amp EVCS - GO EC (Kerala)
+  [13] Calicut Malabar Gold - GO EC (Kerala)
+  [14] Kuttoth Enterprises EVCS - ChargeMOD (Kerala)
+  [15] RG Nallanna EVCS (EVOK) - ChargeMOD (Kerala)
+  [16] Gandhi Road KSEB EVCS - ChargeMOD (Kerala)
+  [17] Thiruvangoor EV Fast Charging Station - ChargeMOD (Kerala)
+  [18] MB#Bridgeway Motors (Kerala)
+  [19] KVR Hyundai - ChargeZone (Kerala)
+  [20] HiLite Mall - Zeon (Kerala)
+  [21] HiLite Business Park - Zeon (Kerala)
+
+District: KULAPPULLY (1 stations)
+--------------------------------------------------
+  [1] Kulappully KSEB EVCS - ChargeMOD (Kerala)
+
+District: KULATHOOR (1 stations)
+--------------------------------------------------
+  [1] Poovar PNT EVCS (Kerala)
+
+District: KUMALI (1 stations)
+--------------------------------------------------
+  [1] Sora EVCS - GO EC (Kerala)
+
+District: KUMARAKOM (1 stations)
+--------------------------------------------------
+  [1] Sihla Energy - ChargeMOD (Kerala)
+
+District: KUMBLA (1 stations)
+--------------------------------------------------
+  [1] Tamar Cafe (Kerala)
+
+District: KUNDANNOOR (1 stations)
+--------------------------------------------------
+  [1] Flash EVCS | Kundannoor (Kerala)
+
+District: KUNDARA (2 stations)
+--------------------------------------------------
+  [1] RK EVCS - GO EC (Kerala)
+  [2] Kundara KSEB - ChargeMOD (Kerala)
+
+District: KUNNAMANGALAM (1 stations)
+--------------------------------------------------
+  [1] Yadav EV Charging Station - ChargeMOD (Kerala)
+
+District: KUNNAMKULAM (1 stations)
+--------------------------------------------------
+  [1] K4 EV Fast Charging Station (Kerala)
+
+District: KUNNICODE (1 stations)
+--------------------------------------------------
+  [1] Pontoor EVCS | Fill Nxt | Kunnicode (Kerala)
+
+District: KUNNUKARA (1 stations)
+--------------------------------------------------
+  [1] Dhruv EVCS - ChargeMOD (Kerala)
+
+District: KURAVILANGAD (1 stations)
+--------------------------------------------------
+  [1] Chaithanya Hospital EVCS - GO EC (Kerala)
+
+District: KUTTANADU (1 stations)
+--------------------------------------------------
+  [1] Zap N Go (Kerala)
+
+District: KUTTIKKANAM (1 stations)
+--------------------------------------------------
+  [1] Open Kitchen EVCS - GO EC (Kerala)
+
+District: KUTTIYADY (1 stations)
+--------------------------------------------------
+  [1] EVOK Charger - ChargeMOD (Kerala)
+
+District: LUCKNOW (2 stations)
+--------------------------------------------------
+  [1] GLIDA JANESHWAR MISHRA PARK (UTTAR PRADESH)
+  [2] GLIDA LOHIA PARK (UTTAR PRADESH)
+
+District: LAKKIDI (2 stations)
+--------------------------------------------------
+  [1] CGH Wayanad Wild EV Charging Station - GO EC (Kerala)
+  [2] Evee Buddy - ChargeMOD (Kerala)
+
+District: LB NAGAR (1 stations)
+--------------------------------------------------
+  [1] Blaze Fast Charger For 2 Ev Wheeler (Telangana)
+
+District: LUCKNOW (2 stations)
+--------------------------------------------------
+  [1] Bundelkhand Expressway Chitrakoot Toll (Uttar Pradesh)
+  [2] Tata Power Hotel Elite (Uttar Pradesh)
+
+District: MAHABALIPURAM (1 stations)
+--------------------------------------------------
+  [1] Four Points By Sheraton (Tamil Nadu)
+
+District: MALA (1 stations)
+--------------------------------------------------
+  [1] Parekkats EVCS - GO EC (Kerala)
+
+District: MALAPPURAM (4 stations)
+--------------------------------------------------
+  [1] Tata.ev Store Malappuram (Kerala)
+  [2] A M Tyres Malappuram - Tata Power (Kerala)
+  [3] Jam Joom EV Charging Station - GO EC (Kerala)
+  [4] Chargify EV Super Charging Station (Kerala)
+
+District: MAMBARAM (1 stations)
+--------------------------------------------------
+  [1] JSR EVCS - GO EC (Kerala)
+
+District: MANANTHAVADY (1 stations)
+--------------------------------------------------
+  [1] Hotel Wayanad Square - ChargeMOD (Kerala)
+
+District: MANARCADU (1 stations)
+--------------------------------------------------
+  [1] EQ ChargeMate | Naalumanikkattu (Kerala)
+
+District: MANJERI (4 stations)
+--------------------------------------------------
+  [1] Hotel Gokulam Relax Park (Kerala)
+  [2] VP Mall EVCS - GO EC (Kerala)
+  [3] Krishna Enterprises - ChargeMOD (Kerala)
+  [4] Golden Baked EVCS - ChargeMOD (Kerala)
+
+District: MANJOOR (1 stations)
+--------------------------------------------------
+  [1] Manjoor Beeza Clubhouse EVCS - GO EC (Kerala)
+
+District: MANMANGALAM (1 stations)
+--------------------------------------------------
+  [1] RK Mess & Restaurant (Tamil Nadu)
+
+District: MANNARKKAD (3 stations)
+--------------------------------------------------
+  [1] Oasis EV Super Charging Station (Kerala)
+  [2] Avenue Plaza - ChargeMOD (Kerala)
+  [3] ANERT EESL - Kanjirappuzha Garden (Keral)
+
+District: MANNUTHI (2 stations)
+--------------------------------------------------
+  [1] Turbo EV Charge Hub | Mannuthi Bypass (Kerala)
+  [2] EVOK Charging Hub | Mannuthy (Kerala)
+
+District: MANOR (1 stations)
+--------------------------------------------------
+  [1] Hyundai EV Chg Stn Manor (MH)
+
+District: MARADU (4 stations)
+--------------------------------------------------
+  [1] Tribute Royale EVCS - GO EC (Kerala)
+  [2] BYD EVM Southcoast Service Centre - ChargeMOD (Kerala)
+  [3] EVM La Maison Citroen Kochi - ChargeMOD (Kerala)
+  [4] LiON EVCS - ChargeMOD (Kerala)
+
+District: MARANCHERY (1 stations)
+--------------------------------------------------
+  [1] Maranchery Bank EVCS - ChargeMOD (Kerala)
+
+District: MARARIKULAM (1 stations)
+--------------------------------------------------
+  [1] CGH Marari Beach (Kerala)
+
+District: MARATHAKKARA (1 stations)
+--------------------------------------------------
+  [1] Plugin EVCS - ChargeMOD (Kerala)
+
+District: MATHIL (1 stations)
+--------------------------------------------------
+  [1] Mathil Service Co-Operative Bank EVCS - ChargeMOD (Kerala)
+
+District: MAVELIKKARA (2 stations)
+--------------------------------------------------
+  [1] Askar EV - ChargeMOD (Kerala)
+  [2] Artemis EV Super Charger - ChargeMOD (Kerala)
+
+District: MEDCHAL-MALKAJGIRI (1 stations)
+--------------------------------------------------
+  [1] Driftnation Food Court NH44 (Telangana)
+
+District: MEENANGADI (2 stations)
+--------------------------------------------------
+  [1] Hotel Saugandhika Charging Station - Tata Power (Kerala)
+  [2] Meenangadi EVCS - ChargeMOD (Kerala)
+
+District: MEENCHANDA (1 stations)
+--------------------------------------------------
+  [1] Rotana Motors Meenchanda - Tata Power (Kerala)
+
+District: MEENKUNNAM (1 stations)
+--------------------------------------------------
+  [1] EVOK Charging Station | Meenkunnam (Kerala)
+
+District: MELATTUR (1 stations)
+--------------------------------------------------
+  [1] MKM Melattur (EVOK) - ChargeMOD (Kerala)
+
+District: MELECHOWA (1 stations)
+--------------------------------------------------
+  [1] Kannur H&H (Kerala)
+
+District: METTUPALAYAM (1 stations)
+--------------------------------------------------
+  [1] Hydra Charging Station (Tamil Nadu)
+
+District: METTUPATTI (1 stations)
+--------------------------------------------------
+  [1] M. S. Shanmuganadar Mattai Kadai (Tamil Nadu)
+
+District: MOHGAON (1 stations)
+--------------------------------------------------
+  [1] Cube Stop NH-44 (MP)
+
+District: MOOLAMATTOM (1 stations)
+--------------------------------------------------
+  [1] Moolamattom KSEB EVCS - ChargeMOD (Kerala)
+
+District: MOOVATTUPUZHA (3 stations)
+--------------------------------------------------
+  [1] PlugMap EVCS by Evan and Eyan (Kerala)
+  [2] Kabani International (EVOK) - ChargeMOD (Kerala)
+  [3] Hotel Ganga Grand (Kerala)
+
+District: MUHAMMA (1 stations)
+--------------------------------------------------
+  [1] Lemon Tree Vembanad Lake Resort (Kerala)
+
+District: MUKKOM (1 stations)
+--------------------------------------------------
+  [1] Mall of Mukkom EVCS - GO EC (Kerala)
+
+District: MUNDUPALAM (1 stations)
+--------------------------------------------------
+  [1] Anchorage AC - ChargeMOD (Kerala)
+
+District: MUNDUPARAMBA (1 stations)
+--------------------------------------------------
+  [1] Malappuram KSEB EVCS - ChargeMOD (Kerala)
+
+District: MUNDUR (1 stations)
+--------------------------------------------------
+  [1] Sihla Energy - ChargeMOD (Kerala)
+
+District: MUNNAR (3 stations)
+--------------------------------------------------
+  [1] Hill View EVCS (Kerala)
+  [2] Eastend Hotel and Resorts - ChargeMOD (Kerala)
+  [3] Eden Wood Resorts (Kerala)
+
+District: MUTHANGA (1 stations)
+--------------------------------------------------
+  [1] Top Dines Hotel - GO EC (Kerala)
+
+District: MUVATTUPUZHA (2 stations)
+--------------------------------------------------
+  [1] GATR PowerFin EVCS - ChargeMOD (Kerala)
+  [2] GreenVeel (Kerala)
+
+District: MYSURU (2 stations)
+--------------------------------------------------
+  [1] Hotel Arcore (Karnataka)
+  [2] Manipal Hospital Mysore (Karnataka)
+
+District: NH48 (1 stations)
+--------------------------------------------------
+  [1] Viraj Junction EFill EVCS (Karnataka)
+
+District: NADAL (1 stations)
+--------------------------------------------------
+  [1] KVR Dream Vehicle - Tata Power (Kerala)
+
+District: NAGERCOIL (1 stations)
+--------------------------------------------------
+  [1] KKOH (Tamil Nadu)
+
+District: NARAYANWADI (1 stations)
+--------------------------------------------------
+  [1] Sai Restaurant & Cafe (Maharashtra)
+
+District: NATTIKA (1 stations)
+--------------------------------------------------
+  [1] Nattika FIRKA Service Co-Operative Bank - ChargeMOD (Kerala)
+
+District: NAVSARI (1 stations)
+--------------------------------------------------
+  [1] Chargezone Hotel Rangoli (GJ)
+
+District: NEDUMBASSERY (8 stations)
+--------------------------------------------------
+  [1] Taj Cochin Internation Airport Hotel - Tata Power (Kerala)
+  [2] SAJ Earth Resort - Tata Power (Kerala)
+  [3] ChargeMOD EVCS Hub (Kerala)
+  [4] CIAL Terminal 3 (Kerala)
+  [5] CIAL Terminal 1 (Kerala)
+  [6] Capgo EVCS - ChargeMOD (Kerala)
+  [7] Jippus Galaxy EVCS - ChargeMOD (Kerala)
+  [8] Airsuite Airport Hotel (Kerala)
+
+District: NEDUMKUNNAM (1 stations)
+--------------------------------------------------
+  [1] Pathalil EVCS - Charge MOD (Kerala)
+
+District: NEENDOOR (1 stations)
+--------------------------------------------------
+  [1] Kalladanthiyil EVCS - GO EC (Kerala)
+
+District: NELLIKKUNNU (1 stations)
+--------------------------------------------------
+  [1] Nellikkunnu Snopcap EVCS (Kerala)
+
+District: NELLIMATTOM (1 stations)
+--------------------------------------------------
+  [1] Kavalangad Service Bank EVCS | EVOK (Kerala)
+
+District: NENMARA (1 stations)
+--------------------------------------------------
+  [1] Changathikoottam EVCS - ChargeMOD (Kerala)
+
+District: NERIYAMANGALAM (1 stations)
+--------------------------------------------------
+  [1] EcoPlug EVCS - GO EC (Kerala)
+
+District: NEW DELHI`` (1 stations)
+--------------------------------------------------
+  [1] EESL - Devinder Collections (New Dehi)
+
+District: NEYYATTINKARA (1 stations)
+--------------------------------------------------
+  [1] Rajco EVCS - GO EC (Kerala)
+
+District: NHANGATTIRI (1 stations)
+--------------------------------------------------
+  [1] New Kerala Hotel EVCS - GO EC (Kerala)
+
+District: NILAMBUR (2 stations)
+--------------------------------------------------
+  [1] Jam Joom Super Market - GO EC (Kerala)
+  [2] ABS Motors - GO EC (Kerala)
+
+District: NILESHWARAM (1 stations)
+--------------------------------------------------
+  [1] Indus EV Charging (Kerala)
+
+District: NORTH PARAVOOR (1 stations)
+--------------------------------------------------
+  [1] North Paravoor KSEB EVCS - ChargeMOD (Kerala)
+
+District: NORTH PARAVUR (2 stations)
+--------------------------------------------------
+  [1] Ideal EV Super Charging Station (Kerala)
+  [2] Power Zone EV Charging Station - GO EC (Kerala)
+
+District: OCHIRA (1 stations)
+--------------------------------------------------
+  [1] Royale Regency (EVOK) - ChargeMOD (Kerala)
+
+District: ODANAVATTOM (1 stations)
+--------------------------------------------------
+  [1] Plug N Pay EVCS - ChargeMOD (Kerala)
+
+District: OMALLOR (1 stations)
+--------------------------------------------------
+  [1] Anjaly EVCS - GO EC (Kerala)
+
+District: OTTAPPALAM (1 stations)
+--------------------------------------------------
+  [1] EVDay EVCS | Ottappalam | Manissery (Kerala)
+
+District: PADINJARATHARA (2 stations)
+--------------------------------------------------
+  [1] Taj Wayanad Resort and Spa- Tata Power (Kerala)
+  [2] Banasura Sagar KSEB EVCS - ChargeMOD (Kerala)
+
+District: PALA (3 stations)
+--------------------------------------------------
+  [1] EV Point EVCS | Pala (Kerala)
+  [2] Flour Mill (EVOK) - ChargeMOD (Kerala)
+  [3] Jim and Jims EVCS - ChargeMOD (Kerala)
+
+District: PALAKKAD (6 stations)
+--------------------------------------------------
+  [1] EVee Buddy | Town Plug EVCS | Palakkad (Kerala)
+  [2] IOCL Thiruvonam Fuels - Tata Power (Kerala)
+  [3] Le Sky Dine EVCS - GO EC (Kerala)
+  [4] Electrica EVCS - ChargeMOD (Kerala)
+  [5] ANERT EESL - Chittur Thathamangalam Minicipality (Kerala)
+  [6] Grand Hyundai - ChargeZone (Kerala)
+
+District: PALARIVATTOM (2 stations)
+--------------------------------------------------
+  [1] Monsoon Empress Hotel EVCS (Kerala)
+  [2] Max EVCS - GO EC (Kerala)
+
+District: PALLIKKARA (1 stations)
+--------------------------------------------------
+  [1] Wonderla - Statiq (Kerala)
+
+District: PALLOM (1 stations)
+--------------------------------------------------
+  [1] Pallam KSEB EVCS - ChargeMOD (Kerala)
+
+District: PAMBA (1 stations)
+--------------------------------------------------
+  [1] Pamba KSEB EVCS - ChargeMOD (Kerala)
+
+District: PAMPAMPALLAM (1 stations)
+--------------------------------------------------
+  [1] Hi - Span EVCS (Kerala)
+
+District: PANAMARAM (1 stations)
+--------------------------------------------------
+  [1] VAN-V | EVOK | Panamaram (Kerala)
+
+District: PANDIKKAD (2 stations)
+--------------------------------------------------
+  [1] CG Cafe EVCS - GO EC (Kerala)
+  [2] EcoCharge EVCS - ChargeMOD (Kerala)
+
+District: PANOOR, KANNUR (1 stations)
+--------------------------------------------------
+  [1] Reboost EVCS - ChargeMOD (Kerala)
+
+District: PANTHEERANKAVU (1 stations)
+--------------------------------------------------
+  [1] EcoVolt EVCS | EVOK | Pantheerankavu (Kerala)
+
+District: PAOTA (3 stations)
+--------------------------------------------------
+  [1] Earthtron EV (Rajasthan)
+  [2] Earthtron EV (Rajasthan)
+  [3] Mannat (Rajasthan)
+
+District: PARANTHAL (2 stations)
+--------------------------------------------------
+  [1] EQ Power Buzz EVCS - ChargeMOD (Kerala)
+  [2] Adhithya Green Power - ChargeMOD (Kerala)
+
+District: PARINTHALMANNA (1 stations)
+--------------------------------------------------
+  [1] Sam EVCV | Perinthalmanna (Kerala)
+
+District: PARIPPALLI (1 stations)
+--------------------------------------------------
+  [1] EVOK Charging Stattion - ChargeMOD (Kerala)
+
+District: PARUTHIPPARA (1 stations)
+--------------------------------------------------
+  [1] Paruthippara KSEB EVCS - ChargeMOD (Kerala)
+
+District: PATHANADU (1 stations)
+--------------------------------------------------
+  [1] Sihla Energy EVCS | Pathanadu (Kerala)
+
+District: PATHANAMTHITTA (5 stations)
+--------------------------------------------------
+  [1] Evergreen Continental EVCS - GO EC (Kerala)
+  [2] Phills Hub EVCS - ChargeMOD (Kerala)
+  [3] EVOK Pathanamthitta - ChargeMOD (Kerala)
+  [4] ANERT EESL Milma Diary Plant - EESL (Kerala)
+  [5] SS Hyundai (Kerala)
+
+District: PATHANAPURAM (1 stations)
+--------------------------------------------------
+  [1] SK EVCS - GO EC (Kerala)
+
+District: PATHIYOOR (1 stations)
+--------------------------------------------------
+  [1] Anupama EVCS | Pathiyoor (Kerala)
+
+District: PATTAMBI (3 stations)
+--------------------------------------------------
+  [1] EV Super Charging Station (Kerala)
+  [2] Pattambi Power Bank - GO EC (Kerala)
+  [3] Medi Mall EVCS - ChargeMOD (Kerala)
+
+District: PATTIKKAD (1 stations)
+--------------------------------------------------
+  [1] Dream City Convention Center (Kerala)
+
+District: PATTOM (1 stations)
+--------------------------------------------------
+  [1] Pattom KSEB EVCS - ChargeMOD (Kerala)
+
+District: PAVANGAD (1 stations)
+--------------------------------------------------
+  [1] Pavangad KSEB EVCS - ChargeMOD (Kerala)
+
+District: PAYYANNUR (3 stations)
+--------------------------------------------------
+  [1] V-Net Shopping Complex - Tata Power (Kerala)
+  [2] Exit 17 - GO EC (Kerala)
+  [3] EQ Point EVCS - ChargeMOD (Kerala)
+
+District: PAYYANUR (2 stations)
+--------------------------------------------------
+  [1] Al Ameemi Fast Charging Station (Kerala)
+  [2] KVR Dream Vehicles Service Center - Tata Power (Kerala)
+
+District: PAYYOLI (1 stations)
+--------------------------------------------------
+  [1] Mindful EVCS - ChargeMOD (Kerala)
+
+District: PAZHUVIL (1 stations)
+--------------------------------------------------
+  [1] Duke Communications | Pazhuvil (Kerala)
+
+District: PERAMANGALAM (1 stations)
+--------------------------------------------------
+  [1] Amala Smart EVCS - GO EC (Kerala)
+
+District: PERAMBRA (1 stations)
+--------------------------------------------------
+  [1] Elektron EVCS (Kerala)
+
+District: PERINTHALMANNA (6 stations)
+--------------------------------------------------
+  [1] Elite EVOK Charging Hub | Perinthalmanna (Kerala)
+  [2] InFour Wheel Care And Tyres - Tata Power (Kerala)
+  [3] TML KVR Automotive - Tata Power (Kerala)
+  [4] Shalimar EVCS - GO EC (Kerala)
+  [5] Hotel Mughal Park - ChargeMOD (Kerala)
+  [6] ANERT EESL - Moosakkutti Memorial Bus Stand (Kerala)
+
+District: PERUMBAVOOR (5 stations)
+--------------------------------------------------
+  [1] JP Complex EVCS (Kerala)
+  [2] Electro Spark EVCS (Kerala)
+  [3] Future Clock EVCS - GO EC (Kerala)
+  [4] Prestige EV Super Charging Station - GO EC (Kerala)
+  [5] Hotel Oottupura (EVOK) - ChargeMOD (Kerala)
+
+District: PERUVAYAL (1 stations)
+--------------------------------------------------
+  [1] Calicut Malabar Gold HQ EVCS (Kerala)
+
+District: PINGOTTOORMAD (1 stations)
+--------------------------------------------------
+  [1] Barakah Tiles and Stones | EVOK | Thenhipalam (Kerala)
+
+District: PIPLOD (1 stations)
+--------------------------------------------------
+  [1] Hotel Annapura (Gujarat)
+
+District: PONKUNNAM (1 stations)
+--------------------------------------------------
+  [1] Clay Art Cafe - GO EC (Kerala)
+
+District: PONNANI (1 stations)
+--------------------------------------------------
+  [1] Ponnani KSEB EVCS - ChargeMOD (Kerala)
+
+District: PONNANU (1 stations)
+--------------------------------------------------
+  [1] Sihla Energy CV Junction (Kerala)
+
+District: POOJAPPURA (1 stations)
+--------------------------------------------------
+  [1] Emily By JDaniels (Kerala)
+
+District: PUKKATTUPADY (1 stations)
+--------------------------------------------------
+  [1] Eco Park EVCS (Kerala)
+
+District: PULIKKAL (1 stations)
+--------------------------------------------------
+  [1] Kay Pees Electricals (EVOK) - ChargeMOD (Kerala)
+
+District: PUNE (2 stations)
+--------------------------------------------------
+  [1] Nikol EV Charging station (Maharashtra)
+  [2] Shashtri Nagar (Maharashtra)
+
+District: PUNNAPRA (1 stations)
+--------------------------------------------------
+  [1] Punnapra KSEB EVCS - ChargeMOD (Kerala)
+
+District: PUNNAYUR (1 stations)
+--------------------------------------------------
+  [1] Chavakkad Golden Tower EVCS (Kerala)
+
+District: PURI (52 stations)
+--------------------------------------------------
+  [1] Ather Grid Charging Station (Odisha)
+  [2] Jio-bp (Odisha)
+  [3] WARIVO ELECTRIC SCOOTER SHOWROOM -PREMJIT MOTORS BARIPADA (Odisha)
+  [4] Ather Grid Charging Station (Odisha)
+  [5] BPCL Charging Station (Odisha)
+  [6] Jio-bp (Odisha)
+  [7] Ather Grid Charging Station (Odisha)
+  [8] BPCL Charging Station (Odisha)
+  [9] BPCL Charging Station (Odisha)
+  [10] Ather Grid Charging Station (Odisha)
+  [11] Laxmi E Bike Solution (Odisha)
+  [12] Electric Vehicle Charging Station (Odisha)
+  [13] EESL Charging Station (Odisha)
+  [14] Electric Vehicle Charging Station (Odisha)
+  [15] Tata Power Ez Charging Station (Odisha)
+  [16] Jio-bp (Odisha)
+  [17] Electric Vehicle Charging Station (Odisha)
+  [18] Ather Grid Charging Station (Odisha)
+  [19] Ather Grid Charging Station (Odisha)
+  [20] Tata Power Charging Station (Odisha)
+  [21] Ather Grid Charging Station (Odisha)
+  [22] Ather Grid Charging Station (Odisha)
+  [23] Tata Power Charging Station (Odisha)
+  [24] Hindustan Petroleum Corporation Limited (Odisha)
+  [25] Adani Charging Station (Odisha)
+  [26] Tata Power Charging Station (Odisha)
+  [27] Ather Grid Charging Station (Odisha)
+  [28] Tata Power Charging Station (Odisha)
+  [29] Electric Vehicle Charging Station (Odisha)
+  [30] Ather Grid Charging Station (Odisha)
+  [31] Ather Grid Charging Station (Odisha)
+  [32] Urzza Charging Station (Odisha)
+  [33] Voltran Charging Station (Odisha)
+  [34] Ather Grid Charging Station (Odisha)
+  [35] Charzer Charging Station (Odisha)
+  [36] Electric Vehicle Charging Station (Odisha)
+  [37] Tata Power Charging Station (Odisha)
+  [38] Ather Grid Charging Station (Odisha)
+  [39] Hindustan Petroleum Corporation Limited (Odisha)
+  [40] Ather Grid Charging Station (Odisha)
+  [41] Tata Power Charging Station (Odisha)
+  [42] Electric Vehicle Charging Station (Odisha)
+  [43] Ather Grid Charging Station (Odisha)
+  [44] Ather Grid Charging Station (Odisha)
+  [45] Urzza Charging Station (Odisha)
+  [46] Voltran Charging Station (Odisha)
+  [47] Ather Grid Charging Station (Odisha)
+  [48] Charzer Charging Station (Odisha)
+  [49] Electric Vehicle Charging Station (Odisha)
+  [50] Tata Power Charging Station (Odisha)
+  [51] Ather Grid Charging Station (Odisha)
+  [52] Hindustan Petroleum Corporation Limited (Odisha)
+
+District: PUTHOOR (1 stations)
+--------------------------------------------------
+  [1] Erathu Motors EVCS - GO EC (Kerala)
+
+District: RAJPURA (1 stations)
+--------------------------------------------------
+  [1] Volttic LHS DME (Rajasthan)
+
+District: RAMANATTUKARA (1 stations)
+--------------------------------------------------
+  [1] Dilkush EVCS (Kerala)
+
+District: RAMAPURAM (1 stations)
+--------------------------------------------------
+  [1] EVee Buddy | Vedas Energy EVCS | Ramapuram (Kerala)
+
+District: RANGAREDDY (1 stations)
+--------------------------------------------------
+  [1] NH44 (Telangana)
+
+District: RATLAM (1 stations)
+--------------------------------------------------
+  [1] Shree Kanha International Chargezone (Madhya Pradesh)
+
+District: RUDRAPUR (5 stations)
+--------------------------------------------------
+  [1] Tata Power- Ginger Hotel Pantnagar (Uttarakhnad)
+  [2] Ecoplug Radisson Blu Hotel (Uttarakhand)
+  [3] BP-RUDRAPUR (Uttarakhand)
+  [4] PREM SINGH & SONS (BPCL Charging Station) (Uttarakhnad)
+  [5] Rudra Continental (Uttarakhand)
+
+District: SAGAR (1 stations)
+--------------------------------------------------
+  [1] Midway Treat Khushi Inn Sakadehi Betul Hotel (Madhya Pradesh)
+
+District: SALEM (1 stations)
+--------------------------------------------------
+  [1] Kovai Hyundai (Tamil Nadu)
+
+District: SAMBALPUR (47 stations)
+--------------------------------------------------
+  [1] Ather Grid Charging Station (Odisha)
+  [2] Ather Charging Station (Odisha)
+  [3] Electric Vehicle Charging Station (Odisha)
+  [4] Ather Charging Station (Odisha)
+  [5] Tata Power Charging Station (Odisha)
+  [6] Tata Power Charging Station (Odisha)
+  [7] Tata Power Charging Station (Odisha)
+  [8] Jio-bp (Odisha)
+  [9] Tata Power Charging Station (Odisha)
+  [10] BPCL Charging Station (Odisha)
+  [11] BPCL Charging Station (Odisha)
+  [12] Tata Power Charging Station (Odisha)
+  [13] BPCL Charging Station (Odisha)
+  [14] Ather Grid Charging Station (Odisha)
+  [15] BPCL Charging Station (Odisha)
+  [16] Ather Grid Charging Station (Odisha)
+  [17] BPCL Charging Station (Odisha)
+  [18] Ather Grid Charging Station (Odisha)
+  [19] Ather Grid Charging Station (Odisha)
+  [20] Jio-bp pulse EV Charging Station (Odisha)
+  [21] Hindustan Petroleum Corporation Limited (Odisha)
+  [22] Statiq Charging Station (Odisha)
+  [23] Ather Grid Charging Station (Odisha)
+  [24] Adani Charging Station (Odisha)
+  [25] BPCL Charging Station (Odisha)
+  [26] Ola Electric Mobility Charging Station (Odisha)
+  [27] Kazam Charging Station (Odisha)
+  [28] Tata Power Charging Station (Odisha)
+  [29] Electric Vehicle Charging Station (Odisha)
+  [30] BPCL Charging Station (Odisha)
+  [31] Hindustan Petroleum Corporation Limited (Odisha)
+  [32] Tata Power Charging Station (Odisha)
+  [33] Ather Grid Charging Station (Odisha)
+  [34] Ather Grid Charging Station (Odisha)
+  [35] Ather Grid Charging Station (Odisha)
+  [36] BPCL Charging Station (Odisha)
+  [37] Electric Vehicle Charging Station (Odisha)
+  [38] DK MOTORS (Odisha)
+  [39] ParkNConnect Charging Station (Odisha)
+  [40] Tata Power Charging Station (Odisha)
+  [41] Ather Grid Charging Station (Odisha)
+  [42] Ather Grid Charging Station (Odisha)
+  [43] Ather Grid Charging Station (Odisha)
+  [44] BPCL Charging Station (Odisha)
+  [45] Electric Vehicle Charging Station (Odisha)
+  [46] DK MOTORS (Odisha)
+  [47] ParkNConnect Charging Station (Odisha)
+
+District: SARASWANI (2 stations)
+--------------------------------------------------
+  [1] Rest Area Mumbai - Vadodara Expressway (Gujarat)
+  [2] NE4 Eest Area Saraswani (Gujarat)
+
+District: SATARA (1 stations)
+--------------------------------------------------
+  [1] Amrai Resort Tata.Ev (MH)
+
+District: SHIRDI (1 stations)
+--------------------------------------------------
+  [1] Shirdi (Maharashtra)
+
+District: SHORNUR (1 stations)
+--------------------------------------------------
+  [1] ANERT EESL - Kulappulli Bus Stand (Kerala)
+
+District: SINGALLUR (1 stations)
+--------------------------------------------------
+  [1] Hydra Charging Station (Tamil Nadu)
+
+District: SOLUR (1 stations)
+--------------------------------------------------
+  [1] Hotel Kantara Dine (Karnataka)
+
+District: SREEKANDAPURAM (1 stations)
+--------------------------------------------------
+  [1] Sreekandapuram Samudra EVCS (Kerala)
+
+District: SREEKARYAM (1 stations)
+--------------------------------------------------
+  [1] Nuke EVCS - ChargeMOD (Kerala)
+
+District: SREEKRISHNAPURAM (1 stations)
+--------------------------------------------------
+  [1] Lakshmi KRS EVCS - ChargeMOD (Kerala)
+
+District: SRIPERUMBUDUR (2 stations)
+--------------------------------------------------
+  [1] Pondur - Oragadam (Tamil Nadu)
+  [2] Fairfield By Marriott (Tamil Nadu)
+
+District: SULTHAN BATHERI (1 stations)
+--------------------------------------------------
+  [1] Issacs Centre Square - Zeon (Kerala)
+
+District: SULTHAN BATHERY (2 stations)
+--------------------------------------------------
+  [1] IOCl Balaji Petroleum - Tata Power (Kerala)
+  [2] Adhithya (EVOK) - ChargeMOD (Kerala)
+
+District: SUNDARGARH (52 stations)
+--------------------------------------------------
+  [1] Tata Power Charging Station (Odisha)
+  [2] Jio-bp (Odisha)
+  [3] Ather Grid Charging Station (Odisha)
+  [4] Tata Power Charging Station (Odisha)
+  [5] Electric Vehicle Charging Station (Odisha)
+  [6] Tata Power Charging Station (Odisha)
+  [7] Ather Grid Charging Station (Odisha)
+  [8] Ather Grid Charging Station (Odisha)
+  [9] Jio-bp pulse Charging Station (Odisha)
+  [10] Bolt.Earth (Odisha)
+  [11] Tata Power Charging Station (Odisha)
+  [12] Tata Power Charging Station (Odisha)
+  [13] BPCL Charging Station (Odisha)
+  [14] Hindustan Petroleum Corporation Limited (Odisha)
+  [15] Ampere EV by Greaves - Green Wheels (Odisha)
+  [16] Thunder Plus Charging Station (Odisha)
+  [17] Ather Grid Charging Station (Odisha)
+  [18] Hindustan Petroleum Corporation Limited (Odisha)
+  [19] kesannager electric office (Odisha)
+  [20] Tata Power Charging Station (Odisha)
+  [21] BPCL Charging Station (Odisha)
+  [22] Tata Power Charging Station (Odisha)
+  [23] Ather Charging Station (Odisha)
+  [24] Statiq Charging Station (Odisha)
+  [25] Statiq Charging Station (Odisha)
+  [26] Kazam Charging Station (Odisha)
+  [27] Jio-bp (Odisha)
+  [28] Jio-bp pulse Charging Station (Odisha)
+  [29] Ather Grid Charging Station (Odisha)
+  [30] Ather Grid Charging Station (Odisha)
+  [31] Electric Vehicle Charging Station (Odisha)
+  [32] Tata Power Charging Station (Odisha)
+  [33] Ather Grid Charging Station (Odisha)
+  [34] Ather Grid Charging Station (Odisha)
+  [35] BPCL Charging Station (Odisha)
+  [36] Ather Grid Charging Station (Odisha)
+  [37] Ather Grid Charging Station (Odisha)
+  [38] Tata Power Charging Station (Odisha)
+  [39] Bolt.Earth Charging Station (Odisha)
+  [40] Tata Power Charging Station (Odisha)
+  [41] Ather Grid Charging Station (Odisha)
+  [42] Ather Grid Charging Station (Odisha)
+  [43] Electric Vehicle Charging Station (Odisha)
+  [44] Tata Power Charging Station (Odisha)
+  [45] Ather Grid Charging Station (Odisha)
+  [46] Ather Grid Charging Station (Odisha)
+  [47] BPCL Charging Station (Odisha)
+  [48] Ather Grid Charging Station (Odisha)
+  [49] Ather Grid Charging Station (Odisha)
+  [50] Tata Power Charging Station (Odisha)
+  [51] Bolt.Earth Charging Station (Odisha)
+  [52] Tata Power Charging Station (Odisha)
+
+District: THALASSERI (1 stations)
+--------------------------------------------------
+  [1] Down Town Mall - Zeon (Kerala)
+
+District: THALASSERY (1 stations)
+--------------------------------------------------
+  [1] KVR Dream Vehicles Thalassery - Tata Power (Kerala)
+
+District: THALAYOLAPARAMBU (1 stations)
+--------------------------------------------------
+  [1] EQ ChargeMate - ChargeMOD (Kerala)
+
+District: THALIPARAMBA (1 stations)
+--------------------------------------------------
+  [1] EQ Sprinkle EVCS | Thaliparamba (Kerala)
+
+District: THAMARASSERY (2 stations)
+--------------------------------------------------
+  [1] HOTAG EV Charging Station - GO EC (Kerala)
+  [2] Thamarassery KESEB EVCS - ChargeMOD (Kerala)
+
+District: THAMMANAM (1 stations)
+--------------------------------------------------
+  [1] Chillax EVCS (EVOK) - ChargeMOD (Kerala)
+
+District: THANE (1 stations)
+--------------------------------------------------
+  [1] D N R Fuel Point (Maharashtra)
+
+District: THANJAVUR (1 stations)
+--------------------------------------------------
+  [1] Vetri Hyundai (Tamil Nadu)
+
+District: THARUVANA (1 stations)
+--------------------------------------------------
+  [1] Empire Restaurant - ChargeMOD (Kerala)
+
+District: THAZHE CHOVVA (1 stations)
+--------------------------------------------------
+  [1] IOCL - MK Petroleum - Tata Power (Kerala)
+
+District: THENMALA (1 stations)
+--------------------------------------------------
+  [1] Thenmala EVOK - ChargeMOD (Kerala)
+
+District: THIRISSUR (1 stations)
+--------------------------------------------------
+  [1] Green Valley - GO EC (Kerala)
+
+District: THIRIVANGOOR (1 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS | Thirivangoor (Kerala)
+
+District: THIRUR (1 stations)
+--------------------------------------------------
+  [1] Nesto Hypermarket Zeon (Kerala)
+
+District: THIRUVALLA (3 stations)
+--------------------------------------------------
+  [1] EVOK Charging Station | Thiruvalla (Kerala)
+  [2] Wealfro EV Hub (Kerala)
+  [3] Anand Hypermarket - ChargeMOD (Kerala)
+
+District: THIRUVANANTHAPURAM (13 stations)
+--------------------------------------------------
+  [1] Key Select Thiruvananthapuram (Kerala)
+  [2] JKV Powern Hub EVCS | Palayam (Kerala)
+  [3] JKV Powern Hub EVCS | Palayam (Kerala)
+  [4] Chandra EVCS | Pettah (Kerala)
+  [5] EV Park ECVS Kazhakkoottam | Karthika Park Hotel (Kerala)
+  [6] EQ Future Mobility Thakkaram (Kerala)
+  [7] Eco Charge Hub - GO EC (Kerala)
+  [8] Appolo Dimora Hotel EVCS - GO EC (Kerala)
+  [9] Lulu International Mall EVCS - GO EC (Kerala)
+  [10] Trivandrum UST Campus EVCS - GO EC (Kerala)
+  [11] ChargeMOD EVCS (Kerala)
+  [12] ANERT - EESL Sangamukham - EESL (Kerala)
+  [13] Marvel Paints (Kerala)
+
+District: THIRUVILWAMALA (1 stations)
+--------------------------------------------------
+  [1] Sanjeevani Green - GO EC (Kerala)
+
+District: THODUPUZHA (3 stations)
+--------------------------------------------------
+  [1] Pineapple City EVCS - ChargeMOD (Kerala)
+  [2] Hotel Woodlands - ChargeMOD (Kerala)
+  [3] Thodupuzha KSEB EVCS - ChargeMOD (Kerala)
+
+District: THRIKKAKKARA (1 stations)
+--------------------------------------------------
+  [1] EVGO Hub - GO EC (Kerala)
+
+District: THRIPPUNITHARA (2 stations)
+--------------------------------------------------
+  [1] Raos EVCS - ChargeMOD (Kerala)
+  [2] PPG Home EVCS - ChargeMOD (Kerala)
+
+District: THRIPPUNITHURA (2 stations)
+--------------------------------------------------
+  [1] MPA Tyres EVCS - GO EC (Kerala)
+  [2] Central Talkies EVCS - GO EC (Kerala)
+
+District: THRISSUR (19 stations)
+--------------------------------------------------
+  [1] Popular Hyundai (Kerala)
+  [2] M Star EVCS | Koorkenchery (Kerala)
+  [3] Tata.ev Hyson Motors - Tata Power (Kerala)
+  [4] PCK Centenary (Kerala)
+  [5] TML Hyson Motors - Tata Power (Kerala)
+  [6] Sree Rama EVCS - GO EC (Kerala)
+  [7] Daiz and Co. EVCS - GO EC (Kerala)
+  [8] Shobha City Mall EVCS - GO EC (Kerala)
+  [9] Plug and Share Charge EVCS - ChargeMOD (Kerala)
+  [10] Vydyuthi Bhavan KSEB EVCS - ChargeMOD (Kerala)
+  [11] V8 Car Spa (EVOK) - ChargeMOD (Kerala)
+  [12] Guardian EV Charging Station by Imminent Future - ChargeMOD (Kerala)
+  [13] Flash Hub EVCS - ChargeMOD (Kerala)
+  [14] Korner EVCS - ChargeMOD (Kerala)
+  [15] ANERT EESL - KILA Thrissur (Kerala)
+  [16] MB#Bridgeway Motors (Kerala)
+  [17] Nesto Hypermarket (Kerala)
+  [18] Chennai Ananda Bhavan (Kerala)
+  [19] Hilite Mall (Kerala)
+
+District: THRIUVANANTHAPURAM (1 stations)
+--------------------------------------------------
+  [1] Illam Chacka (Kerala)
+
+District: TIRUCHIRAPPALLI (2 stations)
+--------------------------------------------------
+  [1] Courtyard By Marriott (Tamil Nadu)
+  [2] Oxina Hyundai (Tamil Nadu)
+
+District: TIRUMANGALAM (1 stations)
+--------------------------------------------------
+  [1] Veepees Bistro And Cafè (Tamil Nadu)
+
+District: TIRUNELVELI (1 stations)
+--------------------------------------------------
+  [1] JBS Bistro Cafe (Tamil Nadu)
+
+District: TIRUR (4 stations)
+--------------------------------------------------
+  [1] Page EVCS (Kerala)
+  [2] BP Angadi | EVOK | Tirur (Kerala)
+  [3] AAK Mall (Kerala)
+  [4] Tirur KSEB EVCS - ChargeMOD (Kerala)
+
+District: TIRUVANNAMALAI (1 stations)
+--------------------------------------------------
+  [1] Hotel Seasons (Tamil Nadu)
+
+District: UDAIPUR (1 stations)
+--------------------------------------------------
+  [1] Ishyu Restaurant Jetcharge (Rajasthan)
+
+District: UDAYAMPEROOR (1 stations)
+--------------------------------------------------
+  [1] Cherumattathil Agencies (Kerala)
+
+District: UDAYAPURA (1 stations)
+--------------------------------------------------
+  [1] Burger King (Karnataka)
+
+District: ULLIYERI (1 stations)
+--------------------------------------------------
+  [1] Ecozone EVCS | Ulliyeri (Kerala)
+
+District: VADAKARA (1 stations)
+--------------------------------------------------
+  [1] ANERT EESL - Aahar Restaurant Vadakara (Kerala)
+
+District: VADAKKENCHERRY (2 stations)
+--------------------------------------------------
+  [1] Jeevz - GO EC (Kerala)
+  [2] Evee Buddy - ChargeMOD (Kerala)
+
+District: VADAKKENCHERY (2 stations)
+--------------------------------------------------
+  [1] Amigo EV Charge Hub | Marygiri | Vadakkenchery (Kerala)
+  [2] Vadakkenchery KSEB EVCS - ChargeMOD (Kerala)
+
+District: VADANAPPALLI (1 stations)
+--------------------------------------------------
+  [1] Sree Sankara EVCS - GO EC (Kerala)
+
+District: VADANAPPILLY (1 stations)
+--------------------------------------------------
+  [1] Green Drive EV Super Charging Station (Kerala)
+
+District: VADODARA (2 stations)
+--------------------------------------------------
+  [1] Regenta Fairlark (Gujarat)
+  [2] Regenta Fairlark Jio (GJ)
+
+District: VAGAMON (2 stations)
+--------------------------------------------------
+  [1] Flash Charge EVCS | Vagamon (Kerala)
+  [2] EQ Vagamon EV Port - ChargeMOD (Kerala)
+
+District: VAIYAMPATTI (1 stations)
+--------------------------------------------------
+  [1] Suryas Veggie Restaurant (Tamil Nadu)
+
+District: VALAKOM (1 stations)
+--------------------------------------------------
+  [1] Gilgal EVCS | Fill Nxt | Valakom (Kerala)
+
+District: VALANCHERY (2 stations)
+--------------------------------------------------
+  [1] IOCL Sigma Enterprises Charging Station - Tata Power (Kerala)
+  [2] Green Zone EVCS - GO EC (Kerala)
+
+District: VALAPPAD (1 stations)
+--------------------------------------------------
+  [1] Valappad KSEB EVCS - ChargeMOD (Kerala)
+
+District: VAPI (1 stations)
+--------------------------------------------------
+  [1] Tata.Ev Vapi (Gujarat)
+
+District: VARKALA (2 stations)
+--------------------------------------------------
+  [1] Power Up EVCS - GO EC (Kerala)
+  [2] KVE Charge (Kerala)
+
+District: VAZHAKKULAM (1 stations)
+--------------------------------------------------
+  [1] Ie.On EVCS (Kerala)
+
+District: VAZHIKADAVU (1 stations)
+--------------------------------------------------
+  [1] Mountainpass Residency - ChargeMOD (Kerala)
+
+District: VELLAMTHAVALAM (1 stations)
+--------------------------------------------------
+  [1] Velanthavalam (Kerala)
+
+District: VELLUR (1 stations)
+--------------------------------------------------
+  [1] EQ TP Power | Vellur (Kerala)
+
+District: VENGALAM (1 stations)
+--------------------------------------------------
+  [1] Kairali EVCS | Vengalam (Kerala)
+
+District: VENGOOR (1 stations)
+--------------------------------------------------
+  [1] Green Drive EVCS - ChargeMOD (Kerala)
+
+District: VENNALA (1 stations)
+--------------------------------------------------
+  [1] Jayalakshmi Silks EVCS | CAPGO | Vennala (Kerala)
+
+District: VENNIYOUR (1 stations)
+--------------------------------------------------
+  [1] HIQ Highway Market - GO EC (Kerala)
+
+District: VENPALAVATTOM (1 stations)
+--------------------------------------------------
+  [1] Royal Drive EVCS (Kerala)
+
+District: VYTHIRI (1 stations)
+--------------------------------------------------
+  [1] Vythiri KSEB EVCS - ChargeMOD (Kerala)
+
+District: VYTTILA (4 stations)
+--------------------------------------------------
+  [1] Sunvolt DLF Riverside | Vyttila (Kerala)
+  [2] Evee Buddy - Memaid EVCS - ChargeMOD (Kerala)
+  [3] Broad Bean Hotel (EVOK) - ChargeMOD (Kerala)
+  [4] Vyttila KSEB EVCS - ChargeMOD (Keral)
+
+District: WADAKKANCHERY (1 stations)
+--------------------------------------------------
+  [1] SR Power Hub - ChargeMOD (Kerala)
+
+District: WALAYAR (1 stations)
+--------------------------------------------------
+  [1] Ahalia Walayar - GO EC (Kerala)
+
+District: WANDOOR (2 stations)
+--------------------------------------------------
+  [1] Moto Town Auto Hub - Tata Power (Kerala)
+  [2] IOCL Aaditya Petroleum Naduvath Charging Station - Tata Power (Kerala)
+
+District: WARANGAL (1 stations)
+--------------------------------------------------
+  [1] Driftnatuon Food Court NH44 (Telangana)
+
+District: YAMUNA EXPRESSWAY (2 stations)
+--------------------------------------------------
+  [1] Tata PowerYamuna Expressway Mathura RHS (Uttar Pradesh)
+  [2] Tata Power Yamuna Expressway Mathura Exit LHS (Uttar Pradesh)
+
+District: YELLAGALLAHALLI (1 stations)
+--------------------------------------------------
+  [1] Jio-BP Pulse (Karnataka)
+

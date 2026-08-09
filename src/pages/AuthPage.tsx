@@ -2,7 +2,11 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '@/context/AuthContext';
 import type { Role } from '@/types';
-import { Zap, ArrowLeft, AlertCircle } from 'lucide-react';
+import { Zap, ArrowLeft, AlertCircle, ShieldCheck, Cpu, Activity, CheckCircle2 } from 'lucide-react';
+import { evDataset } from '@/data/evDataset';
+import { ShinyButton } from '@/components/ui/shiny-button';
+import { BackgroundSystem } from '@/components/ui/BackgroundSystem';
+import { ThemeToggle } from '@/components/ui/ThemeToggle';
 
 interface AuthPageProps {
   mode: 'login' | 'register';
@@ -39,9 +43,9 @@ export function AuthPage({ mode: initialMode, onBack }: AuthPageProps) {
   const [userName, setUserName] = useState('');
   const [userContact, setUserContact] = useState('');
   const [userAddr, setUserAddr] = useState('');
+  const [selectedEvIndex, setSelectedEvIndex] = useState('custom');
   const [vehicleMake, setVehicleMake] = useState('');
   const [vehicleModel, setVehicleModel] = useState('');
-  const [vehicleYear, setVehicleYear] = useState('');
   const [batteryKwh, setBatteryKwh] = useState('');
 
   async function handleSubmit(e: React.FormEvent) {
@@ -61,7 +65,7 @@ export function AuthPage({ mode: initialMode, onBack }: AuthPageProps) {
             address: userAddr,
             vehicle_make: vehicleMake,
             vehicle_model: vehicleModel,
-            vehicle_year: vehicleYear ? parseInt(vehicleYear) : null,
+            vehicle_year: null,
             battery_capacity_kwh: batteryKwh ? parseFloat(batteryKwh) : null,
             has_ev: hasEv === 'yes',
             usage_area: usageArea,
@@ -95,244 +99,330 @@ export function AuthPage({ mode: initialMode, onBack }: AuthPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-[var(--boss-bg)] flex items-center justify-center px-4 py-8">
-      <div className="pointer-events-none fixed inset-0 overflow-hidden">
-        <div className="absolute -top-40 left-1/4 h-96 w-96 rounded-full bg-[var(--boss-green)] opacity-10 blur-3xl" />
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="relative z-10 w-full max-w-md"
-      >
-        {onBack && (
-          <button onClick={onBack} className="mb-4 flex items-center gap-1 text-sm text-gray-400 hover:text-[var(--boss-green-bright)]">
-            <ArrowLeft className="h-4 w-4" /> Back
-          </button>
-        )}
-
-        {/* Logo */}
-        <div className="mb-6 flex flex-col items-center">
-          <div className="mb-2 flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--boss-green)] text-black shadow-[0_0_30px_var(--boss-green-glow)]">
-            <Zap className="h-7 w-7" />
-          </div>
-          <h1 className="text-xl font-bold">BOSS</h1>
-          <p className="text-sm text-gray-500">Smart EV Charging Platform</p>
-        </div>
-
-        <div className="boss-card">
-          {/* Login / Register toggle */}
-          <div className="mb-5 flex rounded-xl bg-black/40 p-1">
-            <button
-              onClick={() => setIsLogin(true)}
-              className={`flex-1 rounded-lg py-2 text-sm font-semibold transition ${isLogin ? 'bg-[var(--boss-green)] text-black' : 'text-gray-400'}`}
-            >
-              Login
-            </button>
-            <button
-              onClick={() => setIsLogin(false)}
-              className={`flex-1 rounded-lg py-2 text-sm font-semibold transition ${!isLogin ? 'bg-[var(--boss-green)] text-black' : 'text-gray-400'}`}
-            >
-              Sign Up
-            </button>
-          </div>
-
-          {/* User / Admin toggle */}
-          <div className="mb-5 flex items-center justify-center gap-3">
-            <span className={`text-sm ${tab === 'user' ? 'text-[var(--boss-green-bright)] font-semibold' : 'text-gray-500'}`}>User</span>
-            <button
-              onClick={() => setTab(tab === 'user' ? 'admin' : 'user')}
-              className={`relative h-7 w-14 rounded-full transition ${tab === 'admin' ? 'bg-[var(--boss-green)]' : 'bg-gray-700'}`}
-            >
-              <motion.div
-                layout
-                transition={{ type: 'spring', stiffness: 500, damping: 30 }}
-                className={`absolute top-1 h-5 w-5 rounded-full bg-white ${tab === 'admin' ? 'left-8' : 'left-1'}`}
-              />
-            </button>
-            <span className={`text-sm ${tab === 'admin' ? 'text-[var(--boss-green-bright)] font-semibold' : 'text-gray-500'}`}>Admin</span>
-          </div>
-
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <AnimatePresence mode="wait">
-              {!isLogin && tab === 'user' && (
-                <motion.div key="user-fields" initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="space-y-4 overflow-hidden">
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="boss-label">Name</label>
-                      <input className="boss-input" value={userName} onChange={(e) => setUserName(e.target.value)} required />
-                    </div>
-                    <div>
-                      <label className="boss-label">Contact</label>
-                      <input className="boss-input" value={userContact} onChange={(e) => setUserContact(e.target.value)} required />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="boss-label">Address</label>
-                    <input className="boss-input" value={userAddr} onChange={(e) => setUserAddr(e.target.value)} required />
-                  </div>
-                  <div className="grid grid-cols-3 gap-3">
-                    <div>
-                      <label className="boss-label">Make</label>
-                      <input className="boss-input" placeholder="Tesla" value={vehicleMake} onChange={(e) => setVehicleMake(e.target.value)} />
-                    </div>
-                    <div>
-                      <label className="boss-label">Model</label>
-                      <input className="boss-input" placeholder="Model 3" value={vehicleModel} onChange={(e) => setVehicleModel(e.target.value)} />
-                    </div>
-                    <div>
-                      <label className="boss-label">Year</label>
-                      <input className="boss-input" type="number" placeholder="2023" value={vehicleYear} onChange={(e) => setVehicleYear(e.target.value)} />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="boss-label">Battery Capacity (kWh)</label>
-                    <input className="boss-input" type="number" placeholder="75" value={batteryKwh} onChange={(e) => setBatteryKwh(e.target.value)} />
-                  </div>
-
-                  {/* Onboarding questionnaire */}
-                  <div className="rounded-xl border border-[var(--boss-border)] bg-black/30 p-4">
-                    <p className="mb-3 text-sm font-semibold text-[var(--boss-green-bright)]">Quick Onboarding (4 questions)</p>
-                    <div className="space-y-3">
-                      <div>
-                        <label className="boss-label">Do you have an EV vehicle?</label>
-                        <select className="boss-input" value={hasEv} onChange={(e) => setHasEv(e.target.value)} required>
-                          <option value="">Select...</option>
-                          <option value="yes">Yes</option>
-                          <option value="no">No</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="boss-label">Where do you mostly use your EV?</label>
-                        <select className="boss-input" value={usageArea} onChange={(e) => setUsageArea(e.target.value)} required>
-                          <option value="">Select...</option>
-                          <option value="City center">City center</option>
-                          <option value="Highway">Highway</option>
-                          <option value="Suburbs">Suburbs</option>
-                          <option value="Mixed">Mixed</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="boss-label">Your work preferred time?</label>
-                        <select className="boss-input" value={workTime} onChange={(e) => setWorkTime(e.target.value)} required>
-                          <option value="">Select...</option>
-                          <option value="9 AM - 5 PM">9 AM - 5 PM</option>
-                          <option value="10 AM - 6 PM">10 AM - 6 PM</option>
-                          <option value="Night shift">Night shift</option>
-                          <option value="Flexible">Flexible</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="boss-label">Vehicle type?</label>
-                        <select className="boss-input" value={vehicleType} onChange={(e) => setVehicleType(e.target.value)}>
-                          <option value="">Select...</option>
-                          <option value="Sedan">Sedan</option>
-                          <option value="SUV">SUV</option>
-                          <option value="Hatchback">Hatchback</option>
-                          <option value="Truck">Truck</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              )}
-
-              {!isLogin && tab === 'admin' && (
-                <motion.div key="admin-fields" initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="space-y-4 overflow-hidden">
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="boss-label">Name</label>
-                      <input className="boss-input" value={adminName} onChange={(e) => setAdminName(e.target.value)} required />
-                    </div>
-                    <div>
-                      <label className="boss-label">Contact</label>
-                      <input className="boss-input" value={adminContact} onChange={(e) => setAdminContact(e.target.value)} required />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="boss-label">Station Address</label>
-                    <input className="boss-input" value={stationAddr} onChange={(e) => setStationAddr(e.target.value)} required />
-                  </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="boss-label">License</label>
-                      <input className="boss-input" value={licenseName} onChange={(e) => setLicenseName(e.target.value)} required />
-                    </div>
-                    <div>
-                      <label className="boss-label">License No.</label>
-                      <input className="boss-input" value={licenseNo} onChange={(e) => setLicenseNo(e.target.value)} required />
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="boss-label">Number of Chargers</label>
-                      <input className="boss-input" type="number" value={chargerCount} onChange={(e) => setChargerCount(e.target.value)} required />
-                    </div>
-                    <div>
-                      <label className="boss-label">Transformer Load (kVA)</label>
-                      <input className="boss-input" type="number" value={transformerKva} onChange={(e) => setTransformerKva(e.target.value)} required />
-                    </div>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            {/* Common fields */}
-            <div>
-              <label className="boss-label">Email</label>
-              <input className="boss-input" type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-            </div>
-            <div>
-              <label className="boss-label">Password</label>
-              <input className="boss-input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+    <BackgroundSystem variant="auth" className="flex items-center justify-center p-4 md:p-8">
+      <div className="w-full max-w-5xl mx-auto my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center z-10">
+        
+        {/* LEFT COLUMN: BRAND & COMMAND TELEMETRY PANEL */}
+        <div className="lg:col-span-5 flex flex-col justify-between text-left space-y-6">
+          <div>
+            <div className="flex items-center justify-between mb-6">
+              {onBack ? (
+                <button
+                  onClick={onBack}
+                  className="inline-flex items-center gap-2 text-xs font-bold text-slate-600 dark:text-slate-400 hover:text-emerald-500 transition-colors"
+                >
+                  <ArrowLeft className="h-4 w-4" /> Back to Home
+                </button>
+              ) : <div />}
+              <ThemeToggle />
             </div>
 
-            {error && (
-              <div className="flex items-center gap-2 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm text-red-400">
-                <AlertCircle className="h-4 w-4 shrink-0" />
-                {error}
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/boss-logo-transparent.png" alt="BOSS Logo" className="h-12 w-12 object-contain" />
+              <div>
+                <h1 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">BOSS ECOSYSTEM</h1>
+                <p className="text-xs text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider">AI Energy Command Center</p>
               </div>
-            )}
+            </div>
 
-            <button type="submit" disabled={loading} className="boss-btn-primary w-full">
-              {loading ? 'Please wait...' : isLogin ? 'Login' : 'Sign Up'}
-            </button>
-          </form>
-
-          {/* Links */}
-          <div className="mt-4 flex items-center justify-between text-sm">
-            <button onClick={() => setError('Password reset is not available in this demo. Contact your admin.')} className="text-gray-400 hover:text-[var(--boss-green-bright)]">
-              Forgot password?
-            </button>
-            <button onClick={() => { setIsLogin(!isLogin); setError(null); }} className="text-[var(--boss-green-bright)] hover:underline">
-              {isLogin ? 'New user? Sign up' : 'Already have an account? Login'}
-            </button>
+            <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+              Connect your EV, charging station, or utility grid telemetry account to access intelligent load balancing and slot optimization.
+            </p>
           </div>
 
-          {/* Divider */}
-          <div className="my-4 flex items-center gap-3">
-            <div className="h-px flex-1 bg-[var(--boss-border)]" />
-            <span className="text-xs text-gray-500">OR</span>
-            <div className="h-px flex-1 bg-[var(--boss-border)]" />
-          </div>
+          {/* Telemetry Visual Card */}
+          <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/80 p-5 backdrop-blur-xl shadow-xl space-y-4 text-slate-900 dark:text-white">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wide flex items-center gap-1.5">
+                <Cpu className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" /> SYSTEM TELEMETRY
+              </span>
+              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-ping" />
+            </div>
 
-          {/* Google login */}
-          <button onClick={handleGoogleLogin} className="boss-btn-ghost w-full">
-            <svg className="h-5 w-5" viewBox="0 0 24 24">
-              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
-              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
-              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
-              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
-            </svg>
-            Continue with Google
-          </button>
+            <div className="grid grid-cols-2 gap-3 text-left">
+              <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800">
+                <span className="text-[10px] text-slate-500 dark:text-slate-400 uppercase font-bold">GRID STATUS</span>
+                <p className="text-sm font-black text-emerald-600 dark:text-emerald-400">OPTIMAL (64%)</p>
+              </div>
+              <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800">
+                <span className="text-[10px] text-slate-500 dark:text-slate-400 uppercase font-bold">ENCRYPTION</span>
+                <p className="text-sm font-black text-blue-600 dark:text-blue-400">256-BIT JWT</p>
+              </div>
+            </div>
+
+            <div className="space-y-2 text-xs text-slate-700 dark:text-slate-300 font-semibold pt-2 border-t border-slate-200 dark:border-slate-800">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                <span>Role-based access control (User, Operator, DISCOM)</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                <span>Smart meter verification and automated slot sync</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <p className="mt-4 text-center text-xs text-gray-600">
-          Demo: admin@boss.demo / BossAdmin123! — user@boss.demo / BossUser123!
-        </p>
-      </motion.div>
-    </div>
+        {/* RIGHT COLUMN: GLASS AUTH FORM */}
+        <div className="lg:col-span-7">
+          <div className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 backdrop-blur-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden text-left text-slate-900 dark:text-white">
+            
+            {/* Login / Register Header Switch */}
+            <div className="mb-6 flex rounded-xl bg-slate-100 dark:bg-slate-950/80 p-1 border border-slate-200 dark:border-slate-800">
+              <button
+                type="button"
+                onClick={() => setIsLogin(true)}
+                className={`flex-1 rounded-lg py-2.5 text-xs font-extrabold uppercase tracking-wider transition ${
+                  isLogin ? 'bg-emerald-600 text-white shadow-md' : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                }`}
+              >
+                Sign In
+              </button>
+              <button
+                type="button"
+                onClick={() => setIsLogin(false)}
+                className={`flex-1 rounded-lg py-2.5 text-xs font-extrabold uppercase tracking-wider transition ${
+                  !isLogin ? 'bg-emerald-600 text-white shadow-md' : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                }`}
+              >
+                Register
+              </button>
+            </div>
+
+            {/* Role Switcher */}
+            <div className="mb-6 flex items-center justify-between p-3 rounded-xl bg-slate-100 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800">
+              <span className="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase">Account Role:</span>
+              <div className="flex items-center gap-3">
+                <span className={`text-xs font-bold ${tab === 'user' ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-500 dark:text-slate-400'}`}>EV Driver</span>
+                <button
+                  type="button"
+                  onClick={() => setTab(tab === 'user' ? 'admin' : 'user')}
+                  className={`relative h-6 w-12 rounded-full transition ${tab === 'admin' ? 'bg-emerald-600' : 'bg-slate-300 dark:bg-slate-700'}`}
+                >
+                  <motion.div
+                    layout
+                    transition={{ type: 'spring', stiffness: 500, damping: 30 }}
+                    className={`absolute top-0.5 h-5 w-5 rounded-full bg-white ${tab === 'admin' ? 'left-6' : 'left-0.5'}`}
+                  />
+                </button>
+                <span className={`text-xs font-bold ${tab === 'admin' ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-500 dark:text-slate-400'}`}>Station Admin</span>
+              </div>
+            </div>
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <AnimatePresence mode="wait">
+                {!isLogin && tab === 'user' && (
+                  <motion.div
+                    key="user-fields"
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="space-y-4 overflow-hidden"
+                  >
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="boss-label">Full Name</label>
+                        <input className="boss-input" value={userName} onChange={(e) => setUserName(e.target.value)} required />
+                      </div>
+                      <div>
+                        <label className="boss-label">Contact Number</label>
+                        <input className="boss-input" value={userContact} onChange={(e) => setUserContact(e.target.value)} required />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="boss-label">Address</label>
+                      <input className="boss-input" value={userAddr} onChange={(e) => setUserAddr(e.target.value)} required />
+                    </div>
+
+                    <div>
+                      <label className="boss-label">Select EV Model</label>
+                      <select
+                        className="boss-input"
+                        value={selectedEvIndex}
+                        onChange={(e) => {
+                          const val = e.target.value;
+                          setSelectedEvIndex(val);
+                          if (val !== 'custom') {
+                            const idx = parseInt(val);
+                            const ev = evDataset[idx];
+                            setVehicleMake(ev.brand);
+                            setVehicleModel(ev.model);
+                            setBatteryKwh(ev.battery.toString());
+                          } else {
+                            setVehicleMake('');
+                            setVehicleModel('');
+                            setBatteryKwh('');
+                          }
+                        }}
+                      >
+                        <option value="custom">Custom (Type manually)</option>
+                        {evDataset.map((ev, idx) => (
+                          <option key={idx} value={idx}>
+                            {ev.fullName} ({ev.battery} kWh)
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="boss-label">Vehicle Make</label>
+                        <input className="boss-input" placeholder="Tesla" value={vehicleMake} onChange={(e) => setVehicleMake(e.target.value)} />
+                      </div>
+                      <div>
+                        <label className="boss-label">Vehicle Model</label>
+                        <input className="boss-input" placeholder="Model 3" value={vehicleModel} onChange={(e) => setVehicleModel(e.target.value)} />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="boss-label">Battery Capacity (kWh)</label>
+                      <input className="boss-input" type="number" placeholder="75" value={batteryKwh} onChange={(e) => setBatteryKwh(e.target.value)} />
+                    </div>
+
+                    {/* Onboarding Questionnaire */}
+                    <div className="rounded-xl border border-slate-800 bg-slate-950/60 p-4">
+                      <p className="mb-3 text-xs font-extrabold uppercase tracking-wider text-emerald-400">Quick Onboarding Sync</p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                          <label className="boss-label">Do you own an EV?</label>
+                          <select className="boss-input" value={hasEv} onChange={(e) => setHasEv(e.target.value)} required>
+                            <option value="">Select...</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label className="boss-label">Primary Usage Area</label>
+                          <select className="boss-input" value={usageArea} onChange={(e) => setUsageArea(e.target.value)} required>
+                            <option value="">Select...</option>
+                            <option value="City center">City center</option>
+                            <option value="Highway">Highway</option>
+                            <option value="Suburbs">Suburbs</option>
+                            <option value="Mixed">Mixed</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label className="boss-label">Preferred Time Slot</label>
+                          <select className="boss-input" value={workTime} onChange={(e) => setWorkTime(e.target.value)} required>
+                            <option value="">Select...</option>
+                            <option value="9 AM - 5 PM">9 AM - 5 PM</option>
+                            <option value="10 AM - 6 PM">10 AM - 6 PM</option>
+                            <option value="Night shift">Night shift</option>
+                            <option value="Flexible">Flexible</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label className="boss-label">Vehicle Segment</label>
+                          <select className="boss-input" value={vehicleType} onChange={(e) => setVehicleType(e.target.value)}>
+                            <option value="">Select...</option>
+                            <option value="Sedan">Sedan</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Hatchback">Hatchback</option>
+                            <option value="Truck">Truck</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+
+                {!isLogin && tab === 'admin' && (
+                  <motion.div
+                    key="admin-fields"
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="space-y-4 overflow-hidden"
+                  >
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="boss-label">Operator Name</label>
+                        <input className="boss-input" value={adminName} onChange={(e) => setAdminName(e.target.value)} required />
+                      </div>
+                      <div>
+                        <label className="boss-label">Contact Number</label>
+                        <input className="boss-input" value={adminContact} onChange={(e) => setAdminContact(e.target.value)} required />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="boss-label">Station Address</label>
+                      <input className="boss-input" value={stationAddr} onChange={(e) => setStationAddr(e.target.value)} required />
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="boss-label">License Entity</label>
+                        <input className="boss-input" value={licenseName} onChange={(e) => setLicenseName(e.target.value)} required />
+                      </div>
+                      <div>
+                        <label className="boss-label">License Number</label>
+                        <input className="boss-input" value={licenseNo} onChange={(e) => setLicenseNo(e.target.value)} required />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="boss-label">Number of Chargers</label>
+                        <input className="boss-input" type="number" value={chargerCount} onChange={(e) => setChargerCount(e.target.value)} required />
+                      </div>
+                      <div>
+                        <label className="boss-label">Transformer Load (kVA)</label>
+                        <input className="boss-input" type="number" value={transformerKva} onChange={(e) => setTransformerKva(e.target.value)} required />
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              {/* Common Credentials */}
+              <div>
+                <label className="boss-label">Account Email</label>
+                <input className="boss-input" type="email" placeholder="user@boss.demo" value={email} onChange={(e) => setEmail(e.target.value)} required />
+              </div>
+              <div>
+                <label className="boss-label">Password</label>
+                <input className="boss-input" type="password" placeholder="••••••••" value={password} onChange={(e) => setPassword(e.target.value)} required />
+              </div>
+
+              {error && (
+                <div className="flex items-center gap-2 rounded-xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-400">
+                  <AlertCircle className="h-4 w-4 shrink-0" />
+                  <span>{error}</span>
+                </div>
+              )}
+
+              <ShinyButton
+                type="submit"
+                disabled={loading}
+                className="w-full bg-emerald-600 hover:bg-emerald-500 border-emerald-400/40 rounded-xl text-white font-extrabold text-sm text-center block py-3 cursor-pointer shadow-lg shadow-emerald-600/30"
+              >
+                {loading ? 'Authenticating...' : isLogin ? 'Access Command Center →' : 'Complete Registration →'}
+              </ShinyButton>
+            </form>
+
+            <div className="mt-4 flex items-center justify-between text-xs text-slate-400">
+              <button
+                type="button"
+                onClick={() => setError('Password reset is not available in demo mode. Contact admin.')}
+                className="hover:text-emerald-400 transition-colors"
+              >
+                Forgot password?
+              </button>
+              <button
+                type="button"
+                onClick={() => { setIsLogin(!isLogin); setError(null); }}
+                className="text-emerald-400 font-bold hover:underline"
+              >
+                {isLogin ? 'Create new account' : 'Existing user sign in'}
+              </button>
+            </div>
+
+            <p className="mt-6 text-center text-[11px] text-slate-500">
+              Demo Accounts: <span className="text-slate-300 font-mono">admin@boss.demo</span> / <span className="text-slate-300 font-mono">user@boss.demo</span> (Pass: BossUser123!)
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </BackgroundSystem>
   );
 }

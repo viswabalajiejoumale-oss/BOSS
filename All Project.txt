@@ -1,0 +1,3496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio</title>
+
+    <style>
+
+        /* =========================
+           BASIC STYLE
+        ========================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+
+        /* =========================
+           NAVIGATION BAR
+        ========================== */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        .nav-btn {
+            text-decoration: none;
+            color: white;
+
+            background: orange;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        /* =========================
+           HOME / HERO SECTION
+        ========================== */
+
+        .hero {
+            min-height: 90vh;
+
+            display: flex;
+            align-items: center;
+
+            padding: 80px 8%;
+
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.6),
+                    rgba(0, 0, 0, 0.6)
+                ),
+                url("gym.jpg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            max-width: 650px;
+        }
+
+        .hero-content h1 {
+            font-size: 55px;
+            line-height: 1.1;
+
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+
+            margin-bottom: 30px;
+        }
+
+
+        /* =========================
+           HOME BUTTONS
+        ========================== */
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+
+            padding: 14px 25px;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+        .primary-btn {
+            background: orange;
+            color: white;
+        }
+
+        .secondary-btn {
+            border: 2px solid white;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>SK FITNESS</h2>
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#trainers">Trainers</a>
+                </li>
+
+                <li>
+                    <a href="#workouts">Workouts</a>
+                </li>
+
+                <li>
+                    <a href="#yoga">Yoga</a>
+                </li>
+
+                <li>
+                    <a href="#diet">Diet</a>
+                </li>
+
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <a href="#pricing" class="nav-btn">
+                Join Now
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         HOME SECTION
+    ========================== -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    DISCIPLINE TODAY,
+                    <br>
+                    STRENGTH TOMORROW.
+                </h1>
+
+
+                <p>
+                    Build your strength, improve your
+                    fitness, and become the best version
+                    of yourself.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#pricing"
+                       class="btn primary-btn">
+                        Start Free Trial
+                    </a>
+
+
+                    <a href="#trainers"
+                       class="btn secondary-btn">
+                        Meet Trainers
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio - About & Trainers</title>
+
+    <style>
+
+        /* ==============================
+           BASIC SETTINGS
+        ============================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+
+        /* ==============================
+           NAVIGATION BAR
+        ============================== */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        .nav-btn {
+            text-decoration: none;
+            color: white;
+
+            background: orange;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           ABOUT SECTION
+        ============================== */
+
+        .about {
+            min-height: 70vh;
+
+            padding: 100px 8%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            background: #181818;
+        }
+
+        .about-content {
+            max-width: 800px;
+        }
+
+        .section-title {
+            font-size: 45px;
+
+            margin-bottom: 25px;
+
+            color: orange;
+        }
+
+        .about-content p {
+            font-size: 18px;
+
+            line-height: 1.8;
+
+            color: #ddd;
+
+            margin-bottom: 20px;
+        }
+
+
+        /* ==============================
+           TRAINERS SECTION
+        ============================== */
+
+        .trainers {
+            min-height: 80vh;
+
+            padding: 100px 8%;
+
+            background: #111;
+
+            text-align: center;
+        }
+
+        .trainers h2 {
+            font-size: 45px;
+
+            margin-bottom: 50px;
+
+            color: orange;
+        }
+
+
+        /* Trainer Cards */
+
+        .trainer-container {
+            display: flex;
+
+            justify-content: center;
+
+            gap: 30px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .trainer-card {
+            width: 280px;
+
+            padding: 30px 20px;
+
+            background: #1d1d1d;
+
+            border-radius: 10px;
+
+            transition: 0.3s;
+        }
+
+
+        .trainer-card:hover {
+            transform: translateY(-10px);
+        }
+
+
+        .trainer-image {
+            width: 120px;
+            height: 120px;
+
+            margin: 0 auto 20px;
+
+            border-radius: 50%;
+
+            background: #333;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 40px;
+        }
+
+
+        .trainer-card h3 {
+            font-size: 24px;
+
+            margin-bottom: 10px;
+        }
+
+
+        .trainer-card .role {
+            color: orange;
+
+            font-weight: bold;
+
+            margin-bottom: 15px;
+        }
+
+
+        .trainer-card p {
+            color: #ccc;
+
+            line-height: 1.5;
+        }
+
+
+        /* ==============================
+           TRAINER BUTTON
+        ============================== */
+
+        .trainer-btn {
+            display: inline-block;
+
+            margin-top: 20px;
+
+            padding: 10px 20px;
+
+            background: orange;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        .trainer-btn:hover {
+            opacity: 0.8;
+        }
+
+
+        /* ==============================
+           MOBILE DESIGN
+        ============================== */
+
+        @media (max-width: 700px) {
+
+            .navbar {
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                gap: 15px;
+            }
+
+            .section-title,
+            .trainers h2 {
+                font-size: 35px;
+            }
+
+            .trainer-container {
+                flex-direction: column;
+
+                align-items: center;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION BAR
+    ============================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <h2>
+                    SK FITNESS
+                </h2>
+
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#trainers">
+                        Trainers
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <a href="#trainers"
+               class="nav-btn">
+
+                Meet Trainers
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==============================
+         ABOUT SECTION
+    ============================== -->
+
+    <section id="about" class="about">
+
+        <div class="about-content">
+
+            <h1 class="section-title">
+                About SK Fitness Studio
+            </h1>
+
+
+            <p>
+                SK Fitness Studio is a modern fitness center
+                focused on helping people improve their strength,
+                fitness and overall lifestyle.
+            </p>
+
+
+            <p>
+                Our training programs include classic gym
+                training, cardio, HIIT, yoga and customized
+                nutrition guidance.
+            </p>
+
+
+            <p>
+                Our goal is to provide a friendly environment
+                where every member can work towards their
+                fitness goals with proper guidance.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==============================
+         TRAINERS SECTION
+    ============================== -->
+
+    <section id="trainers" class="trainers">
+
+        <h2>
+            Our Trainers
+        </h2>
+
+
+        <div class="trainer-container">
+
+
+            <!-- Trainer 1 -->
+
+            <div class="trainer-card">
+
+                <div class="trainer-image">
+                    🏋️
+                </div>
+
+                <h3>
+                    Sakthivel
+                </h3>
+
+                <p class="role">
+                    Gym Trainer
+                </p>
+
+                <p>
+                    Helps members with strength training,
+                    gym workouts and proper exercise techniques.
+                </p>
+
+                <a href="#trainers"
+                   class="trainer-btn">
+
+                    Book Trainer
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Trainer 2 -->
+
+            <div class="trainer-card">
+
+                <div class="trainer-image">
+                    🧘
+                </div>
+
+                <h3>
+                    Govardhan
+                </h3>
+
+                <p class="role">
+                    Yoga Trainer
+                </p>
+
+                <p>
+                    Guides members through yoga, flexibility,
+                    breathing exercises and relaxation.
+                </p>
+
+                <a href="#trainers"
+                   class="trainer-btn">
+
+                    Book Trainer
+
+                </a>
+
+            </div>
+
+
+
+            <!-- Trainer 3 -->
+
+            <div class="trainer-card">
+
+                <div class="trainer-image">
+                    🏃
+                </div>
+
+                <h3>
+                    Sharun
+                </h3>
+
+                <p class="role">
+                    Cardio Trainer
+                </p>
+
+                <p>
+                    Provides cardio and HIIT training to improve
+                    stamina, endurance and fitness.
+                </p>
+
+                <a href="#trainers"
+                   class="trainer-btn">
+
+                    Book Trainer
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio - Workouts</title>
+
+    <style>
+
+        /* ==============================
+           BASIC SETTINGS
+        ============================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+
+        /* ==============================
+           NAVIGATION BAR
+        ============================== */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        .nav-btn {
+            text-decoration: none;
+            color: white;
+
+            background: orange;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           WORKOUT SECTION
+        ============================== */
+
+        .workouts {
+            min-height: 100vh;
+
+            padding: 90px 8%;
+
+            background: #181818;
+
+            text-align: center;
+        }
+
+        .workouts h1 {
+            font-size: 45px;
+
+            color: orange;
+
+            margin-bottom: 15px;
+        }
+
+        .workout-intro {
+            max-width: 700px;
+
+            margin: 0 auto 50px;
+
+            color: #ccc;
+
+            font-size: 17px;
+
+            line-height: 1.6;
+        }
+
+
+        /* ==============================
+           WORKOUT CARDS
+        ============================== */
+
+        .workout-container {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+        }
+
+
+        .workout-card {
+            background: #222;
+
+            padding: 30px 25px;
+
+            border-radius: 10px;
+
+            text-align: left;
+
+            transition: 0.3s;
+
+            border: 1px solid #333;
+        }
+
+
+        .workout-card:hover {
+            transform: translateY(-8px);
+
+            border-color: orange;
+        }
+
+
+        .workout-icon {
+            width: 65px;
+            height: 65px;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            background: orange;
+
+            border-radius: 50%;
+
+            font-size: 30px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .workout-card h2 {
+            font-size: 24px;
+
+            margin-bottom: 12px;
+        }
+
+
+        .workout-card p {
+            color: #ccc;
+
+            line-height: 1.6;
+
+            margin-bottom: 15px;
+        }
+
+
+        /* ==============================
+           WORKOUT DETAILS
+        ============================== */
+
+        .workout-list {
+            list-style: none;
+
+            margin-top: 15px;
+        }
+
+
+        .workout-list li {
+            padding: 7px 0;
+
+            color: #ddd;
+        }
+
+
+        .workout-list li::before {
+            content: "✓ ";
+
+            color: orange;
+
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           BUTTON
+        ============================== */
+
+        .workout-btn {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 10px 18px;
+
+            background: orange;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        .workout-btn:hover {
+            opacity: 0.8;
+        }
+
+
+        /* ==============================
+           RESPONSIVE DESIGN
+        ============================== */
+
+        @media (max-width: 900px) {
+
+            .workout-container {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media (max-width: 650px) {
+
+            .navbar {
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                gap: 15px;
+            }
+
+            .workout-container {
+                grid-template-columns: 1fr;
+            }
+
+            .workouts h1 {
+                font-size: 35px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION BAR
+    ============================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <h2>
+                    SK FITNESS
+                </h2>
+
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#workouts">
+                        Workouts
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#push">
+                        Push Day
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#pull">
+                        Pull Day
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#legs">
+                        Legs & Abs
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <a href="#workouts"
+               class="nav-btn">
+
+                View Workouts
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==============================
+         WORKOUT SECTION
+    ============================== -->
+
+    <main>
+
+        <section id="workouts"
+                 class="workouts">
+
+
+            <h1>
+                Workout Patterns
+            </h1>
+
+
+            <p class="workout-intro">
+
+                Choose the right workout pattern
+                according to your fitness goals.
+                Our programs are designed for
+                strength, endurance and overall fitness.
+
+            </p>
+
+
+            <div class="workout-container">
+
+
+                <!-- ==========================
+                     PUSH DAY
+                =========================== -->
+
+                <article class="workout-card"
+                         id="push">
+
+                    <div class="workout-icon">
+                        🏋️
+                    </div>
+
+
+                    <h2>
+                        Push Day
+                    </h2>
+
+
+                    <p>
+                        Focuses on the muscles used
+                        for pushing movements and
+                        upper-body strength.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            Chest Training
+                        </li>
+
+                        <li>
+                            Shoulder Training
+                        </li>
+
+                        <li>
+                            Triceps Training
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     PULL DAY
+                =========================== -->
+
+                <article class="workout-card"
+                         id="pull">
+
+                    <div class="workout-icon">
+                        💪
+                    </div>
+
+
+                    <h2>
+                        Pull Day
+                    </h2>
+
+
+                    <p>
+                        A workout pattern designed
+                        to improve back and arm
+                        pulling strength.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            Back Training
+                        </li>
+
+                        <li>
+                            Biceps Training
+                        </li>
+
+                        <li>
+                            Rear Shoulder
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     LEGS & ABS
+                =========================== -->
+
+                <article class="workout-card"
+                         id="legs">
+
+                    <div class="workout-icon">
+                        🦵
+                    </div>
+
+
+                    <h2>
+                        Legs & Abs
+                    </h2>
+
+
+                    <p>
+                        Builds lower-body strength
+                        and improves core stability.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            Squats
+                        </li>
+
+                        <li>
+                            Leg Training
+                        </li>
+
+                        <li>
+                            Core Exercises
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     TABATA
+                =========================== -->
+
+                <article class="workout-card">
+
+                    <div class="workout-icon">
+                        🔥
+                    </div>
+
+
+                    <h2>
+                        Tabata
+                    </h2>
+
+
+                    <p>
+                        High-intensity interval
+                        training designed to improve
+                        fitness and endurance.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            High Intensity
+                        </li>
+
+                        <li>
+                            Short Intervals
+                        </li>
+
+                        <li>
+                            Full Body Training
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     CARDIO & HIIT
+                =========================== -->
+
+                <article class="workout-card">
+
+                    <div class="workout-icon">
+                        🏃
+                    </div>
+
+
+                    <h2>
+                        Cardio & HIIT
+                    </h2>
+
+
+                    <p>
+                        Improves cardiovascular fitness,
+                        stamina and overall endurance.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            Running
+                        </li>
+
+                        <li>
+                            HIIT Exercises
+                        </li>
+
+                        <li>
+                            Endurance Training
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     BEGINNER FULL BODY
+                =========================== -->
+
+                <article class="workout-card">
+
+                    <div class="workout-icon">
+                        ⭐
+                    </div>
+
+
+                    <h2>
+                        Beginner Full Body
+                    </h2>
+
+
+                    <p>
+                        A simple full-body program
+                        designed for beginners.
+                    </p>
+
+
+                    <ul class="workout-list">
+
+                        <li>
+                            Basic Exercises
+                        </li>
+
+                        <li>
+                            Full Body Movement
+                        </li>
+
+                        <li>
+                            Beginner Friendly
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#workouts"
+                       class="workout-btn">
+
+                        View Workout
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio - Yoga</title>
+
+    <style>
+
+        /* ==============================
+           BASIC SETTINGS
+        ============================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+
+        /* ==============================
+           NAVIGATION BAR
+        ============================== */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #9acd32;
+        }
+
+        .nav-btn {
+            text-decoration: none;
+            color: white;
+
+            background: #9acd32;
+
+            padding: 10px 20px;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           YOGA SECTION
+        ============================== */
+
+        .yoga {
+            min-height: 100vh;
+
+            padding: 90px 8%;
+
+            background: #181818;
+
+            text-align: center;
+        }
+
+        .yoga h1 {
+            font-size: 45px;
+
+            color: #9acd32;
+
+            margin-bottom: 15px;
+        }
+
+        .yoga-intro {
+            max-width: 700px;
+
+            margin: 0 auto 50px;
+
+            color: #ccc;
+
+            font-size: 17px;
+
+            line-height: 1.6;
+        }
+
+
+        /* ==============================
+           YOGA CARDS
+        ============================== */
+
+        .yoga-container {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+        }
+
+
+        .yoga-card {
+            background: #222;
+
+            padding: 30px 25px;
+
+            border-radius: 10px;
+
+            text-align: left;
+
+            border: 1px solid #333;
+
+            transition: 0.3s;
+        }
+
+
+        .yoga-card:hover {
+            transform: translateY(-8px);
+
+            border-color: #9acd32;
+        }
+
+
+        .yoga-icon {
+            width: 65px;
+            height: 65px;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            background: #9acd32;
+
+            border-radius: 50%;
+
+            font-size: 30px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .yoga-card h2 {
+            font-size: 24px;
+
+            margin-bottom: 12px;
+        }
+
+
+        .yoga-card p {
+            color: #ccc;
+
+            line-height: 1.6;
+
+            margin-bottom: 15px;
+        }
+
+
+        /* ==============================
+           YOGA LIST
+        ============================== */
+
+        .yoga-list {
+            list-style: none;
+
+            margin-top: 15px;
+        }
+
+
+        .yoga-list li {
+            padding: 7px 0;
+
+            color: #ddd;
+        }
+
+
+        .yoga-list li::before {
+            content: "✓ ";
+
+            color: #9acd32;
+
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           BUTTON
+        ============================== */
+
+        .yoga-btn {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 10px 18px;
+
+            background: #9acd32;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+
+        .yoga-btn:hover {
+            opacity: 0.8;
+        }
+
+
+        /* ==============================
+           RESPONSIVE DESIGN
+        ============================== */
+
+        @media (max-width: 900px) {
+
+            .yoga-container {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media (max-width: 650px) {
+
+            .navbar {
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                gap: 15px;
+            }
+
+            .yoga-container {
+                grid-template-columns: 1fr;
+            }
+
+            .yoga h1 {
+                font-size: 35px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ==============================
+         NAVIGATION BAR
+    ============================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <h2>
+                    SK FITNESS
+                </h2>
+
+            </div>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#yoga">
+                        Yoga
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#surya">
+                        Surya Namaskar
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#vinyasa">
+                        Vinyasa
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#pranayama">
+                        Pranayama
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <a href="#yoga"
+               class="nav-btn">
+
+                View Yoga
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==============================
+         YOGA SECTION
+    ============================== -->
+
+    <main>
+
+        <section id="yoga"
+                 class="yoga">
+
+
+            <h1>
+                Yoga Patterns
+            </h1>
+
+
+            <p class="yoga-intro">
+
+                Improve flexibility, balance and
+                relaxation with our guided yoga
+                programs designed for different
+                fitness levels.
+
+            </p>
+
+
+            <div class="yoga-container">
+
+
+                <!-- ==========================
+                     SURYA NAMASKAR
+                =========================== -->
+
+                <article class="yoga-card"
+                         id="surya">
+
+                    <div class="yoga-icon">
+                        🧘
+                    </div>
+
+
+                    <h2>
+                        Surya Namaskar
+                    </h2>
+
+
+                    <p>
+                        A traditional sequence of yoga
+                        movements that helps improve
+                        flexibility and body mobility.
+                    </p>
+
+
+                    <ul class="yoga-list">
+
+                        <li>
+                            Full Body Movement
+                        </li>
+
+                        <li>
+                            Flexibility
+                        </li>
+
+                        <li>
+                            Balance
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#yoga"
+                       class="yoga-btn">
+
+                        View Program
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     VINYASA FLEXIBILITY
+                =========================== -->
+
+                <article class="yoga-card"
+                         id="vinyasa">
+
+                    <div class="yoga-icon">
+                        🌿
+                    </div>
+
+
+                    <h2>
+                        Vinyasa Flexibility
+                    </h2>
+
+
+                    <p>
+                        A flowing yoga practice that
+                        connects movement with breathing
+                        and improves flexibility.
+                    </p>
+
+
+                    <ul class="yoga-list">
+
+                        <li>
+                            Stretching
+                        </li>
+
+                        <li>
+                            Flexibility
+                        </li>
+
+                        <li>
+                            Body Coordination
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#yoga"
+                       class="yoga-btn">
+
+                        View Program
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     CORE & WARRIOR
+                =========================== -->
+
+                <article class="yoga-card">
+
+                    <div class="yoga-icon">
+                        🧘‍♂️
+                    </div>
+
+
+                    <h2>
+                        Core & Warrior
+                    </h2>
+
+
+                    <p>
+                        Yoga movements focused on
+                        improving core stability,
+                        balance and body control.
+                    </p>
+
+
+                    <ul class="yoga-list">
+
+                        <li>
+                            Core Stability
+                        </li>
+
+                        <li>
+                            Balance
+                        </li>
+
+                        <li>
+                            Strength
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#yoga"
+                       class="yoga-btn">
+
+                        View Program
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- ==========================
+                     PRANAYAMA & MEDITATION
+                =========================== -->
+
+                <article class="yoga-card"
+                         id="pranayama">
+
+                    <div class="yoga-icon">
+                        🌬️
+                    </div>
+
+
+                    <h2>
+                        Pranayama & Meditation
+                    </h2>
+
+
+                    <p>
+                        Breathing and relaxation practices
+                        that help improve focus and
+                        calmness.
+                    </p>
+
+
+                    <ul class="yoga-list">
+
+                        <li>
+                            Breathing Practice
+                        </li>
+
+                        <li>
+                            Meditation
+                        </li>
+
+                        <li>
+                            Relaxation
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#yoga"
+                       class="yoga-btn">
+
+                        View Program
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio - Kaushik Part</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+
+        /* =========================
+           NAVBAR
+        ========================= */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        .nav-btn {
+            background: orange;
+            color: white;
+
+            padding: 10px 20px;
+
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+
+        /* =========================
+           COMMON SECTION
+        ========================= */
+
+        .section {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .section h1 {
+            font-size: 45px;
+            color: orange;
+            margin-bottom: 15px;
+        }
+
+        .section-intro {
+            max-width: 700px;
+            margin: 0 auto 45px;
+
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+
+        /* =========================
+           DIET PLANS
+        ========================= */
+
+        #diet {
+            background: #181818;
+        }
+
+        .diet-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .diet-card {
+            background: #222;
+
+            padding: 30px 25px;
+
+            border-radius: 10px;
+
+            text-align: left;
+
+            border: 1px solid #333;
+
+            transition: 0.3s;
+        }
+
+        .diet-card:hover {
+            transform: translateY(-8px);
+            border-color: orange;
+        }
+
+        .diet-icon {
+            width: 60px;
+            height: 60px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: orange;
+
+            border-radius: 50%;
+
+            font-size: 28px;
+
+            margin-bottom: 20px;
+        }
+
+        .diet-card h2 {
+            margin-bottom: 12px;
+        }
+
+        .diet-card p {
+            color: #ccc;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .diet-list {
+            list-style: none;
+        }
+
+        .diet-list li {
+            padding: 7px 0;
+            color: #ddd;
+        }
+
+        .diet-list li::before {
+            content: "✓ ";
+            color: orange;
+            font-weight: bold;
+        }
+
+
+        /* =========================
+           PRICING
+        ========================= */
+
+        #pricing {
+            background: #111;
+        }
+
+        .pricing-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .pricing-card {
+            background: #222;
+
+            padding: 35px 25px;
+
+            border-radius: 10px;
+
+            border: 1px solid #333;
+
+            transition: 0.3s;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            border-color: orange;
+        }
+
+        .pricing-card h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .amount {
+            color: orange;
+
+            font-size: 40px;
+
+            font-weight: bold;
+
+            margin-bottom: 10px;
+        }
+
+        .duration {
+            color: #aaa;
+            margin-bottom: 25px;
+        }
+
+        .pricing-features {
+            list-style: none;
+
+            text-align: left;
+
+            margin-bottom: 25px;
+        }
+
+        .pricing-features li {
+            padding: 8px 0;
+            color: #ddd;
+        }
+
+        .pricing-features li::before {
+            content: "✓ ";
+            color: orange;
+            font-weight: bold;
+        }
+
+        .join-btn {
+            display: block;
+
+            width: 100%;
+
+            padding: 12px;
+
+            background: orange;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+        .join-btn:hover {
+            opacity: 0.8;
+        }
+
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
+
+        @media (max-width: 900px) {
+
+            .diet-container,
+            .pricing-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 650px) {
+
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .diet-container,
+            .pricing-container {
+                grid-template-columns: 1fr;
+            }
+
+            .section h1 {
+                font-size: 35px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>SK FITNESS</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#diet">Diet Plans</a>
+                </li>
+
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+
+            </ul>
+
+            <a href="#pricing"
+               class="nav-btn">
+                Join Now
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         KAUSHIK - DIET PLANS
+    ========================= -->
+
+    <section id="diet"
+             class="section">
+
+        <h1>
+            Diet Plans
+        </h1>
+
+        <p class="section-intro">
+            Follow a balanced nutrition plan to support
+            your fitness journey and maintain healthy
+            eating habits.
+        </p>
+
+
+        <div class="diet-container">
+
+
+            <!-- FAT BURN -->
+
+            <article class="diet-card">
+
+                <div class="diet-icon">
+                    🥗
+                </div>
+
+                <h2>
+                    Fat Burn & Shred
+                </h2>
+
+                <p>
+                    A balanced nutrition plan focused on
+                    healthy food choices and proper hydration.
+                </p>
+
+                <ul class="diet-list">
+
+                    <li>Balanced Meals</li>
+                    <li>Vegetables & Fruits</li>
+                    <li>Healthy Food Choices</li>
+                    <li>Proper Hydration</li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- LEAN MUSCLE -->
+
+            <article class="diet-card">
+
+                <div class="diet-icon">
+                    💪
+                </div>
+
+                <h2>
+                    Lean Muscle Building
+                </h2>
+
+                <p>
+                    Nutritious food choices to support
+                    strength training and fitness goals.
+                </p>
+
+                <ul class="diet-list">
+
+                    <li>Protein-Rich Foods</li>
+                    <li>Whole Grains</li>
+                    <li>Healthy Fats</li>
+                    <li>Balanced Meals</li>
+
+                </ul>
+
+            </article>
+
+
+            <!-- VEG POWER -->
+
+            <article class="diet-card">
+
+                <div class="diet-icon">
+                    🥦
+                </div>
+
+                <h2>
+                    Pure Veg Power
+                </h2>
+
+                <p>
+                    A vegetarian nutrition option with
+                    nutritious plant-based food choices.
+                </p>
+
+                <ul class="diet-list">
+
+                    <li>Vegetables</li>
+                    <li>Fruits</li>
+                    <li>Whole Grains</li>
+                    <li>Beans & Legumes</li>
+
+                </ul>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         KAUSHIK - PRICING
+    ========================= -->
+
+    <section id="pricing"
+             class="section">
+
+        <h1>
+            Membership Pricing
+        </h1>
+
+        <p class="section-intro">
+            Choose the membership plan that suits
+            your fitness goals.
+        </p>
+
+
+        <div class="pricing-container">
+
+
+            <!-- MONTHLY PLAN -->
+
+            <article class="pricing-card">
+
+                <h2>
+                    Monthly Plan
+                </h2>
+
+                <div class="amount">
+                    ₹1,500
+                </div>
+
+                <div class="duration">
+                    Per Month
+                </div>
+
+                <ul class="pricing-features">
+
+                    <li>Gym Access</li>
+                    <li>Workout Guidance</li>
+                    <li>Basic Equipment</li>
+                    <li>Fitness Support</li>
+
+                </ul>
+
+                <a href="#pricing"
+                   class="join-btn">
+                    Join Now
+                </a>
+
+            </article>
+
+
+
+            <!-- QUARTERLY PLAN -->
+
+            <article class="pricing-card">
+
+                <h2>
+                    Quarterly Plan
+                </h2>
+
+                <div class="amount">
+                    ₹3,800
+                </div>
+
+                <div class="duration">
+                    Per 3 Months
+                </div>
+
+                <ul class="pricing-features">
+
+                    <li>Full Gym Access</li>
+                    <li>Workout Guidance</li>
+                    <li>Fitness Support</li>
+                    <li>Diet Guidance</li>
+
+                </ul>
+
+                <a href="#pricing"
+                   class="join-btn">
+                    Join Now
+                </a>
+
+            </article>
+
+
+
+            <!-- ANNUAL VIP PLAN -->
+
+            <article class="pricing-card">
+
+                <h2>
+                    Annual VIP Plan
+                </h2>
+
+                <div class="amount">
+                    ₹11,999
+                </div>
+
+                <div class="duration">
+                    Per Year
+                </div>
+
+                <ul class="pricing-features">
+
+                    <li>Unlimited Gym Access</li>
+                    <li>Personal Training</li>
+                    <li>Advanced Workout Plan</li>
+                    <li>Priority Support</li>
+
+                </ul>
+
+                <a href="#pricing"
+                   class="join-btn">
+                    Join Now
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SK Fitness Studio - BMI & Contact</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        /* =========================
+           NAVBAR
+        ========================= */
+
+        .navbar {
+            width: 100%;
+            padding: 20px 8%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: #111;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo h2 {
+            font-size: 28px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        .nav-btn {
+            color: white;
+            background: orange;
+            text-decoration: none;
+
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+
+        /* =========================
+           COMMON SECTION
+        ========================= */
+
+        .section {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .section-title {
+            color: orange;
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .section-description {
+            color: #ccc;
+            max-width: 700px;
+
+            margin: 0 auto 45px;
+
+            line-height: 1.6;
+        }
+
+
+        /* =========================
+           BMI SECTION
+        ========================= */
+
+        #bmi {
+            background: #181818;
+        }
+
+        .bmi-container {
+            max-width: 1050px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: 0.8fr 1.2fr;
+
+            gap: 30px;
+
+            align-items: stretch;
+        }
+
+
+        /* LEFT BMI RANGE */
+
+        .bmi-range {
+            background: #222;
+
+            padding: 30px;
+
+            border-radius: 10px;
+
+            border: 1px solid #333;
+
+            text-align: left;
+        }
+
+        .bmi-range h2 {
+            color: orange;
+
+            margin-bottom: 20px;
+
+            text-align: center;
+        }
+
+        .range-item {
+            padding: 15px;
+
+            margin-bottom: 12px;
+
+            background: #181818;
+
+            border-radius: 6px;
+
+            border-left: 4px solid orange;
+        }
+
+        .range-item h3 {
+            margin-bottom: 5px;
+        }
+
+        .range-item p {
+            color: #bbb;
+            font-size: 14px;
+        }
+
+
+        /* RIGHT BMI CALCULATOR */
+
+        .bmi-box {
+            background: #222;
+
+            padding: 35px;
+
+            border-radius: 10px;
+
+            border: 1px solid #333;
+
+            text-align: left;
+        }
+
+        .bmi-box h2 {
+            color: orange;
+
+            text-align: center;
+
+            margin-bottom: 25px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+
+            margin-bottom: 8px;
+
+            color: #ddd;
+        }
+
+        .input-group input {
+            width: 100%;
+
+            padding: 12px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            font-size: 16px;
+
+            outline: none;
+        }
+
+        .bmi-btn {
+            width: 100%;
+
+            padding: 13px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            background: orange;
+
+            color: white;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        .bmi-btn:hover {
+            opacity: 0.8;
+        }
+
+        #bmi-result {
+            margin-top: 20px;
+
+            padding: 15px;
+
+            background: #181818;
+
+            border-radius: 5px;
+
+            color: orange;
+
+            text-align: center;
+
+            font-weight: bold;
+
+            line-height: 1.8;
+        }
+
+
+        /* =========================
+           CONTACT
+        ========================= */
+
+        #contact {
+            background: #111;
+        }
+
+        .contact-container {
+            max-width: 1000px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 30px;
+
+            text-align: left;
+        }
+
+        .contact-info,
+        .contact-form {
+            background: #222;
+
+            padding: 30px;
+
+            border-radius: 10px;
+
+            border: 1px solid #333;
+        }
+
+        .contact-info h2 {
+            color: orange;
+
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            color: #ccc;
+
+            line-height: 1.8;
+
+            margin-bottom: 8px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+
+            padding: 12px;
+
+            margin-bottom: 15px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            font-family: Arial, sans-serif;
+
+            outline: none;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+
+            padding: 12px;
+
+            background: orange;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 15px;
+
+            color: #9acd32;
+
+            text-align: center;
+        }
+
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
+
+        @media (max-width: 800px) {
+
+            .bmi-container,
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .section-title {
+                font-size: 35px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>SK FITNESS</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#bmi">
+                        BMI
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="#contact"
+               class="nav-btn">
+                Contact Us
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         SIDDHARTH PART
+         BMI CALCULATOR
+    ========================= -->
+
+    <section id="bmi"
+             class="section">
+
+        <h1 class="section-title">
+            BMI Calculator
+        </h1>
+
+        <p class="section-description">
+            Calculate your BMI using your age,
+            height and weight.
+        </p>
+
+
+        <div class="bmi-container">
+
+
+            <!-- =========================
+                 LEFT SIDE - BMI RANGE
+            ========================= -->
+
+            <div class="bmi-range">
+
+                <h2>
+                    BMI Range
+                </h2>
+
+
+                <div class="range-item">
+
+                    <h3>
+                        Below 18.5
+                    </h3>
+
+                    <p>
+                        Lower BMI range
+                    </p>
+
+                </div>
+
+
+                <div class="range-item">
+
+                    <h3>
+                        18.5 - 24.9
+                    </h3>
+
+                    <p>
+                        Usual healthy BMI range
+                    </p>
+
+                </div>
+
+
+                <div class="range-item">
+
+                    <h3>
+                        25.0 - 29.9
+                    </h3>
+
+                    <p>
+                        Higher BMI range
+                    </p>
+
+                </div>
+
+
+                <div class="range-item">
+
+                    <h3>
+                        30.0 and above
+                    </h3>
+
+                    <p>
+                        High BMI range
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+                 RIGHT SIDE - CALCULATOR
+            ========================= -->
+
+            <div class="bmi-box">
+
+                <h2>
+                    Calculate Your BMI
+                </h2>
+
+
+                <div class="input-group">
+
+                    <label for="age">
+                        Age
+                    </label>
+
+                    <input type="number"
+                           id="age"
+                           placeholder="Enter your age">
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="weight">
+                        Weight (kg)
+                    </label>
+
+                    <input type="number"
+                           id="weight"
+                           placeholder="Enter your weight">
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="height">
+                        Height (cm)
+                    </label>
+
+                    <input type="number"
+                           id="height"
+                           placeholder="Enter your height">
+
+                </div>
+
+
+                <button class="bmi-btn"
+                        onclick="calculateBMI()">
+
+                    Calculate BMI
+
+                </button>
+
+
+                <div id="bmi-result"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SIDDHARTH PART
+         CONTACT
+    ========================= -->
+
+    <section id="contact"
+             class="section">
+
+        <h1 class="section-title">
+            Contact Us
+        </h1>
+
+        <p class="section-description">
+            Get in touch with SK Fitness Studio
+            for your enquiries.
+        </p>
+
+
+        <div class="contact-container">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+                <h2>
+                    Get In Touch
+                </h2>
+
+                <p>
+                    <strong>Gym:</strong>
+                    SK Fitness Studio
+                </p>
+
+                <p>
+                    <strong>Phone:</strong>
+                    +91 98765 43210
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    skfitness@gmail.com
+                </p>
+
+                <p>
+                    <strong>Address:</strong>
+                    Chennai, Tamil Nadu
+                </p>
+
+                <p>
+                    <strong>Working Hours:</strong>
+                    6:00 AM - 10:00 PM
+                </p>
+
+            </div>
+
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form">
+
+                <input type="text"
+                       id="name"
+                       placeholder="Your Name">
+
+                <input type="email"
+                       id="email"
+                       placeholder="Your Email">
+
+                <input type="text"
+                       id="subject"
+                       placeholder="Subject">
+
+                <textarea id="userMessage"
+                          placeholder="Your Message"></textarea>
+
+                <button class="submit-btn"
+                        onclick="sendMessage()">
+
+                    Send Message
+
+                </button>
+
+                <div id="message"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
+
+    <script>
+
+        function calculateBMI() {
+
+            let age =
+                parseInt(
+                    document.getElementById("age").value
+                );
+
+            let weight =
+                parseFloat(
+                    document.getElementById("weight").value
+                );
+
+            let height =
+                parseFloat(
+                    document.getElementById("height").value
+                );
+
+
+            if (
+                isNaN(age) ||
+                isNaN(weight) ||
+                isNaN(height) ||
+                age <= 0 ||
+                weight <= 0 ||
+                height <= 0
+            ) {
+
+                document.getElementById("bmi-result")
+                    .innerHTML =
+                    "Please enter valid details.";
+
+                return;
+            }
+
+
+            let heightMeter =
+                height / 100;
+
+
+            let bmi =
+                weight /
+                (heightMeter * heightMeter);
+
+
+            bmi = bmi.toFixed(2);
+
+
+            let category;
+
+
+            if (bmi < 18.5) {
+
+                category =
+                    "Below the usual healthy BMI range";
+
+            }
+            else if (bmi < 25) {
+
+                category =
+                    "Within the usual healthy BMI range";
+
+            }
+            else if (bmi < 30) {
+
+                category =
+                    "Above the usual healthy BMI range";
+
+            }
+            else {
+
+                category =
+                    "High BMI range";
+
+            }
+
+
+            document.getElementById("bmi-result")
+                .innerHTML =
+                "Age: " + age +
+                "<br>" +
+                "Your BMI: " + bmi +
+                "<br>" +
+                category;
+
+        }
+
+
+
+        function sendMessage() {
+
+            let name =
+                document.getElementById("name").value;
+
+            let email =
+                document.getElementById("email").value;
+
+            let subject =
+                document.getElementById("subject").value;
+
+            let userMessage =
+                document.getElementById("userMessage").value;
+
+
+            if (
+                name === "" ||
+                email === "" ||
+                subject === "" ||
+                userMessage === ""
+            ) {
+
+                document.getElementById("message")
+                    .innerHTML =
+                    "Please fill in all fields.";
+
+                return;
+            }
+
+
+            document.getElementById("message")
+                .innerHTML =
+                "Thank you, " +
+                name +
+                "! Your message has been submitted.";
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

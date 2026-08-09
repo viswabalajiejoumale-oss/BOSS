@@ -1,0 +1,73 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",0,33.08,409.5,50.0,14.24,28.5
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",1,33.0,411.1,50.0,14.39,28.8
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",2,32.92,409.2,50.0,13.22,26.4
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",3,32.98,411.9,50.0,11.18,22.4
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",4,33.07,410.6,50.0,12.36,24.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",5,32.66,410.9,50.0,18.76,37.5
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",6,32.8,411.0,50.0,20.98,42.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",7,33.17,405.1,50.0,28.49,57.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",8,32.97,401.5,50.0,35.17,70.3
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",9,33.17,402.4,50.0,37.29,74.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",10,32.95,406.0,50.0,33.3,66.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",11,33.0,405.9,50.0,28.0,56.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",12,33.13,411.2,50.0,20.61,41.2
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",13,33.04,413.2,50.0,15.45,30.9
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",14,32.93,408.3,50.0,14.83,29.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",15,33.1,410.2,50.0,14.87,29.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",16,32.87,410.6,50.0,23.15,46.3
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",17,32.86,400.5,50.0,35.78,71.6
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",18,32.88,397.4,50.0,50.0,100.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",19,32.97,396.7,50.0,50.0,100.0
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",20,33.19,398.3,50.0,48.56,97.1
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",21,32.83,401.6,50.0,34.54,69.1
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",22,33.01,409.2,50.0,20.83,41.7
+Haryana,HAR-023,"DC Fast (CCS2, 50kW)",23,32.73,413.5,50.0,17.06,34.1
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",0,10.96,409.5,22.0,6.05,27.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",1,10.92,409.5,22.0,5.82,26.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",2,10.97,412.3,22.0,5.72,26.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",3,11.03,409.8,22.0,4.85,22.1
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",4,11.08,410.9,22.0,6.11,27.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",5,10.99,410.3,22.0,6.99,31.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",6,10.82,410.6,22.0,9.83,44.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",7,10.96,406.0,22.0,12.0,54.6
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",8,10.88,403.1,22.0,16.39,74.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",9,11.05,402.8,22.0,16.89,76.8
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",10,10.95,403.4,22.0,16.4,74.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",11,11.2,406.4,22.0,10.88,49.5
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",12,10.93,403.5,22.0,9.02,41.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",13,10.87,410.3,22.0,7.69,35.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",14,10.9,409.7,22.0,5.92,26.9
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",15,11.19,412.3,22.0,5.66,25.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",16,10.98,410.8,22.0,8.94,40.6
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",17,11.02,402.6,22.0,16.48,74.9
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",18,11.18,396.8,22.0,22.0,100.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",19,11.08,397.6,22.0,22.0,100.0
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",20,11.21,400.1,22.0,21.92,99.7
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",21,11.02,398.7,22.0,16.33,74.2
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",22,11.11,404.3,22.0,10.6,48.2
+Haryana,HAR-024,"AC Fast (Type 2, 22kW)",23,11.13,407.0,22.0,7.32,33.3
+Haryana,HAR-025,AC Slow (Type 2),0,10.8,226.5,7.4,1.77,23.9
+Haryana,HAR-025,AC Slow (Type 2),1,10.95,226.8,7.4,1.72,23.3
+Haryana,HAR-025,AC Slow (Type 2),2,10.94,226.9,7.4,2.15,29.0
+Haryana,HAR-025,AC Slow (Type 2),3,10.99,227.2,7.4,1.89,25.5
+Haryana,HAR-025,AC Slow (Type 2),4,11.15,228.4,7.4,2.13,28.8
+Haryana,HAR-025,AC Slow (Type 2),5,11.34,227.2,7.4,2.81,37.9
+Haryana,HAR-025,AC Slow (Type 2),6,10.94,228.8,7.4,2.88,38.9
+Haryana,HAR-025,AC Slow (Type 2),7,10.97,224.8,7.4,4.03,54.5
+Haryana,HAR-025,AC Slow (Type 2),8,11.12,222.9,7.4,5.13,69.4
+Haryana,HAR-025,AC Slow (Type 2),9,11.23,224.0,7.4,5.43,73.3
+Haryana,HAR-025,AC Slow (Type 2),10,11.08,224.7,7.4,5.04,68.1
+Haryana,HAR-025,AC Slow (Type 2),11,11.12,223.7,7.4,4.59,62.1
+Haryana,HAR-025,AC Slow (Type 2),12,11.05,226.1,7.4,2.69,36.4
+Haryana,HAR-025,AC Slow (Type 2),13,11.12,225.3,7.4,2.68,36.2
+Haryana,HAR-025,AC Slow (Type 2),14,11.03,225.6,7.4,2.1,28.4
+Haryana,HAR-025,AC Slow (Type 2),15,10.98,225.3,7.4,2.73,36.9
+Haryana,HAR-025,AC Slow (Type 2),16,11.21,225.6,7.4,3.13,42.2
+Haryana,HAR-025,AC Slow (Type 2),17,11.17,225.1,7.4,5.21,70.4
+Haryana,HAR-025,AC Slow (Type 2),18,10.87,220.2,7.4,7.4,100.0
+Haryana,HAR-025,AC Slow (Type 2),19,11.0,221.2,7.4,7.4,100.0
+Haryana,HAR-025,AC Slow (Type 2),20,11.02,219.1,7.4,7.35,99.3
+Haryana,HAR-025,AC Slow (Type 2),21,11.05,223.4,7.4,5.17,69.8
+Haryana,HAR-025,AC Slow (Type 2),22,11.34,224.8,7.4,2.78,37.6
+Haryana,HAR-025,AC Slow (Type 2),23,10.78,224.4,7.4,2.2,29.7

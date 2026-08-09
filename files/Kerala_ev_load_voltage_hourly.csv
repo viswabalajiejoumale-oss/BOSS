@@ -1,0 +1,73 @@
+state,station_id,charger_type,hour,incoming_transformer_voltage_kV,stepped_down_supply_voltage_V,rated_load_kW,actual_load_kW,load_percentage
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",0,10.97,408.6,22.0,5.23,23.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",1,11.21,412.2,22.0,4.81,21.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",2,10.77,412.5,22.0,4.87,22.1
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",3,11.16,411.1,22.0,6.3,28.7
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",4,11.12,409.6,22.0,5.9,26.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",5,11.0,406.8,22.0,6.13,27.8
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",6,11.16,409.5,22.0,8.81,40.1
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",7,11.05,407.7,22.0,12.52,56.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",8,11.07,403.0,22.0,15.53,70.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",9,10.97,403.1,22.0,16.61,75.5
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",10,11.0,401.6,22.0,15.74,71.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",11,10.68,403.2,22.0,13.04,59.3
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",12,11.15,407.4,22.0,9.32,42.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",13,10.99,408.5,22.0,6.95,31.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",14,10.63,410.9,22.0,7.01,31.9
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",15,11.0,410.1,22.0,7.12,32.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",16,11.19,410.3,22.0,9.54,43.4
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",17,10.98,402.6,22.0,14.22,64.6
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",18,10.9,398.5,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",19,10.98,398.0,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",20,10.95,399.6,22.0,22.0,100.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",21,10.84,402.7,22.0,16.12,73.3
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",22,11.01,405.4,22.0,9.89,45.0
+Kerala,KER-020,"AC Fast (Type 2, 22kW)",23,11.05,407.2,22.0,7.42,33.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",0,10.91,410.1,22.0,5.87,26.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",1,10.71,407.9,22.0,4.66,21.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",2,10.93,410.8,22.0,5.91,26.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",3,10.98,411.4,22.0,5.4,24.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",4,11.05,413.0,22.0,5.1,23.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",5,10.88,411.3,22.0,7.16,32.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",6,11.13,407.3,22.0,9.87,44.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",7,11.08,403.3,22.0,12.66,57.5
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",8,10.99,403.4,22.0,15.42,70.1
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",9,11.09,404.3,22.0,16.44,74.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",10,11.07,400.4,22.0,15.23,69.2
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",11,11.16,410.2,22.0,12.65,57.5
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",12,11.27,409.3,22.0,7.82,35.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",13,11.14,410.1,22.0,7.45,33.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",14,10.96,411.6,22.0,5.88,26.7
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",15,10.86,411.4,22.0,6.99,31.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",16,11.04,406.0,22.0,10.79,49.1
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",17,11.22,405.4,22.0,14.75,67.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",18,11.04,396.2,22.0,21.92,99.6
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",19,10.83,395.4,22.0,22.0,100.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",20,10.88,396.7,22.0,21.96,99.8
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",21,11.05,405.4,22.0,14.28,64.9
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",22,11.25,411.4,22.0,8.8,40.0
+Kerala,KER-021,"AC Fast (Type 2, 22kW)",23,10.91,412.6,22.0,6.38,29.0
+Kerala,KER-022,DC Ultra-Fast (150kW),0,33.27,409.8,150.0,41.92,27.9
+Kerala,KER-022,DC Ultra-Fast (150kW),1,32.95,410.4,150.0,37.89,25.3
+Kerala,KER-022,DC Ultra-Fast (150kW),2,33.38,411.2,150.0,36.57,24.4
+Kerala,KER-022,DC Ultra-Fast (150kW),3,33.01,410.3,150.0,36.81,24.5
+Kerala,KER-022,DC Ultra-Fast (150kW),4,33.07,407.0,150.0,45.7,30.5
+Kerala,KER-022,DC Ultra-Fast (150kW),5,32.93,411.3,150.0,43.97,29.3
+Kerala,KER-022,DC Ultra-Fast (150kW),6,33.05,410.1,150.0,51.48,34.3
+Kerala,KER-022,DC Ultra-Fast (150kW),7,32.8,404.8,150.0,80.38,53.6
+Kerala,KER-022,DC Ultra-Fast (150kW),8,32.87,405.0,150.0,107.17,71.4
+Kerala,KER-022,DC Ultra-Fast (150kW),9,33.34,402.7,150.0,110.07,73.4
+Kerala,KER-022,DC Ultra-Fast (150kW),10,33.05,401.3,150.0,106.14,70.8
+Kerala,KER-022,DC Ultra-Fast (150kW),11,33.25,408.0,150.0,76.8,51.2
+Kerala,KER-022,DC Ultra-Fast (150kW),12,32.91,408.8,150.0,69.45,46.3
+Kerala,KER-022,DC Ultra-Fast (150kW),13,32.58,407.4,150.0,42.13,28.1
+Kerala,KER-022,DC Ultra-Fast (150kW),14,33.14,409.7,150.0,46.01,30.7
+Kerala,KER-022,DC Ultra-Fast (150kW),15,33.02,409.2,150.0,54.14,36.1
+Kerala,KER-022,DC Ultra-Fast (150kW),16,33.11,407.0,150.0,65.7,43.8
+Kerala,KER-022,DC Ultra-Fast (150kW),17,33.0,402.6,150.0,106.05,70.7
+Kerala,KER-022,DC Ultra-Fast (150kW),18,32.99,397.0,150.0,150.0,100.0
+Kerala,KER-022,DC Ultra-Fast (150kW),19,32.96,400.8,150.0,150.0,100.0
+Kerala,KER-022,DC Ultra-Fast (150kW),20,33.16,397.6,150.0,148.54,99.0
+Kerala,KER-022,DC Ultra-Fast (150kW),21,32.84,399.4,150.0,115.96,77.3
+Kerala,KER-022,DC Ultra-Fast (150kW),22,33.12,407.8,150.0,66.86,44.6
+Kerala,KER-022,DC Ultra-Fast (150kW),23,33.02,408.0,150.0,42.87,28.6
