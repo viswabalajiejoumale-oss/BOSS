@@ -1,9 +1,9 @@
 ================================================================================
-           BOSS - BHARAT EV OPTIMIZATION & SMART CHARGING SYSTEM
+           BOSS - BATTERY OPTIMIZED SOFTWARE SERVICE
                    PROJECT ABSTRACT & SYSTEM WORKING
 ================================================================================
 
-PROJECT TITLE: BOSS (Bharat EV Optimization & Smart Charging System)
+PROJECT TITLE: BOSS (Battery Optimized Software Service)
 PLATFORM: AI-Powered Smart EV Charging Network & Grid Load Management System
 
 ================================================================================
@@ -16,7 +16,7 @@ availability and long queue times, while electrical utility distribution
 companies (DISCOMs) suffer from local transformer overloads caused by uncoordinated 
 high-power charging demand.
 
-BOSS (Bharat EV Optimization & Smart Charging System) is an end-to-end, 
+BOSS (Battery Optimized Software Service) is an end-to-end, 
 intelligent, real-time EV charging network and grid management platform designed 
 to bridge the gap between EV Drivers, Station Admins, and DISCOM Utilities.
 

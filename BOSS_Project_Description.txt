@@ -4,7 +4,7 @@
 
 PROJECT OVERVIEW
 --------------------------------------------------------------------------------
-BOSS (Bharat EV Optimization & Smart Charging System) is an end-to-end 
+BOSS (Battery Optimized Software Service) is an end-to-end 
 intelligent EV charging network platform tailored for India's growing electric 
 vehicle ecosystem. The platform seamlessly links EV Drivers, Charging Station 
 Admins, and Electrical Utilities (DISCOMs) into a real-time, AI-powered smart grid.

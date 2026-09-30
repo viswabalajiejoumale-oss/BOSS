@@ -74,50 +74,30 @@ export function LandingPage({ onEnter }: LandingPageProps) {
       <main className="flex-1 flex flex-col items-center justify-center px-4 pt-8 pb-16 text-center max-w-7xl mx-auto w-full relative z-10">
         
         {/* Eyebrow Pill */}
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 backdrop-blur-md mb-6"
-        >
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 backdrop-blur-md mb-6">
           <Sparkles className="h-4 w-4 text-emerald-400" />
-          <span className="text-xs font-bold uppercase tracking-wider text-emerald-300">
+          <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 dark:text-emerald-300">
             AI-POWERED EV ENERGY INTELLIGENCE
           </span>
-        </motion.div>
+        </div>
 
         {/* Main Headline */}
-        <motion.h1
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-4xl sm:text-6xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tight max-w-4xl leading-[1.1]"
-        >
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tight max-w-4xl leading-[1.1]">
           Charge Smarter.{' '}
-          <AnimatedGradientText speed={3} colorFrom="#10b981" colorTo="#3b82f6" className="font-black text-4xl sm:text-6xl md:text-7xl inline">
+          <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent font-black inline">
             Balance Better.
-          </AnimatedGradientText>{' '}
+          </span>{' '}
           Drive Further.
-        </motion.h1>
+        </h1>
 
         {/* Subtitle */}
-        <motion.p
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-6 max-w-2xl text-slate-600 dark:text-slate-300 font-medium text-base sm:text-lg leading-relaxed"
-        >
+        <p className="mt-6 max-w-2xl text-slate-700 dark:text-slate-200 font-medium text-base sm:text-lg leading-relaxed">
           BOSS intelligently optimizes EV charging schedules, station availability,
           and grid demand in real time using high-performance AI telemetry.
-        </motion.p>
+        </p>
 
         {/* Dual CTA Buttons */}
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <ShinyButton
             onClick={onEnter}
             className="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base px-8 py-3.5 rounded-xl shadow-xl shadow-emerald-600/30 border border-emerald-400/40 cursor-pointer transition-transform hover:scale-105"
@@ -133,7 +113,7 @@ export function LandingPage({ onEnter }: LandingPageProps) {
           >
             Explore Platform
           </button>
-        </motion.div>
+        </div>
 
         {/* Trust Strip */}
         <motion.div

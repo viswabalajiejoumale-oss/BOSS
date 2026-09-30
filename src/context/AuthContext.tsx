@@ -23,31 +23,65 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   async function loadProfile(uid: string) {
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('*')
-      .eq('id', uid)
-      .maybeSingle();
-    if (error) {
-      console.error('Profile load error:', error.message);
+    try {
+      const { data, error } = await Promise.race([
+        supabase
+          .from('profiles')
+          .select('*')
+          .eq('id', uid)
+          .maybeSingle(),
+        new Promise<{ data: null; error: { message: string } }>((resolve) =>
+          setTimeout(() => resolve({ data: null, error: { message: 'Timeout' } }), 1800)
+        ),
+      ]);
+      if (error) {
+        console.warn('Profile load error:', error.message);
+        return null;
+      }
+      setProfile(data as Profile | null);
+      return data as Profile | null;
+    } catch (err) {
+      console.warn('Profile load exception:', err);
       return null;
     }
-    setProfile(data as Profile | null);
-    return data as Profile | null;
   }
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session);
-      setUser(data.session?.user ?? null);
-      if (data.session?.user) {
-        loadProfile(data.session.user.id).finally(() => setLoading(false));
-      } else {
-        setLoading(false);
-      }
-    });
+    let isMounted = true;
+    let safetyTimer: ReturnType<typeof setTimeout> | null = setTimeout(() => {
+      if (isMounted) setLoading(false);
+    }, 2000);
+
+    supabase.auth
+      .getSession()
+      .then(async ({ data }) => {
+        if (!isMounted) return;
+        setSession(data.session);
+        setUser(data.session?.user ?? null);
+        if (data.session?.user) {
+          try {
+            await loadProfile(data.session.user.id);
+          } finally {
+            if (isMounted) {
+              setLoading(false);
+              if (safetyTimer) clearTimeout(safetyTimer);
+            }
+          }
+        } else {
+          setLoading(false);
+          if (safetyTimer) clearTimeout(safetyTimer);
+        }
+      })
+      .catch((err) => {
+        console.warn('Session check failed or timed out:', err);
+        if (isMounted) {
+          setLoading(false);
+          if (safetyTimer) clearTimeout(safetyTimer);
+        }
+      });
 
     const { data: sub } = supabase.auth.onAuthStateChange((_event, sess) => {
+      if (!isMounted) return;
       setSession(sess);
       setUser(sess?.user ?? null);
       if (sess?.user) {
@@ -59,7 +93,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     });
 
-    return () => sub.subscription.unsubscribe();
+    return () => {
+      isMounted = false;
+      clearTimeout(safetyTimer);
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
   async function signIn(email: string, password: string) {

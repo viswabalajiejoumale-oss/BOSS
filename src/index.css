@@ -47,6 +47,13 @@
     --danger-foreground: #FFFFFF;
     --info: #2563EB;
     --info-foreground: #FFFFFF;
+
+    /* BOSS Brand Alias Tokens */
+    --boss-bg: var(--background);
+    --boss-surface: var(--surface);
+    --boss-border: var(--border);
+    --boss-green: var(--primary);
+    --boss-green-bright: #10B981;
   }
 
   html.dark {
@@ -89,6 +96,13 @@
     --danger-foreground: #FFFFFF;
     --info: #60A5FA;
     --info-foreground: #07110F;
+
+    /* BOSS Brand Alias Tokens */
+    --boss-bg: var(--background);
+    --boss-surface: var(--surface);
+    --boss-border: var(--border);
+    --boss-green: var(--primary);
+    --boss-green-bright: #34D399;
   }
 
   body {
